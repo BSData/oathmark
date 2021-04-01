@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1957-26cc-673c-834e" name="Dwarf Kingdom" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="c821-153b-42a5-4a2f" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="5417-56ec-6bb2-3339" name="Region 2" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="794a-91ac-cd41-eaca" name="New CategoryLink" hidden="false" targetId="2548-c9e4-fd6b-013e" primary="true"/>
+        <categoryLink id="4e13-c9a0-c6f3-9fe6" name="Region 2" hidden="false" targetId="643b-54db-9139-28cd" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="77ef-a211-b1d1-e4c5" name="Region 2" hidden="false" collective="false" import="true" targetId="a310-cac3-6c1a-47d4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6073-f91a-ed26-c824" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5c4-57f9-18a1-343c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="29ec-bb57-a184-6dbc" name="Region 1 (Capital)" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="3d8f-d738-84e0-b599" name="New CategoryLink" hidden="false" targetId="2548-c9e4-fd6b-013e" primary="true"/>
+        <categoryLink id="ecb7-a963-d307-80d6" name="Region 1 (Capital)" hidden="false" targetId="0e23-4eed-bacb-000f" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a199-e1cb-d33c-9a5a" name="Dwarf City" hidden="false" collective="false" import="true" targetId="d3de-3cc7-e9a3-1141" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8b-2731-9cbb-d79b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9087-6c9d-322a-306e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cee0-fdbe-ac2e-1266" name="Region 4" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="1926-3cfe-23cc-1d34" name="New CategoryLink" hidden="false" targetId="2548-c9e4-fd6b-013e" primary="true"/>
+        <categoryLink id="00bc-1fe8-b39a-6b98" name="Region 4" hidden="false" targetId="27e7-ed0b-409d-f326" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1126-7b71-24cf-cd0e" name="Terrain Type Any" hidden="false" collective="false" import="true" targetId="41ef-ee81-a5e0-a4e6" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aa5-8b63-fcf4-232f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="686a-523c-afc9-f08a" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07bd-d76c-eea6-e049" name="Region 5 (Borderlands)" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="4458-afaf-eee3-f93e" name="New CategoryLink" hidden="false" targetId="2548-c9e4-fd6b-013e" primary="true"/>
+        <categoryLink id="8228-b750-76f7-1094" name="Region 5 (Borderlands)" hidden="false" targetId="3036-4eae-49e5-ad3b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b78d-5330-eb87-bff9" name="Terrain Type Any" hidden="false" collective="false" import="true" targetId="41ef-ee81-a5e0-a4e6" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8f6-0a3c-1de3-8b23" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f18-efb3-34ba-764e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c0a-07a8-1758-a1da" name="Dwarf King" publicationId="3c95-6f8e-42c3-f0ab" page="85" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6323-5730-d735-07bf" name="Dwarf King" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
+          <characteristics>
+            <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
+            <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
+            <characteristic name="F" typeId="5b55-1493-6d86-f066">4</characteristic>
+            <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
+            <characteristic name="D" typeId="26aa-697a-894c-27f8">11</characteristic>
+            <characteristic name="CD" typeId="2444-d310-1006-806a">3</characteristic>
+            <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">3</characteristic>
+            <characteristic name="Special" typeId="6104-0e3c-4703-d926">Command (2), Champion, Shielding (1), Magic Items</characteristic>
+            <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3770-bac4-c6f6-1db7" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="322.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bf0-eef4-90f5-8b9c" name="Region 3" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="4fc8-1b09-5990-76c0" name="New CategoryLink" hidden="false" targetId="2548-c9e4-fd6b-013e" primary="true"/>
+        <categoryLink id="b2b1-b056-99d3-6c68" name="Region 3" hidden="false" targetId="73d3-9d5e-e52f-7776" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="690c-50fd-0b9e-f09e" name="Region 3" hidden="false" collective="false" import="true" targetId="2717-8703-074d-e2f6" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f96-19f6-f9e7-cca6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b42-5a49-f39b-1a67" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="2717-8703-074d-e2f6" name="Region 3" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="e1f1-8a9c-dc88-9c50" name="Dwarf (3)" hidden="false" collective="false" import="true" targetId="898e-0ad6-7625-e1ef" type="selectionEntryGroup"/>
+        <entryLink id="ff2f-5572-b926-d7e2" name="Terrain Type 1" hidden="false" collective="false" import="true" targetId="50c9-f0d1-af06-0f4d" type="selectionEntryGroup"/>
+        <entryLink id="8dd6-48dd-24a7-bdbc" name="Terrain Type 2" hidden="false" collective="false" import="true" targetId="dd48-63f2-8c50-6cd9" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a310-cac3-6c1a-47d4" name="Region 2" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="ec68-98f8-350b-9367" name="Dwarf (2)" hidden="false" collective="false" import="true" targetId="0b0e-b2cf-d465-8680" type="selectionEntryGroup"/>
+        <entryLink id="efa7-7fd2-20e2-25eb" name="Terrain Type 1" hidden="false" collective="false" import="true" targetId="50c9-f0d1-af06-0f4d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

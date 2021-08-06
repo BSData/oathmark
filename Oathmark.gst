@@ -1,1146 +1,1777 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c821-153b-42a5-4a2f" name="Oathmark" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="1" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme>Here&apos;s the first attempt at making a BattleScribe builder for Oathmark. Included are only the unit entries, and armybuilding, for the units found in the main rulebook. Supplements will be added at a later date.
+
+If you spot any errors, bugs or the like - please be sure to send me an email regarding the problem</readme>
   <publications>
-    <publication id="3c95-6f8e-42c3-f0ab" name="Oathmark: Battles of the Lost Age" shortName="Oathmark" publicationDate="2020-04"/>
-    <publication id="662b-93ef-e027-33ef" name="Oathmark: Battlesworn" shortName="Battlesworn" publicationDate="2020-08"/>
-    <publication id="81ff-b68d-ad06-857a" name="Oathmark: Oathbreakers" shortName="Oathbreakers" publicationDate="2020-11"/>
-    <publication id="7ddc-7c4e-05b0-226e" name="Oathmark: Bane of Kings" shortName="Bane of Kings" publicationDate="2021-06"/>
+    <publication id="c602-4fcf-d13f-d9b9" name="Oathmark Rulebook" shortName="Oathmark Rulebook" publisher="Oathmark - Battles of the Lost Age" publicationDate="2020" publisherUrl="https://ospreypublishing.com/oathmark"/>
   </publications>
   <costTypes>
-    <costType id="7331-8db7-cc7b-34ff" name="pts" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="8612-cb2b-a715-55c1" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
-    <profileType id="3f45-4e12-adeb-6c1a" name="Unit">
+    <profileType id="7e46-13ea-bb70-9f02" name="Figure">
       <characteristicTypes>
-        <characteristicType id="cf13-c4ea-8917-64f8" name="A"/>
-        <characteristicType id="a51b-c9c1-c3cf-9c0f" name="M"/>
-        <characteristicType id="5b55-1493-6d86-f066" name="F"/>
-        <characteristicType id="6c2d-94a2-b9d7-4347" name="S"/>
-        <characteristicType id="26aa-697a-894c-27f8" name="D"/>
-        <characteristicType id="2444-d310-1006-806a" name="CD"/>
-        <characteristicType id="ee8a-1cfe-b33a-f65d" name="H"/>
-        <characteristicType id="6104-0e3c-4703-d926" name="Special"/>
-        <characteristicType id="0d90-7611-6674-fb4a" name="Base Size"/>
+        <characteristicType id="9c61-a2fa-7712-0ce9" name="A"/>
+        <characteristicType id="907f-2ef5-68f7-ef8e" name="M"/>
+        <characteristicType id="f43f-b98a-b1e7-29ee" name="F"/>
+        <characteristicType id="6b0c-a9f4-5f79-acfe" name="S"/>
+        <characteristicType id="1545-76fb-51f2-e66e" name="D"/>
+        <characteristicType id="149d-d960-26fc-7094" name="CD"/>
+        <characteristicType id="e126-d958-ed2a-df0b" name="H"/>
+        <characteristicType id="7d31-280f-897f-0915" name="Special"/>
+        <characteristicType id="0586-fb8d-d71a-b86c" name="Base"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="57dc-c9ee-0f47-885c" name="Spell">
+    <profileType id="40f6-c50b-bdfc-a073" name="Territory">
       <characteristicTypes>
-        <characteristicType id="98ed-655b-d489-17c3" name="Description"/>
+        <characteristicType id="fdf2-4132-2d4c-1505" name="Terrain Type"/>
+        <characteristicType id="4c19-b548-b95e-c888" name="Region"/>
+        <characteristicType id="ff31-e7ec-bd9c-b4d5" name="Units Available"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="8099-49fb-d23c-af7a" name="Magic Item"/>
-    <profileType id="0df1-e28e-9e47-d380" name="Weapon"/>
+    <profileType id="0e82-77fd-7431-528d" name="Weapons">
+      <characteristicTypes>
+        <characteristicType id="9a8f-f555-6fc5-411f" name="Maximum Range"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="b57e-191b-9c49-d0da" name="Spell">
+      <characteristicTypes>
+        <characteristicType id="a1a2-a7e8-376c-3065" name="Casting Number"/>
+        <characteristicType id="a21e-63f1-95a2-ce47" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="e969-071d-7763-170e" name="Special Rule">
+      <characteristicTypes>
+        <characteristicType id="36fc-b818-7170-f03b" name="Description"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="0e23-4eed-bacb-000f" name="Region 1 (Capital)" hidden="false"/>
-    <categoryEntry id="643b-54db-9139-28cd" name="Region 2" hidden="false"/>
-    <categoryEntry id="73d3-9d5e-e52f-7776" name="Region 3" hidden="false"/>
-    <categoryEntry id="27e7-ed0b-409d-f326" name="Region 4" hidden="false"/>
-    <categoryEntry id="3036-4eae-49e5-ad3b" name="Region 5 (Borderlands)" hidden="false"/>
-    <categoryEntry id="afc2-69d2-b70d-ee45" name="Dwarf Units" hidden="false"/>
-    <categoryEntry id="6fd0-3bb4-1e07-9305" name="Human Units" hidden="false"/>
-    <categoryEntry id="f367-434b-01be-9f6b" name="Elf Units" hidden="false"/>
-    <categoryEntry id="0fdd-d74b-fde1-0537" name="Gobling and Orc Units" hidden="false"/>
-    <categoryEntry id="ff43-0a6e-b631-eff6" name="Undead Units" hidden="false"/>
-    <categoryEntry id="8a5a-878c-943f-0f8d" name="Unaligned Units" hidden="false"/>
-    <categoryEntry id="2548-c9e4-fd6b-013e" name="Terrain" hidden="false"/>
+    <categoryEntry id="52ea-8bc1-7073-289a" name="Magic Item" hidden="false"/>
+    <categoryEntry id="188b-5b13-d21e-e9ba" name="Elf" hidden="true"/>
+    <categoryEntry id="e6bb-cd21-a6e2-1584" name="Dwarf" hidden="true"/>
+    <categoryEntry id="9747-df88-6e0b-8d06" name="Human" hidden="true"/>
+    <categoryEntry id="7d84-6195-827a-5e8b" name="Goblin &amp; Orc" hidden="true"/>
+    <categoryEntry id="180a-19cb-96c5-3f0a" name="Unaligned Creature" hidden="false"/>
+    <categoryEntry id="dd82-2575-d2d6-fb17" name="Spells" hidden="false"/>
+    <categoryEntry id="c6d5-f5ff-c931-3f8d" name="Characters" hidden="false"/>
+    <categoryEntry id="97af-b0fb-4cef-d818" name="Units" hidden="false"/>
+    <categoryEntry id="94a6-2e72-4cf6-b491" name="Monsters" hidden="false"/>
+    <categoryEntry id="1bf6-b9a5-9c3b-08b2" name="Artillery" hidden="false"/>
+    <categoryEntry id="0ad9-fb9b-1d71-deb6" name="Kingdom" hidden="false"/>
+    <categoryEntry id="a28c-54a8-2442-de24" name="General" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a589-84ac-2ea2-fddc" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="f176-1228-2d4d-da95" name="Greater Dwarf Magic" hidden="false"/>
+    <categoryEntry id="6d52-d1e3-e0dc-f111" name="Greater Elf Magic" hidden="false"/>
+    <categoryEntry id="3ced-40bd-4e21-7666" name="Greater Human Magic" hidden="false"/>
+    <categoryEntry id="5e3d-451f-209c-2ebb" name="Greater Goblin and Orc Magic" hidden="false"/>
+    <categoryEntry id="a389-0d1b-baa6-912a" name="Gargoyles" hidden="false"/>
+    <categoryEntry id="b676-0147-76d1-e7ef" name="Ogres" hidden="false"/>
+    <categoryEntry id="d8c5-7a2d-24c5-6364" name="Beasts of the Dark Forest" hidden="false"/>
+    <categoryEntry id="84d2-fdec-cab0-8074" name="Trolls" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="cf44-d7fb-4ef2-1804" name="Kingdom" hidden="false">
+    <forceEntry id="b3c1-debf-2214-b167" name="Army Roster" hidden="true">
       <categoryLinks>
-        <categoryLink id="1482-c0ac-dc58-87ab" name="Dwarven Units" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="false"/>
-        <categoryLink id="6d29-5b81-61e4-76c1" name="Human Units" hidden="false" targetId="6fd0-3bb4-1e07-9305" primary="false"/>
-        <categoryLink id="9d51-8ec1-587c-4744" name="Region 1 (Capital)" hidden="false" targetId="0e23-4eed-bacb-000f" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cfd-1d36-04f1-b57e" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7ce-1c5d-9f4d-10d1" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7918-191b-498e-3daf" name="Region 2" hidden="false" targetId="643b-54db-9139-28cd" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f6e-a02f-0656-f607" type="max"/>
-            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd0-d40a-461b-0fd8" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="58c6-1f37-51ea-7088" name="Region 3" hidden="false" targetId="73d3-9d5e-e52f-7776" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3acc-d64d-59b2-aa4a" type="max"/>
-            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb99-f4cd-69dc-87f8" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3b4a-8632-a665-cf46" name="Region 4" hidden="false" targetId="27e7-ed0b-409d-f326" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b56b-d0f9-1a11-8a0a" type="max"/>
-            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d79-b1fa-d6f3-0d72" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="a078-396c-868d-c6d5" name="Region 5 (Borderlands)" hidden="false" targetId="3036-4eae-49e5-ad3b" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00e3-7be5-60e5-ac48" type="max"/>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5338-7650-4042-389d" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="9923-1cbc-4b55-aa56" name="Elf Units" hidden="false" targetId="f367-434b-01be-9f6b" primary="false"/>
-        <categoryLink id="4e32-5b43-16e0-636b" name="Gobling and Orc Units" hidden="false" targetId="0fdd-d74b-fde1-0537" primary="false"/>
-        <categoryLink id="8925-45d3-c155-d539" name="Undead Units" hidden="false" targetId="ff43-0a6e-b631-eff6" primary="false"/>
-        <categoryLink id="957d-c736-9b06-85ad" name="Unaligned Units" hidden="false" targetId="8a5a-878c-943f-0f8d" primary="false"/>
-        <categoryLink id="324d-5b7e-5aad-2415" name="Terrain" hidden="false" targetId="2548-c9e4-fd6b-013e" primary="false"/>
+        <categoryLink id="6bbe-3b49-d1c8-e653" name="Characters" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="false"/>
+        <categoryLink id="2684-ab34-fb1e-40a9" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+        <categoryLink id="3b5b-a4db-ad67-c943" name="Monsters" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="false"/>
+        <categoryLink id="7d0c-23ab-ecc8-d35d" name="Artillery" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="false"/>
+        <categoryLink id="7cc9-01f2-cddf-d2cc" name="Kingdom" hidden="false" targetId="0ad9-fb9b-1d71-deb6" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
-  <selectionEntries>
-    <selectionEntry id="b3dc-6916-2caa-56df" name="Dwarf General" publicationId="3c95-6f8e-42c3-f0ab" page="86" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d3de-3cc7-e9a3-1141" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+  <sharedSelectionEntries>
+    <selectionEntry id="4be8-a5b8-f44e-fe37" name="Gargoyles" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4760-ddc7-63f9-c64f" type="max"/>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e17f-4a8c-1bd7-442f" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="0c03-9890-5446-1d46" name="Dwarf General" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
-          <characteristics>
-            <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-            <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
-            <characteristic name="F" typeId="5b55-1493-6d86-f066">3</characteristic>
-            <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-            <characteristic name="D" typeId="26aa-697a-894c-27f8">11</characteristic>
-            <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-            <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">2</characteristic>
-            <characteristic name="Special" typeId="6104-0e3c-4703-d926">Command (2), Shielding (1), Magic Items</characteristic>
-            <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
-        <categoryLink id="1b44-61d6-55b9-ec56" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
+        <categoryLink id="ac82-c880-bcc4-0505" name="Unaligned Creature" hidden="false" targetId="180a-19cb-96c5-3f0a" primary="false"/>
+        <categoryLink id="a496-158d-3b1f-cefa" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="44b3-84e3-3673-fce6" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="9705-6b94-d126-353e" value="0.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="9705-6b94-d126-353e" value="20.0">
+              <repeats>
+                <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a389-0d1b-baa6-912a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c159-414f-d400-f9b2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f79-f72b-cb55-4724" type="min"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9705-6b94-d126-353e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="729a-fea5-517b-bf4c" name="Gargoyle" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Flying</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bef9-617a-265d-c90f" name="Flying" hidden="false" targetId="53f3-38fb-5599-0b6d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="24.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="293.0"/>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65ba-5c13-52b5-1a69" name="Dwarf Captain" publicationId="3c95-6f8e-42c3-f0ab" page="87" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d3de-3cc7-e9a3-1141" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+    <selectionEntry id="63b4-a5a1-fe29-183b" name="Bodach" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7845-2105-ba4c-f779" type="max"/>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7930-040d-0feb-0e67" type="max"/>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="134d-f1ec-de50-27e2" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="c40f-133c-d1f3-7dc9" name="Dwarf Captain" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
-          <characteristics>
-            <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-            <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
-            <characteristic name="F" typeId="5b55-1493-6d86-f066">3</characteristic>
-            <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-            <characteristic name="D" typeId="26aa-697a-894c-27f8">11</characteristic>
-            <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-            <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-            <characteristic name="Special" typeId="6104-0e3c-4703-d926">Command (1), Shielding (1), Magic Items</characteristic>
-            <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="639d-e2aa-9ba3-6115" name="Discorporate" hidden="false" targetId="27f8-1735-5af6-a1f3" type="rule"/>
+        <infoLink id="ff2b-fb91-9913-7c41" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+        <infoLink id="7f70-ddc4-3a22-7ea4" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+        <infoLink id="75b8-b0e5-eba1-0e70" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="9e72-8afd-df90-6a09" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
+        <categoryLink id="12d6-0b13-eb9b-cc0f" name="Unaligned Creature" hidden="false" targetId="180a-19cb-96c5-3f0a" primary="false"/>
+        <categoryLink id="f1dc-f0bc-000a-7922" name="New CategoryLink" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6b20-1e6b-ab15-a056" name="Monster" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32a6-ded4-993b-b450" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7ba-3e61-8a29-cd62" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="cc5f-4555-cf43-04b3" name="Bodach" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">2</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Shielding (2), Spellcaster (4), Discorporate</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="400.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2973-3c16-1882-890b" name="Spells" hidden="false" collective="false" import="true" targetId="5f76-a51d-f38e-80fb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="150.0"/>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b727-a6b7-5ed3-1d02" name="Dwarf Champion" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2c9d-2aa8-9473-2bd9" name="Dragon" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f441-3030-0c14-88a5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8fda-b66f-2158-3550" name="Unaligned Creature" hidden="false" targetId="180a-19cb-96c5-3f0a" primary="false"/>
+        <categoryLink id="94ff-dcf3-2191-5317" name="New CategoryLink" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c65d-7003-224b-b0d6" name="Monster" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6145-a866-34e9-1544" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3095-61d4-abf6-97ba" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="bda6-cf1c-635c-4d09" name="Dragon" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">2</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">8</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">3</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">14</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">5</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">12</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Charge (2), Wild Charge, Horrific, Shielding (2), Fire Breath, Enormous</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="cb76-9ba5-77fc-9731" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="c72a-be85-03dc-40d9" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="4dff-0639-f052-e887" name="Fire Breath" hidden="false" targetId="93d1-db60-728e-3a56" type="profile"/>
+            <infoLink id="7fb4-c997-22a4-8f48" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="8ecc-c9e3-b792-d58c" name="Enormous" hidden="false" targetId="f1d0-4ab5-870c-853b" type="rule"/>
+            <infoLink id="d787-1ad3-b576-164b" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="b616-cf97-eb83-7f59" name="Fire Breath" hidden="false" targetId="ab77-bad4-c97e-bb83" type="rule"/>
+            <infoLink id="5dae-85e1-ca59-626c" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="1c75-64f0-a96d-bae2" name="Flying" hidden="true" targetId="53f3-38fb-5599-0b6d" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="2c9d-2aa8-9473-2bd9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7994-0b75-1068-57f6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="700.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7994-0b75-1068-57f6" name="Options: Wings" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ec4-c926-737a-f9de" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f76c-7929-d79f-9d5d" name="Flying" hidden="false" targetId="53f3-38fb-5599-0b6d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="77db-fa21-7015-ff51" name="Surma" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02d3-4451-b08f-d15f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6636-777d-5d8c-4fe4" name="New CategoryLink" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="911c-4de2-a30e-adb6" name="Monster" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3854-6cce-5111-5df9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58c6-b774-ad98-4e1f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="992a-6491-27a3-f0a6" name="Surma" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">6</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">4</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">6</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Horrific, Brace, Shielding (2), Stone Gaze, Large</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b54e-8b9f-dd14-86e3" name="Stone Gaze" hidden="false" targetId="d559-fed2-454b-cc4d" type="rule"/>
+            <infoLink id="f045-d0d6-490d-d049" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="bb3b-93b3-fe29-680c" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="9b5f-e4b0-907b-e7ba" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="f908-dfe1-a58f-586e" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="cce0-9591-0b24-8e8f" name="Brace" hidden="false" targetId="be12-50f9-c669-1c39" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="240.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="0815-6515-7fe0-65b3" name="Spell Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="66d0-bce5-3b98-915c">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e282-efa2-0812-a982" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf3-9a7e-6913-979a" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="66d0-bce5-3b98-915c" name="Level 1" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f149-d990-d399-a09d" name="Level 2" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b824-1deb-0891-cef0" name="Level 3" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="6306-15b0-1ff3-8702" value="0.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <comment>Dwarf Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e6bb-cd21-a6e2-1584" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f176-1228-2d4d-da95" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="6306-15b0-1ff3-8702" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f176-1228-2d4d-da95" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Human Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9747-df88-6e0b-8d06" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ced-40bd-4e21-7666" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="6306-15b0-1ff3-8702" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ced-40bd-4e21-7666" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Goblin and Orc Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d84-6195-827a-5e8b" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e3d-451f-209c-2ebb" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="6306-15b0-1ff3-8702" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e3d-451f-209c-2ebb" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Elf Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="188b-5b13-d21e-e9ba" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d52-d1e3-e0dc-f111" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="6306-15b0-1ff3-8702" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d52-d1e3-e0dc-f111" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6306-15b0-1ff3-8702" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bd1f-e4a5-1f3c-54f4" name="Level 4" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="25b9-8bd6-2247-9054" value="0.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <comment>Dwarf Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e6bb-cd21-a6e2-1584" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f176-1228-2d4d-da95" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="25b9-8bd6-2247-9054" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f176-1228-2d4d-da95" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Human Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9747-df88-6e0b-8d06" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ced-40bd-4e21-7666" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="25b9-8bd6-2247-9054" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ced-40bd-4e21-7666" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Goblin and Orc Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d84-6195-827a-5e8b" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e3d-451f-209c-2ebb" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="25b9-8bd6-2247-9054" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e3d-451f-209c-2ebb" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Elf Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="188b-5b13-d21e-e9ba" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d52-d1e3-e0dc-f111" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="25b9-8bd6-2247-9054" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d52-d1e3-e0dc-f111" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25b9-8bd6-2247-9054" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0269-6a83-81ee-70a3" name="Level 5" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="8d99-4a44-f4d0-2389" value="0.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <comment>Dwarf Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e6bb-cd21-a6e2-1584" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f176-1228-2d4d-da95" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="8d99-4a44-f4d0-2389" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f176-1228-2d4d-da95" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Elf Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="188b-5b13-d21e-e9ba" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d52-d1e3-e0dc-f111" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="8d99-4a44-f4d0-2389" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d52-d1e3-e0dc-f111" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Human Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9747-df88-6e0b-8d06" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ced-40bd-4e21-7666" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="8d99-4a44-f4d0-2389" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ced-40bd-4e21-7666" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Goblin and Orc Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d84-6195-827a-5e8b" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e3d-451f-209c-2ebb" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="8d99-4a44-f4d0-2389" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e3d-451f-209c-2ebb" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d99-4a44-f4d0-2389" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5f76-a51d-f38e-80fb" name="Spells" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="set" field="hidden" value="true">
+        <modifier type="set" field="a5fa-800a-971c-b5ee" value="3.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="a5fa-800a-971c-b5ee" value="5.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="a5fa-800a-971c-b5ee" value="4.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="a5fa-800a-971c-b5ee" value="2.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="a5fa-800a-971c-b5ee" value="4.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b4-a5a1-fe29-183b" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="a5fa-800a-971c-b5ee" value="3.0">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f8ba-dc62-c854-080d" type="equalTo"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d3de-3cc7-e9a3-1141" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9747-df88-6e0b-8d06" type="instanceOf"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="94a6-2e72-4cf6-b491" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1d9-697e-46b3-057d" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eed-f568-cbb8-9a79" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5fa-800a-971c-b5ee" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="3cb2-f23f-fae2-cd69" name="Dwarf Champion" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
-          <characteristics>
-            <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-            <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
-            <characteristic name="F" typeId="5b55-1493-6d86-f066">4</characteristic>
-            <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-            <characteristic name="D" typeId="26aa-697a-894c-27f8">11</characteristic>
-            <characteristic name="CD" typeId="2444-d310-1006-806a">3</characteristic>
-            <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-            <characteristic name="Special" typeId="6104-0e3c-4703-d926">Champion, Shielding (1), Magic Items</characteristic>
-            <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="3ad3-e419-64f1-cac4" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="62.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5485-7f8e-9874-2c70" name="Dwarf Spellcaster" publicationId="3c95-6f8e-42c3-f0ab" page="88" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d3de-3cc7-e9a3-1141" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5703-4cb5-d092-eca5" name="Human Spells" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9747-df88-6e0b-8d06" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180a-19cb-96c5-3f0a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="01d5-dd49-f7d3-926e" name="Spells" hidden="false" targetId="dd82-2575-d2d6-fb17" primary="true"/>
+            <categoryLink id="37bf-ae43-b7e1-bb0c" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="7aef-a775-8967-4050" name="Afflict" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20d0-ba23-4273-be4a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7dde-2df4-9429-f83d" name="Afflict" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any enemy unit. All figures in that unit suffer -1 to their Shoot stat.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6d40-e587-958f-9143" name="Bells of Doom" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a824-2359-6989-967a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="55f8-6ba3-1cbc-75b9" name="Bells of Doom" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">10</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">For the rest of the turn, every unit on the table rolls one less die for their activation roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9c87-f860-f1fc-7972" name="Blade Mastery" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee5d-01e2-8cc0-fa76" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="faf7-808e-0fa0-fbf1" name="Blade Mastery" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">8</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. All figures in that unit receive +1 to their Fight stat.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0f6e-55ca-4ac1-7a79" name="Lifebane" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43bc-42d6-5208-157c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="609f-370f-3ef6-f03c" name="Lifebane" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">10</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. That unit takes 1 damage. If this causes the unit to suffer a casualty, it does not have to make a morale test.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="20e2-3b5c-dc7f-5610" name="Mud" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="767f-3975-8637-49c7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3d0e-aa9b-8637-3b73" name="Mud" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster’s controlling player may place an area of mud up to 6” long and 2” wide anywhere that is completely within line of sight but is not closer than 1”
+to any unit. This mud lasts until the end of the game and may not be dispelled.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2f79-a579-c020-8795" name="Seize the Initiative" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c32c-0d73-ea35-8fd2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6f43-c1df-099e-757e" name="Seize the Initiative" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">8</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">As long as the spellcaster who cast this spell remains on the table, their army may roll 4 dice to determine initiative, instead of the usual 2 (choose which 2 dice
+count for determining Strange and Catastrophic Events before rolling).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="debb-80f7-52e9-1a75" name="Sunblind" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19d4-db98-0e0d-ba1f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1888-a3f0-2bc7-6cb0" name="Sunblind" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. That unit may not make a shooting attack during its next activation.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b6e5-f49e-fb47-4e7e" name="Stolen March" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3830-7f77-e957-fe55" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="775d-adc5-8f46-2ce3" name="Stolen March" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. That unit may immediately make one Move action (using its full Move stat). The unit may not move into
+combat with this action.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="66bc-1f18-2685-1e60" name="Goblin &amp; Orc Spells" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d84-6195-827a-5e8b" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180a-19cb-96c5-3f0a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="ab15-485d-0c27-759b" name="Spells" hidden="false" targetId="dd82-2575-d2d6-fb17" primary="true"/>
+            <categoryLink id="ae99-e981-3a4b-81b5" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="7d4e-30c0-f60e-fa61" name="Battlerage" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a97a-4eae-101c-76b7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="19d8-2848-af14-3ddd" name="Battlerage" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">9</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on a unit. The officer in that unit gains the special ability Champion. This spell has no effect on units in which a character
+already has the special ability Champion.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="94b8-a931-4635-0027" name="Fury" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7235-ee71-8bed-ec57" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="de93-0000-82b5-f742" name="Fury" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on a friendly unit. All figures in that unit receive the special ability Wild Charge. This spell has no effect on units in which
+the figures already have the special ability Wild Charge.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="14bf-ce0b-22c5-336b" name="Horrify" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b032-4d4e-85b7-a311" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="298a-ac3a-5be1-8248" name="Horrify" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">9</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. That unit gains the special ability Horrific.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4a47-3349-50b5-f60a" name="Immolate" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae80-edc0-1dc9-c14b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9727-6006-cd8f-d7ae" name="Immolate" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">9</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit within 4” of an enemy unit. Remove one figure as a casualty from the friendly unit (you never need to
+make a morale test because of this casualty). Make an immediate Shoot 4, Combat Dice 4, shooting attack against one enemy unit within 4” of the unit that suffered the casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7140-753b-e5c7-af9b" name="Poison Cloud" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5ef-41d2-5017-3870" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e157-0407-33ac-8e8d" name="Poison Cloud" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">9</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. The target unit’s player must immediately roll 5 dice and take 1 hit for each result lower than the unit’s Activation stat. The target unit also receives -1 to its Fight stat for the rest of the turn. Casualties caused by this attack do not trigger morale tests.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e27e-e854-0749-7b4a" name="Rain of Knives" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e0-f6de-ce29-a3fe" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c659-5219-3585-f5ca" name="Rain of Knives" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. Immediately make a Shoot 0, Combat Dice 5, shooting attack against that unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ada7-ae7b-8b3c-65f2" name="Fear" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ecf-f18d-d17a-e488" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b54c-f3c8-766e-5311" name="Fear" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit that is not currently Disordered. That unit must make an immediate morale test.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fceb-e774-039c-3749" name="Weakness" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b19-4e62-e4ec-94e7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e409-4c5e-ce4c-0537" name="Weakness" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">8</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. That unit suffers -1 to their Fight stat.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="647a-9381-45b2-89ee" name="General Spells" hidden="false" collective="false" import="true">
+          <categoryLinks>
+            <categoryLink id="8543-ea87-425b-3ed3" name="Spells" hidden="false" targetId="dd82-2575-d2d6-fb17" primary="true"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="bce8-ce40-017f-f1c0" name="Courage" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d44-23c7-1340-af7d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="000b-ed97-26be-52fb" name="Courage" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. This unit gains the special ability Courage (1). If the unit already has this special ability, increase the level by one (Courage (1) becomes Courage (2), Courage (2) becomes Courage (3), etc.).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dcd0-854a-c002-61bb" name="Crushing Blow" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4720-945d-dec0-5b25" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5130-209d-63ad-8ca9" name="Crushing Blow" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on a single figure within 18”. The figure receives +1 Combat Die.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9c9b-3778-7692-c964" name="Dispel" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c631-5bee-7201-8937" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5556-0eef-e96d-c895" name="Dispel" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">8</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. All ongoing effects from all spells cast on the target unit or figure are cancelled. This spell has no effect on spells
+that have a one-off effect, such as Heal.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1e40-980d-699e-b959" name="Fireball" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1187-5097-6c60-f2c5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3ec9-c40c-5517-6cc1" name="Fireball" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. Immediately make a Shoot 4, Combat Dice 3 shooting attack against that unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9bdf-da0d-06bb-9d95" name="Fleetfeet" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2c5-3e98-fb2d-8b47" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="35f2-609a-999b-5f56" name="Fleetfeet" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">5</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. All figures in that unit receive +2 to their Move stat for the remainder of the game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1a9-9c44-a4b6-f64b" name="Heal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f136-a8ef-e33c-39b8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4d36-c961-ecf1-a3ad" name="Heal" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on a single figure within 18” (the figure does not have to be within line of sight). That figure regains 2 Health (to their maximum
+Health). A figure may not have Heal cast on it more than once per game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8c21-dbe4-3cee-bc67" name="Looking Glass" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4c4-8520-2743-6e3e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="eb48-c8a3-0ccf-bef4" name="Looking Glass" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Place a marker anywhere within the spellcaster’s line of sight. For the remainder of the game, the spellcaster who cast this spell may draw line of sight from the
+marker instead of their figure.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e110-630c-83ae-78bc" name="Mystic Shield" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae82-c7e8-26b9-06d7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="67b0-572a-4173-c9b6" name="Mystic Shield" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">5</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. All figures in that unit receive Shielding (1). This spell may not be cast on a unit that already has
+Shielding.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9272-ff3e-a1ee-4b80" name="Shift" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ae-5047-eda9-77f0" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="46f3-f66d-fb7b-8fa4" name="Shift" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">5</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. That unit may immediately perform one manoeuvre, subject to the usual rules for manoeuvres.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2ce6-8b36-e1d0-5823" name="Smoke" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2351-cc75-b767-b454" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b434-1917-f497-9e34" name="Smoke" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Place a line of smoke up to 10” long, 1” thick, and 2” high on the table. The entire line must be within the spellcaster’s line of sight. This smoke blocks line of sight.
+At the end of each turn, roll one die. If the result is a 10, remove the smoke.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a94e-dcc9-1513-7f8a" name="Elf Spells" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="188b-5b13-d21e-e9ba" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180a-19cb-96c5-3f0a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9747-df88-6e0b-8d06" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="94a6-2e72-4cf6-b491" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="1850-50b3-d571-0d2b" name="Spells" hidden="false" targetId="dd82-2575-d2d6-fb17" primary="true"/>
+            <categoryLink id="6971-cbc7-5941-a2db" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="6a3f-ec0b-83ec-c6b9" name="Confound" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffab-173e-5679-e422" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="f3f8-5fa3-2d2c-8b2a" name="Confound" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">9</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. That unit gains the special ability Brace.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="60ce-2e9f-89b9-126c" name="Earthlines" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b50-8f21-f10e-a5a2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8b24-4fc8-e6a0-1938" name="Earthlines" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Spellcasters may only cast this spell on themselves. For the remainder of the game, the spellcaster may roll one extra die when casting a spell, to a maximum
+of 5. (For example, a Spellcaster (3) would roll 4 dice.)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="850a-8325-6780-8f10" name="Fool&apos;s Gold" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="053d-f539-a341-f644" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1549-33e8-6210-3bd4" name="Fool&apos;s Gold" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">8</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. That unit must make an immediate activation roll. If it fails, the spellcaster may cause the unit to perform one
+manoeuvre, subject to the usual rules for manoeuvres.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="40d9-eb71-c4af-36cb" name="Glamour" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d56-f3c3-2e64-e402" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="952b-4e9f-f0d0-e60c" name="Glamour" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">9</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. Immediately move that unit anywhere on the table so that at least one figure in the unit is still within
+the spellcaster’s line of sight. The unit may be placed facing any direction. If this unit has not already activated this turn, it receives no actions the next time it
+makes an activation roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="39c6-043b-1fef-c9ea" name="Pathfinder" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0299-bbf4-1002-b274" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="745b-cb92-d187-7fe2" name="Pathfinder" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. All figures in that unit gain the special ability Nimble. The spellcaster may not cast this spell on a unit that
+already has the special ability Nimble.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4678-610e-573e-9ffd" name="Phase" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5520-33ec-41c9-9394" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6171-9b5b-e9d9-17a3" name="Phase" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. The next time that unit activates, it may ignore any movement penalties for any type of terrain, including
+moving through impassable terrain (so long as the unit does not end its activation inside a terrain piece).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2eac-f88a-a75a-5240" name="Trueflight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9776-8872-600d-8504" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6988-08b6-9c7c-8eb1" name="Trueflight" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. All figures in that unit receive +1 to their Shoot stat.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1c8f-3faf-25d4-fc86" name="Truesight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4312-b350-0b85-eee1" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="15e1-6c9a-d3df-95aa" name="Truesight" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">8</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. That unit ignores the first friendly unit when drawing line of sight. (Essentially, the unit can see through one
+friendly unit.)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ec76-0124-182b-4c7d" name="Dwarf Spells" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e6bb-cd21-a6e2-1584" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180a-19cb-96c5-3f0a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="b67c-7f76-1bba-20d3" name="Dwarf" hidden="false" targetId="e6bb-cd21-a6e2-1584" primary="false"/>
+            <categoryLink id="24ec-4419-158c-cce1" name="Spells" hidden="false" targetId="dd82-2575-d2d6-fb17" primary="true"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="ff54-bf6a-aca1-c9d1" name="Brace" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eb8-1e07-a39b-0189" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="67a6-fa31-93ed-b31c" name="Brace" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. That unit gains the special ability Brace.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8b40-d8e0-aedb-f598" name="Explosive Ammunition" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c70-9d30-859f-1378" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="19b6-ee6a-a509-346f" name="Explosive Ammunition" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">5</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly artillery unit. The next time that unit makes a shooting attack, it receives +1 to its Shoot stat and +2 Combat Dice.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e395-fc7a-6af4-fbf5" name="Fortress" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d20e-2389-bfe1-582a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="012a-0d56-100b-eb9e" name="Fortress" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. This unit has Shielding (3) until the next time it moves.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3939-6c56-a2da-8eae" name="Gathering of Crows" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc5-d5b0-1086-f7a4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="be1b-9259-4201-dc9f" name="Gathering of Crows" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">4</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. That unit has Shielding (2) whenever it is the target of a shooting attack.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1e76-30a8-f104-dd47" name="Lightning Bolt" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="450f-d5a8-bc02-4d2c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="972a-a3a3-6da1-ffe0" name="Lightning Bolt" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">8</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. Immediately make a Shoot 6, Combat Dice 1 shooting attack against that unit using the Champion Die.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6bd4-50f3-4f94-7ebd" name="Resolute" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9893-4289-27d4-6ae7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="bc27-1fce-9acf-25d9" name="Resolute" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit that is Disordered. That unit is no longer Disordered.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="76e9-0d1a-0851-6ccd" name="Stoneheart" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d767-25c1-e133-30f5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3f0b-c28c-dbd2-4503" name="Stoneheart" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">8</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. All figures in that unit receive +1 Defence.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c20e-dbe2-2b5c-30e3" name="Sunder" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7df-e3c8-ebe2-ac8c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d9dc-ba0f-b1a4-8b20" name="Sunder" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any unit. That unit loses one level of Shielding. (For example, a unit with Shielding (2) now has Shielding (1), and a
+unit with Shielding (1) loses their Shielding ability altogether.)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="17ea-6571-7037-998a" name="Magic Items" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7783-fdb9-44e4-c2ed" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7098-1ca0-0da9-539e" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="90ac-ad5e-e2cd-9690" name="Dwarf Spellcaster" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
-          <characteristics>
-            <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-            <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
-            <characteristic name="F" typeId="5b55-1493-6d86-f066">2</characteristic>
-            <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-            <characteristic name="D" typeId="26aa-697a-894c-27f8">9</characteristic>
-            <characteristic name="CD" typeId="2444-d310-1006-806a">3</characteristic>
-            <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">2</characteristic>
-            <characteristic name="Special" typeId="6104-0e3c-4703-d926">Spellcaster (1), Shielding (1), Fire Over, Magic Items</characteristic>
-            <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="311c-84af-5dfa-9daf" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="30.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5703-3003-ae35-0202" name="Dwarf Soldiers" publicationId="3c95-6f8e-42c3-f0ab" page="88" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d3de-3cc7-e9a3-1141" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a43-98c0-1298-c251" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="cd67-04bd-a299-aa90" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9423-296a-dbdb-fb64" name="Dwarf Soilder" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef81-3b74-180a-99d8" type="max"/>
-          </constraints>
+        <selectionEntry id="c03d-8652-2937-099d" name="Armour of Starsilver" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="8dc8-09c9-3a80-d9a4" name="Dwarf Soilder" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
+            <profile id="bf8f-9186-16a0-e519" name="Armour of Starsilver" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
               <characteristics>
-                <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-                <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
-                <characteristic name="F" typeId="5b55-1493-6d86-f066">2</characteristic>
-                <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-                <characteristic name="D" typeId="26aa-697a-894c-27f8">10</characteristic>
-                <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-                <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-                <characteristic name="Special" typeId="6104-0e3c-4703-d926">Shielding (1)</characteristic>
-                <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Roll a die for each point of damage taken by a figure wearing this armour. If the result is 7 or higher, ignore that point of damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="4cb3-223f-0686-7df1" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="15.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntry>
-    <selectionEntry id="658a-b58d-566c-f49f" name="Dwarf Spearmen" publicationId="3c95-6f8e-42c3-f0ab" page="89" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d3de-3cc7-e9a3-1141" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61b6-3a1e-7262-47c0" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="87a7-4621-76d5-11cd" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="e6cf-833d-49e1-5bf7" name="Dwarf Spearman" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="3bd5-76bb-a4e7-5110" name="Banner of Courage" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="4d17-0fe9-c802-9532" name="Dwarf Spearman" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
+            <profile id="dd60-8100-6e66-da68" name="Banner of Courage" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
               <characteristics>
-                <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-                <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
-                <characteristic name="F" typeId="5b55-1493-6d86-f066">2</characteristic>
-                <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-                <characteristic name="D" typeId="26aa-697a-894c-27f8">10</characteristic>
-                <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-                <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-                <characteristic name="Special" typeId="6104-0e3c-4703-d926">Shielding (1), Brace</characteristic>
-                <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">All figures in a unit in which a figure carries this banner gain the special ability Courage (1). If they already have Courage, increase their Courage level by one. For example, a unit with Courage (1) now has Courage (2).</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="5c24-a085-5ba1-a615" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="16.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="60.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d87c-75a1-1119-4509" name="Dwarf Archers" publicationId="3c95-6f8e-42c3-f0ab" page="89" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d3de-3cc7-e9a3-1141" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57ad-fee4-57aa-cc60" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="3624-f2b8-9747-363d" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a783-492c-8096-266e" name="Dwarf Archer" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438f-8262-b1f7-7d55" type="max"/>
-          </constraints>
+        <selectionEntry id="27a0-e782-2a1a-8965" name="Boots of Striding" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="092d-6f72-14d5-f2e0" name="Dwarf Archer" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
+            <profile id="1cdc-2921-7e7f-0e25" name="Boots of Striding" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
               <characteristics>
-                <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-                <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
-                <characteristic name="F" typeId="5b55-1493-6d86-f066">0</characteristic>
-                <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">2</characteristic>
-                <characteristic name="D" typeId="26aa-697a-894c-27f8">10</characteristic>
-                <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-                <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-                <characteristic name="Special" typeId="6104-0e3c-4703-d926">Fire Over</characteristic>
-                <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">A figure that wears these boots gain the special ability Nimble.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="753b-619c-7342-a3f8" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="15.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b2e7-a33d-8b59-2c3e" name="Dwarf Militia" publicationId="3c95-6f8e-42c3-f0ab" page="91" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d3de-3cc7-e9a3-1141" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83dc-4c58-448d-365d" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="2d5f-2b6b-c9a8-bd32" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="b842-6e64-12c8-3dfd" name="Dwarf Militia" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1990-83cb-2b46-e23c" type="max"/>
-          </constraints>
+        <selectionEntry id="fe33-e04c-d958-0af3" name="Crown of Regeneration" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="a556-0646-c03d-5fbb" name="Dwarf Militia" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
+            <profile id="07fc-b717-618e-c5be" name="Crown of Regeneration" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
               <characteristics>
-                <characteristic name="A" typeId="cf13-c4ea-8917-64f8">5</characteristic>
-                <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
-                <characteristic name="F" typeId="5b55-1493-6d86-f066">3</characteristic>
-                <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-                <characteristic name="D" typeId="26aa-697a-894c-27f8">9</characteristic>
-                <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-                <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-                <characteristic name="Special" typeId="6104-0e3c-4703-d926"/>
-                <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">A figure that wears this crown gains the special ability Regeneration (1). This is not cumulative with other sources of Regeneration.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="fe18-0352-a875-653b" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="14.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4b10-f729-bb6a-bddd" name="Elf General" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="28d7-7043-4e8f-c1ec" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad18-104e-4349-bec4" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="e245-44a8-8d6f-f655" name="New CategoryLink" hidden="false" targetId="f367-434b-01be-9f6b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e106-b6df-b344-3020" name="Elf Captain" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="28d7-7043-4e8f-c1ec" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caad-1993-2b18-7e38" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="b7f5-3f4f-92e9-8804" name="New CategoryLink" hidden="false" targetId="f367-434b-01be-9f6b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f9fe-1c9d-c309-79d3" name="Elf Champion" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="28d7-7043-4e8f-c1ec" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a15-0861-501e-e97b" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="408e-7e0b-abed-2c08" name="New CategoryLink" hidden="false" targetId="f367-434b-01be-9f6b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e790-8dec-36e3-3960" name="Elf Spellcaster" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="28d7-7043-4e8f-c1ec" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c99-7846-a71a-5fc3" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="4f3b-662d-c21c-0865" name="New CategoryLink" hidden="false" targetId="f367-434b-01be-9f6b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c1a9-26e1-7fd7-edcb" name="Elf Soldiers" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="28d7-7043-4e8f-c1ec" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ece3-a4a2-7dbb-7110" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="8e2e-5bde-4950-85c6" name="New CategoryLink" hidden="false" targetId="f367-434b-01be-9f6b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8fa6-3d38-d4ae-71cc" name="Elf Spearmen" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="28d7-7043-4e8f-c1ec" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d44-11f1-b661-45cb" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="9526-23ac-d392-ba04" name="New CategoryLink" hidden="false" targetId="f367-434b-01be-9f6b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="39ec-807f-e7e1-c5bc" name="Elf Archers" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="28d7-7043-4e8f-c1ec" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2f2-cae1-8645-dabe" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="32b5-a475-ba4b-c689" name="New CategoryLink" hidden="false" targetId="f367-434b-01be-9f6b" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1764-6dd7-ca91-d50f" name="Dwarf Warriors" publicationId="3c95-6f8e-42c3-f0ab" page="89" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f8ba-dc62-c854-080d" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28cc-ccaf-f7ac-08c0" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="f9ce-a59a-dd05-2122" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="aa0d-ab87-4cff-c558" name="Dwarf Warrior" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a6-b7a5-47f6-da3d" type="max"/>
-          </constraints>
+        <selectionEntry id="90a2-f22f-b6f6-55ec" name="Cloak of Discorporation" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="42eb-6048-34f9-02d2" name="Dwarf Warrior" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
+            <profile id="dad1-c4e3-be5b-9eda" name="Cloak of Discorporation" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
               <characteristics>
-                <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-                <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">4</characteristic>
-                <characteristic name="F" typeId="5b55-1493-6d86-f066">2</characteristic>
-                <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-                <characteristic name="D" typeId="26aa-697a-894c-27f8">11</characteristic>
-                <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-                <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-                <characteristic name="Special" typeId="6104-0e3c-4703-d926">Shielding (1)</characteristic>
-                <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">A figure that wears this cloak gains the special ability Discorporate.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="517c-a4eb-0057-6708" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="17.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="100.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntry>
-    <selectionEntry id="071e-a52e-63b6-36b2" name="Dwarf Linebreakers" publicationId="3c95-6f8e-42c3-f0ab" page="89" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f8ba-dc62-c854-080d" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95aa-c781-4a1f-2370" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="63a4-bfbe-e82b-13d3" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8758-2501-0ec9-97e2" name="Dwarf Linebreaker" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0618-e048-54db-7407" type="max"/>
-          </constraints>
+        <selectionEntry id="8e24-20c7-c3f5-8a1e" name="Golden String Bow" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="d606-b505-2652-d00d" name="Dwarf  Linebreaker" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
+            <profile id="fb56-ce54-a12e-fa58" name="Golden String Bow" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
               <characteristics>
-                <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-                <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">4</characteristic>
-                <characteristic name="F" typeId="5b55-1493-6d86-f066">3</characteristic>
-                <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-                <characteristic name="D" typeId="26aa-697a-894c-27f8">11</characteristic>
-                <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-                <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-                <characteristic name="Special" typeId="6104-0e3c-4703-d926"></characteristic>
-                <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">If a figure with the special ability Champion carries this bow, its player may roll the Champion Die any time the figure, or the figure’s unit, makes a shooting attack. This is an exception to the normal Shooting attack procedure where no Champion Die is rolled.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="818d-1871-277d-e340" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="20.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntry>
-    <selectionEntry id="3141-d37a-cbf3-9596" name="Dwarf Border Guard" publicationId="3c95-6f8e-42c3-f0ab" page="91" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8bd1-88e6-94ea-5388" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="545c-399c-a90b-e596" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="da29-c3e5-7ab5-d22d" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7f49-c75c-3285-e4b3" name="Dwarf Border Guard" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b55-cfde-869e-8201" type="max"/>
-          </constraints>
+        <selectionEntry id="486a-38f3-b1fd-66ea" name="Ring of Shielding" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="75f9-78c4-c3ff-5fb0" name="Dwarf Border Guard" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
+            <profile id="f2d6-e2db-7348-3f8b" name="Ring of Shielding" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
               <characteristics>
-                <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-                <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
-                <characteristic name="F" typeId="5b55-1493-6d86-f066">0</characteristic>
-                <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">2</characteristic>
-                <characteristic name="D" typeId="26aa-697a-894c-27f8">9</characteristic>
-                <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-                <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-                <characteristic name="Special" typeId="6104-0e3c-4703-d926">Nimble, Aimed Fire</characteristic>
-                <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">25 x 25</characteristic>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">A figure that wears this ring gains the special ability Shielding (1). If the figure already has Shielding, increase their Shielding level by one. For example, a figure with Shielding (1) now has Shielding (2). This ring only affects attacks directed at the figure itself, not at the figure’s unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="3c48-07d0-7bfb-22a2" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="17.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="274a-7b07-9fd0-2b16" name="Ring of Spellcasting" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="5923-f890-b8f0-6008" name="Ring of Spellcasting" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">If a figure with the special ability Spellcaster wears this ring, it begins the game knowing one more spell than usual. For example, a figure with Spellcaster (1) knows 2 spells instead of 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="ca3a-7c05-66b3-cf35" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bfaa-e28a-607c-169a" name="Sceptre of Command" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="f6fc-fe8c-5beb-ff6e" name="Sceptre of Command" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">If a figure with the special ability Command carries this sceptre, it may attempt to activate other units up to 9” away instead of the usual 6”.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="288b-6710-285b-d0ab" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4de0-ccb5-15b9-b9b7" name="Sword of Starsilver" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="cc0d-13c0-3c9f-905b" name="Sword of Starsilver" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">If a figure with the special ability Champion carries this hand weapon, add +1 to the Champion Die roll result. If the Champion Die result is a 9, treat the result as a 10 for the purposes of calculating hits, but not for the purposes of striking a character.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="8fb1-7c8d-a8da-f9b1" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="67f5-de48-b455-8df9" name="Sword of Flames" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="b181-3ad6-5e08-e895" name="Sword of Flames" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">If a figure with the special ability Champion carries this hand weapon, its player may re-roll any results of 1 on the Champion Die when the figure is in combat. The Champion Die may only be rerolled once, so you cannot reroll the Champion Die for both Wild Charge and the Sword of Flames.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="d052-7817-49d1-f27a" name="Magic Item" hidden="false" targetId="52ea-8bc1-7073-289a" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-    </selectionEntry>
-    <selectionEntry id="0600-fd25-8c92-7de6" name="Dwarf Light Catapult" publicationId="3c95-6f8e-42c3-f0ab" page="93" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="143f-9aad-60b7-b495" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3236-5b01-d785-b4b6" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="d6c1-29e4-0322-7df5" name="Dwarf Light Catapult" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
-          <characteristics>
-            <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-            <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">3</characteristic>
-            <characteristic name="F" typeId="5b55-1493-6d86-f066">2</characteristic>
-            <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">3</characteristic>
-            <characteristic name="D" typeId="26aa-697a-894c-27f8">9</characteristic>
-            <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-            <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-            <characteristic name="Special" typeId="6104-0e3c-4703-d926">Artillery, Crew (3), Indirect Fire, Shielding (1)</characteristic>
-            <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">100 x 50</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="a26e-1e21-8bc9-8ca4" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="120.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a184-f2c2-7dc5-e4e4" name="Dwarf Heavy Catapult" publicationId="3c95-6f8e-42c3-f0ab" page="93" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="143f-9aad-60b7-b495" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d19-19b0-67a2-9f9c" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="99a7-6d89-fdfd-e61f" name="Dwarf Heavy Catapult" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
-          <characteristics>
-            <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-            <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">2</characteristic>
-            <characteristic name="F" typeId="5b55-1493-6d86-f066">2</characteristic>
-            <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">4</characteristic>
-            <characteristic name="D" typeId="26aa-697a-894c-27f8">9</characteristic>
-            <characteristic name="CD" typeId="2444-d310-1006-806a">1</characteristic>
-            <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">1</characteristic>
-            <characteristic name="Special" typeId="6104-0e3c-4703-d926">Artillery, Crew (4), Indirect Fire, Shielding (1)</characteristic>
-            <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">100 x 50</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="0582-9442-b8a8-5efa" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="140.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a0af-1e06-706a-b082" name="Indrik" publicationId="3c95-6f8e-42c3-f0ab" page="94" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef89-90d2-3a19-29ac" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcab-4448-62cc-9694" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="3bfe-7fba-f735-16bf" name="Indrik" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
-          <characteristics>
-            <characteristic name="A" typeId="cf13-c4ea-8917-64f8">6</characteristic>
-            <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">6</characteristic>
-            <characteristic name="F" typeId="5b55-1493-6d86-f066">2</characteristic>
-            <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-            <characteristic name="D" typeId="26aa-697a-894c-27f8">12</characteristic>
-            <characteristic name="CD" typeId="2444-d310-1006-806a">4</characteristic>
-            <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">5</characteristic>
-            <characteristic name="Special" typeId="6104-0e3c-4703-d926">Monster, Shielding (1), Charge (3), Brace, Large, Courage (1)</characteristic>
-            <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">50 x 50</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="819d-5bfb-d417-7555" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="160.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a252-0768-6c6c-7274" name="Eachy" publicationId="3c95-6f8e-42c3-f0ab" page="94" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e241-0e42-209c-e8c0" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="119e-63c5-9122-da84" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="9c9d-9cea-770c-98c2" name="Eachy" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
-          <characteristics>
-            <characteristic name="A" typeId="cf13-c4ea-8917-64f8">7</characteristic>
-            <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">5</characteristic>
-            <characteristic name="F" typeId="5b55-1493-6d86-f066">4</characteristic>
-            <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-            <characteristic name="D" typeId="26aa-697a-894c-27f8">12</characteristic>
-            <characteristic name="CD" typeId="2444-d310-1006-806a">3</characteristic>
-            <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">5</characteristic>
-            <characteristic name="Special" typeId="6104-0e3c-4703-d926">Monster, Regenerate (1), Horrific, Waterwalk, Large, Courage (2)</characteristic>
-            <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">50 x 50</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="fba9-9b20-1de7-85c3" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="120.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="21af-ba03-2a54-1625" name="Barghest" publicationId="3c95-6f8e-42c3-f0ab" page="95" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1c1e-e41f-f408-09ee" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff75-4d97-edf5-548b" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="80b4-63d9-7af7-270a" name="Barghest" hidden="false" typeId="3f45-4e12-adeb-6c1a" typeName="Unit">
-          <characteristics>
-            <characteristic name="A" typeId="cf13-c4ea-8917-64f8">4</characteristic>
-            <characteristic name="M" typeId="a51b-c9c1-c3cf-9c0f">8</characteristic>
-            <characteristic name="F" typeId="5b55-1493-6d86-f066">3</characteristic>
-            <characteristic name="S" typeId="6c2d-94a2-b9d7-4347">0</characteristic>
-            <characteristic name="D" typeId="26aa-697a-894c-27f8">11</characteristic>
-            <characteristic name="CD" typeId="2444-d310-1006-806a">4</characteristic>
-            <characteristic name="H" typeId="ee8a-1cfe-b33a-f65d">4</characteristic>
-            <characteristic name="Special" typeId="6104-0e3c-4703-d926">Monster, Shielding (1), Wild Charge (1), Discorporate, Horrific, Large</characteristic>
-            <characteristic name="Base Size" typeId="0d90-7611-6674-fb4a">50 x 50</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="a473-7d00-9861-c073" name="New CategoryLink" hidden="false" targetId="afc2-69d2-b70d-ee45" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="200.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
-  <sharedSelectionEntries>
-    <selectionEntry id="d3de-3cc7-e9a3-1141" name="Dwarf City" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f8ba-dc62-c854-080d" name="Forges" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8bd1-88e6-94ea-5388" name="Mountain Passes" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="143f-9aad-60b7-b495" name="Lumber Yard" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="418c-033c-290d-e15e" name="Hermitages" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ef89-90d2-3a19-29ac" name="Snow-capped Mountains" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e241-0e42-209c-e8c0" name="Tarns" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1c1e-e41f-f408-09ee" name="Moors" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8944-7d82-bd7e-97fd" name="Human City" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="aa7f-4bf4-6c9d-9431" name="Iron Mines" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3682-4423-78f5-d3c2" name="Barrens" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bbb7-cd9c-127b-8111" name="Plains" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f5b5-b3fc-b524-ebf7" name="Timber Mills" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="39e8-d4dc-6fac-59a8" name="Monastery" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6d7b-44e8-13e8-7bf8" name="Rough Hills" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="dd04-04c7-7c66-9082" name="Sea Caves" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="eb6a-3d9a-bf27-05b4" name="Rocky Mountains" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="28d7-7043-4e8f-c1ec" name="Elf City" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7e2c-9a6d-362e-bf58" name="Silver Mines" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="14ab-1acc-1742-96e3" name="Forests" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="57b3-3e51-1d5e-0f67" name="Grasslands" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="daf5-710f-d18a-3b55" name="Kennels" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ac01-23ba-f135-439e" name="Towers" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4b72-1c39-ddbe-aef2" name="Outposts" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c35a-89cf-27e0-1a7c" name="Hill Caves" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d313-000b-7b69-5c73" name="Dark Forests" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="56d6-da7a-1b6b-aed2" name="Goblin City" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5974-4a07-f78d-ba42" name="Orc City" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="eece-a73d-be2b-adb5" name="Smithies" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b07a-d784-404a-9795" name="Slave Camps" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3977-91a9-f790-14f6" name="Dark Hills" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0213-1e2c-7c40-d729" name="Ruined Villages" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="77ca-70f6-e6ff-58d0" name="Dungeons" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d93b-bbcd-427b-90ea" name="Rivers" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e7f9-c592-77fe-b398" name="Poisonous Swamps" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5044-10da-f82f-6965" name="Ancient Ruins" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="dffd-f602-f718-6266" name="Glade" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="947c-66df-5bef-491a" name="High Fells" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d8a6-cd96-7abd-0daf" name="Caverns" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="7331-8db7-cc7b-34ff" value="0.0"/>
-      </costs>
-    </selectionEntry>
-  </sharedSelectionEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="0b0e-b2cf-d465-8680" name="Dwarf (2)" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67d3-bbaa-dc17-2396" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="42cf-d793-c9a3-b946" name="Forges" hidden="false" collective="false" import="true" targetId="f8ba-dc62-c854-080d" type="selectionEntry"/>
-        <entryLink id="f6e4-4152-402d-bd1d" name="Mountain Passes" hidden="false" collective="false" import="true" targetId="8bd1-88e6-94ea-5388" type="selectionEntry"/>
-        <entryLink id="c49f-e0f3-8e62-c762" name="Lumber Yard" hidden="false" collective="false" import="true" targetId="143f-9aad-60b7-b495" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="898e-0ad6-7625-e1ef" name="Dwarf (3)" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47eb-c232-9b23-7027" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="99ce-e855-79d7-bf67" name="Hermitages" hidden="false" collective="false" import="true" targetId="418c-033c-290d-e15e" type="selectionEntry"/>
-        <entryLink id="8555-c076-ad75-fb7a" name="Tarns" hidden="false" collective="false" import="true" targetId="e241-0e42-209c-e8c0" type="selectionEntry"/>
-        <entryLink id="d899-bf92-1799-043e" name="Moors" hidden="false" collective="false" import="true" targetId="1c1e-e41f-f408-09ee" type="selectionEntry"/>
-        <entryLink id="a5ae-87eb-45f1-bce4" name="Snow-capped Mountains" hidden="false" collective="false" import="true" targetId="ef89-90d2-3a19-29ac" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="228f-7c16-526f-f080" name="Human (2)" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b78a-b1bc-f865-dc9f" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="dec1-fff8-c2be-6bab" name="Iron Mines" hidden="false" collective="false" import="true" targetId="aa7f-4bf4-6c9d-9431" type="selectionEntry"/>
-        <entryLink id="dda9-1381-1ed5-4628" name="Barrens" hidden="false" collective="false" import="true" targetId="3682-4423-78f5-d3c2" type="selectionEntry"/>
-        <entryLink id="6d34-b24a-7c5e-a63c" name="Plains" hidden="false" collective="false" import="true" targetId="bbb7-cd9c-127b-8111" type="selectionEntry"/>
-        <entryLink id="c1f1-29f1-ab28-4fa3" name="Timber Mills" hidden="false" collective="false" import="true" targetId="f5b5-b3fc-b524-ebf7" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="081f-c085-68e6-bf56" name="Human (3)" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0428-821f-476b-f34a" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="6a8a-4089-25c9-8679" name="Monastery" hidden="false" collective="false" import="true" targetId="39e8-d4dc-6fac-59a8" type="selectionEntry"/>
-        <entryLink id="f345-020f-4a8f-12ad" name="Rough Hills" hidden="false" collective="false" import="true" targetId="6d7b-44e8-13e8-7bf8" type="selectionEntry"/>
-        <entryLink id="e96d-6381-cfbb-71fe" name="Sea Caves" hidden="false" collective="false" import="true" targetId="dd04-04c7-7c66-9082" type="selectionEntry"/>
-        <entryLink id="1c26-2677-d4ee-35bc" name="Rocky Mountains" hidden="false" collective="false" import="true" targetId="eb6a-3d9a-bf27-05b4" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e99c-e229-c43a-efc7" name="Elf (2)" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c94-dd7d-7349-06fc" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="6e5b-7e21-ccf0-ce67" name="Silver Mines" hidden="false" collective="false" import="true" targetId="7e2c-9a6d-362e-bf58" type="selectionEntry"/>
-        <entryLink id="fa57-7b3f-c76d-f975" name="Forests" hidden="false" collective="false" import="true" targetId="14ab-1acc-1742-96e3" type="selectionEntry"/>
-        <entryLink id="8357-22fe-5a00-963e" name="Grasslands" hidden="false" collective="false" import="true" targetId="57b3-3e51-1d5e-0f67" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="22e5-8ca6-374d-9a23" name="Elf (3)" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f0a-3dec-9345-d07b" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="f719-ee4b-9c67-ba4a" name="Kennels" hidden="false" collective="false" import="true" targetId="daf5-710f-d18a-3b55" type="selectionEntry"/>
-        <entryLink id="11af-4efa-cb67-51d5" name="Towers" hidden="false" collective="false" import="true" targetId="ac01-23ba-f135-439e" type="selectionEntry"/>
-        <entryLink id="5103-9669-f1bf-9916" name="Outposts" hidden="false" collective="false" import="true" targetId="4b72-1c39-ddbe-aef2" type="selectionEntry"/>
-        <entryLink id="4403-10b4-c09e-3d62" name="Hill Caves" hidden="false" collective="false" import="true" targetId="c35a-89cf-27e0-1a7c" type="selectionEntry"/>
-        <entryLink id="ae19-0e75-b716-e785" name="Dark Forests" hidden="false" collective="false" import="true" targetId="d313-000b-7b69-5c73" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1370-7c1c-dcb8-aa36" name="Goblin and Orc (2)" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9622-19b3-b451-4512" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="9f33-07c7-5aed-1542" name="Smithies" hidden="false" collective="false" import="true" targetId="eece-a73d-be2b-adb5" type="selectionEntry"/>
-        <entryLink id="6a41-9fcb-5c2c-8275" name="Slave Camps" hidden="false" collective="false" import="true" targetId="b07a-d784-404a-9795" type="selectionEntry"/>
-        <entryLink id="e1b3-745b-bad2-3a5c" name="Dark Hills" hidden="false" collective="false" import="true" targetId="3977-91a9-f790-14f6" type="selectionEntry"/>
-        <entryLink id="c078-eba9-e1e5-7f43" name="Ruined Villages" hidden="false" collective="false" import="true" targetId="0213-1e2c-7c40-d729" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="0e09-b58b-e7f2-aa70" name="Goblin and Orc (3)" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="264b-c51a-3146-ac5e" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="d0b2-e9ab-b786-0da7" name="Dungeons" hidden="false" collective="false" import="true" targetId="77ca-70f6-e6ff-58d0" type="selectionEntry"/>
-        <entryLink id="049a-8cfc-6575-b74e" name="Rivers" hidden="false" collective="false" import="true" targetId="d93b-bbcd-427b-90ea" type="selectionEntry"/>
-        <entryLink id="9eeb-cb9b-27a2-9a66" name="Poisonous Swamps" hidden="false" collective="false" import="true" targetId="e7f9-c592-77fe-b398" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="fcd8-ad0c-8df2-f2cb" name="Unaligned (3)" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8720-ccb2-defe-a2ff" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="3e17-672d-f768-0327" name="Ancient Ruins" hidden="false" collective="false" import="true" targetId="5044-10da-f82f-6965" type="selectionEntry"/>
-        <entryLink id="5231-e6ad-9b3f-27f4" name="Glade" hidden="false" collective="false" import="true" targetId="dffd-f602-f718-6266" type="selectionEntry"/>
-        <entryLink id="d5fb-c3bd-1595-27ab" name="High Fells" hidden="false" collective="false" import="true" targetId="947c-66df-5bef-491a" type="selectionEntry"/>
-        <entryLink id="3c6b-ab9a-2fda-fc50" name="Caverns" hidden="false" collective="false" import="true" targetId="d8a6-cd96-7abd-0daf" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="50c9-f0d1-af06-0f4d" name="Terrain Type 1" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a32-4d9b-83bb-4f5a" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="3504-43fd-932b-58db" name="Dwarf City" hidden="false" collective="false" import="true" targetId="d3de-3cc7-e9a3-1141" type="selectionEntry"/>
-        <entryLink id="24af-3ae1-b362-929a" name="Elf City" hidden="false" collective="false" import="true" targetId="28d7-7043-4e8f-c1ec" type="selectionEntry"/>
-        <entryLink id="9d3e-8d81-2ebf-a139" name="Goblin City" hidden="false" collective="false" import="true" targetId="56d6-da7a-1b6b-aed2" type="selectionEntry"/>
-        <entryLink id="35a9-1f34-3459-ed63" name="Human City" hidden="false" collective="false" import="true" targetId="8944-7d82-bd7e-97fd" type="selectionEntry"/>
-        <entryLink id="111d-9c2a-6def-a447" name="Orc City" hidden="false" collective="false" import="true" targetId="5974-4a07-f78d-ba42" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="dd48-63f2-8c50-6cd9" name="Terrain Type 2" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="e239-3044-b305-58c8" name="Dwarf (2)" hidden="false" collective="false" import="true" targetId="0b0e-b2cf-d465-8680" type="selectionEntryGroup"/>
-        <entryLink id="b1c9-97a2-ced3-01a0" name="Elf (2)" hidden="false" collective="false" import="true" targetId="e99c-e229-c43a-efc7" type="selectionEntryGroup"/>
-        <entryLink id="d8c2-ee4f-bf57-1f60" name="Goblin and Orc (2)" hidden="false" collective="false" import="true" targetId="1370-7c1c-dcb8-aa36" type="selectionEntryGroup"/>
-        <entryLink id="359d-49b7-1495-59e0" name="Human (2)" hidden="false" collective="false" import="true" targetId="228f-7c16-526f-f080" type="selectionEntryGroup"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="549b-bd9b-c04c-3c3e" name="Terrain Type 3" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="d269-b5d0-3d1f-4a34" name="Dwarf (3)" hidden="false" collective="false" import="true" targetId="898e-0ad6-7625-e1ef" type="selectionEntryGroup"/>
-        <entryLink id="2bf2-32ce-4f2b-c0bc" name="Elf (3)" hidden="false" collective="false" import="true" targetId="22e5-8ca6-374d-9a23" type="selectionEntryGroup"/>
-        <entryLink id="550f-3088-fbb8-5f80" name="" hidden="false" collective="false" import="true" targetId="0e09-b58b-e7f2-aa70" type="selectionEntryGroup"/>
-        <entryLink id="0188-bd0d-f78b-e74c" name="Human (3)" hidden="false" collective="false" import="true" targetId="081f-c085-68e6-bf56" type="selectionEntryGroup"/>
-        <entryLink id="955c-abcd-b252-b78b" name="Unaligned (3)" hidden="false" collective="false" import="true" targetId="fcd8-ad0c-8df2-f2cb" type="selectionEntryGroup"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="41ef-ee81-a5e0-a4e6" name="Terrain Type Any" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="3b04-621c-a8d9-0a1d" name="Terrain Type 1" hidden="false" collective="false" import="true" targetId="50c9-f0d1-af06-0f4d" type="selectionEntryGroup"/>
-        <entryLink id="6c5a-23cd-f925-2340" name="Terrain Type 2" hidden="false" collective="false" import="true" targetId="dd48-63f2-8c50-6cd9" type="selectionEntryGroup"/>
-        <entryLink id="e0c3-c360-618d-b4e8" name="Terrain Type 3" hidden="false" collective="false" import="true" targetId="549b-bd9b-c04c-3c3e" type="selectionEntryGroup"/>
-      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="c794-af84-934a-7baa" name="Champion" publicationId="3c95-6f8e-42c3-f0ab" page="166" hidden="false">
+    <rule id="b44e-1c0f-abcd-a7ba" name="Shielding (X)" hidden="false">
+      <description>During combat, a unit containing figures with Shielding may choose to sacrifice one Combat Die for each level of Shielding it possesses (X), thus forcing the enemy unit to discard an equal number of Combat Dice. Shielding deductions are made after all other factors determining Combat Dice are considered, and they may never lower a unit&apos;s Combat Dice below 1. Shielding may only be used by a unit that is not currently activate - in other words, the unit initiating the combat cannot use Shielding. Units may not use Shielding during an attack to the unit&apos;s flank or rear.
+
+Additionally, if a unit containing figures with Shielding is the target of a shooting attack to any facing except its rear, it may use Shielding to reduce the number of Combat Dice the attacking unit can roll against it by 1 for each level of Shielding it possesses. Again, this cannot reduce the number of Combat Dice below 1. Units cannot use Shielding against shooting attacks from artillery. A unit never has to discard its Champion Die due to Shielding.</description>
+    </rule>
+    <rule id="bddf-fe50-8bf3-c960" name="Aimed Fire" publicationId="c602-4fcf-d13f-d9b9" page="166" hidden="false">
+      <description>A unit that contains figures with this ability can fire at any enemy unit within range and line of sight, even if it is not the closest enemy unit.</description>
+    </rule>
+    <rule id="fb1c-4a18-0425-e322" name="Artillery" publicationId="c602-4fcf-d13f-d9b9" page="166" hidden="false">
+      <description>Figures with this ability belongs to a unit that consists of an artillery piece and crew. Such units may not move and shoot in the same activation, though they may manoeuvre and shoot</description>
+    </rule>
+    <rule id="be12-50f9-c669-1c39" name="Brace" publicationId="c602-4fcf-d13f-d9b9" page="166" hidden="false">
+      <description>If a unit that has figures with the special ability Charge moves into combat with a unit that has figures with the special ability Brace, the moving unit loses one leve of Charge.</description>
+    </rule>
+    <rule id="e1e0-629d-0360-a4a2" name="Champion" publicationId="c602-4fcf-d13f-d9b9" page="166" hidden="false">
       <description>If a unit with a champion engages in melee combat, the player rolls the Champion Die as one of their Combat Dice.</description>
     </rule>
+    <rule id="48c7-57de-be8d-f43a" name="Charge (X)" publicationId="c602-4fcf-d13f-d9b9" page="166" hidden="false">
+      <description>The unit receives -1 to its Target Number for each level (X) of Charge for any combat that occurs during the unit&apos;s activation.</description>
+    </rule>
+    <rule id="142c-1d3b-9cce-1f75" name="Command (X)" publicationId="c602-4fcf-d13f-d9b9" page="167" hidden="false">
+      <description>A unit containing a figure with the special ability Command allows its player to roll 3 dice for activation rolls and morale tests - for that unit and for any unit within 6&quot; of that unit. Additionally, if the unit containing the figure with Command activates, the player can attempt to activate X additional units at the same time.</description>
+    </rule>
+    <rule id="b71b-3db4-43a2-e22f" name="Courage (X)" publicationId="c602-4fcf-d13f-d9b9" page="167" hidden="false">
+      <description>A figure with Courage adds its level (X) to all morale test results for the unit.</description>
+    </rule>
+    <rule id="fdc2-63bc-906e-0d9b" name="Crew (X)" publicationId="c602-4fcf-d13f-d9b9" page="167" hidden="false">
+      <description>This is the number of individual crew included with an artillery piece in a unit with the special Artillery.</description>
+    </rule>
+    <rule id="27f8-1735-5af6-a1f3" name="Discorporate" publicationId="c602-4fcf-d13f-d9b9" page="167" hidden="false">
+      <description>If the activation roll is successful for a unit containing figures with this ability, the unit may teleport to any other point on the table within 12&quot;, instead of taking any other actions during its activation. This teleport action may not result in the unit being closer than 2&quot; to any enemy unit. The unit may be placed facing any direction at the end of the teleport action.</description>
+    </rule>
+    <rule id="f1d0-4ab5-870c-853b" name="Enormous" publicationId="c602-4fcf-d13f-d9b9" page="167" hidden="false">
+      <description>This figure is truly massive, compared to a human or orc. Enormous figures are almost always units-of-one. This trait affects the unit’s line of sight, as well as how many Combat Dice artillery units roll when firing against it.</description>
+    </rule>
+    <rule id="ab77-bad4-c97e-bb83" name="Fire Breath" publicationId="c602-4fcf-d13f-d9b9" page="167" hidden="false">
+      <description>Once per activation, this figure may use an action to make a Fire Breath shooting attack with a maximum range of 12”. The controlling player rolls 5 Combat Dice, including the Champion Die. This attack uses the figure’s normal Shoot stat. The target may not use Shielding against this attack. The target must make a morale test after this attack, even if they do not suffer casualties, unless they would not normally have to make a morale test even if they did suffer casualties.</description>
+    </rule>
+    <rule id="e5e5-571b-0197-13b8" name="Fire Over" publicationId="c602-4fcf-d13f-d9b9" page="167" hidden="false">
+      <description>When making a shooting attack or casting a spell, this figure can draw line of sight through one unit in the same army, provided at least one model in that unit is within 3” and the unit contains no Large or Enormous models.</description>
+    </rule>
+    <rule id="53f3-38fb-5599-0b6d" name="Flying" publicationId="c602-4fcf-d13f-d9b9" page="168" hidden="false">
+      <description>This figure ignores all movement penalties for terrain. These creatures can even move over impassable terrain and other units provided they can complete their movement without being in contact with them (unless of course, they are moving into combat).</description>
+    </rule>
+    <rule id="2bec-589c-3375-f5be" name="Horrific" publicationId="c602-4fcf-d13f-d9b9" page="168" hidden="false">
+      <description>If an enemy unit must make a morale test after a round of combat with a unit containing Horrific figures, its controlling player rolls one die less than usual for that test (to a minimum of 1).</description>
+    </rule>
+    <rule id="f48d-b532-ea17-421c" name="Indirect Fire" publicationId="c602-4fcf-d13f-d9b9" page="168" hidden="false">
+      <description>A unit containing figures with this ability may make a shooting attack at a unit to which it cannot draw line of sight, provided at least one other friendly unit can draw line of sight to the target. A unit suffers a +1 penalty to its Target Number for all shooting attacks when using this ability. Further, units containing figures with Indirect Fire do not have to fire at the closest unit, and can fire over all units between it and the target.</description>
+    </rule>
+    <rule id="5e25-f5dd-20fd-b95c" name="Large" publicationId="c602-4fcf-d13f-d9b9" page="168" hidden="false">
+      <description>This creature is significantly larger than any figures from the core races. Its size affects its line of sight, as well as how many Combat Dice artillery receive when firing at it.</description>
+    </rule>
+    <rule id="bd42-43d7-05ef-1eb5" name="Magic Items" publicationId="c602-4fcf-d13f-d9b9" page="168" hidden="false">
+      <description>This figure may carry magic items.</description>
+    </rule>
+    <rule id="5c48-ded2-81a8-607f" name="Monster" publicationId="c602-4fcf-d13f-d9b9" page="168" hidden="false">
+      <description>Monsters are always units-of-one. They never receive any benefits from figures with Command, and they cannot be activated along with other units because of Command. Monsters always roll the Champion Die as one of their combat dice.</description>
+    </rule>
+    <rule id="14db-7b5c-2e3b-477f" name="Nimble" publicationId="c602-4fcf-d13f-d9b9" page="168" hidden="false">
+      <description>A unit containing a figure with this ability never suffers movement penalties for moving through rough ground.</description>
+    </rule>
+    <rule id="2d46-18c4-93b6-cb76" name="Poisonous Breath" publicationId="c602-4fcf-d13f-d9b9" page="169" hidden="false">
+      <description>Once per activation, a unit containing a figure with this ability may spend an action to breathe poison on any unit within 12” to which it has line of sight. The target unit’s player must immediately roll 5 dice and take 1 hit for each result lower than the attacking unit’s Activation stat. The target unit also receives -1 Fight for the rest of the turn. Casualties caused by this attack do not trigger morale tests.</description>
+    </rule>
+    <rule id="094a-9b2e-6a63-2714" name="Spellcaster (X)" publicationId="c602-4fcf-d13f-d9b9" page="169" hidden="false">
+      <description>This figure knows a number of spells equal to its spellcaster level (X). Players must choose these spells before the start of each game. Whenever a spellcaster attempts to cast a spell, the player rolls dice equal to the spellcaster’s level (X).</description>
+    </rule>
+    <rule id="d559-fed2-454b-cc4d" name="Stone Gaze" publicationId="c602-4fcf-d13f-d9b9" page="169" hidden="false">
+      <description>Whenever a unit containing this figure is activated, even if it fails its activation roll, choose an enemy unit within 12” and line of sight. That unit must roll one die. If the result is lower than the unit’s Activation stat, it takes 1 hit. This ability is automatic and does not take an action to use.</description>
+    </rule>
+    <rule id="6f49-85ad-2c9d-22ce" name="Regenerate (X)" publicationId="c602-4fcf-d13f-d9b9" page="169" hidden="false">
+      <description>Whenever this figure is activated, it gains back Health equal to its regeneration level (X). This ability can never take the figure above its starting Health.</description>
+    </rule>
+    <rule id="b459-60f0-d543-c520" name="Waterwalk" publicationId="c602-4fcf-d13f-d9b9" page="172" hidden="false">
+      <description>A unit containing a figure with this ability does not suffer any movement penalties for moving through water.</description>
+    </rule>
+    <rule id="5250-4de4-6b16-d431" name="Wild Charge" publicationId="c602-4fcf-d13f-d9b9" page="172" hidden="false">
+      <description>When a unit containing this figure is active and engaged in combat, it may use Wild Charge to re-roll any one Combat Die. The controlling player may make this decision after rolling, and may choose which die to re-roll, including the Champion Die. If a player decides to use this ability, their opponent may also choose to reroll one Combat Die of their choosing.</description>
+    </rule>
   </sharedRules>
+  <sharedProfiles>
+    <profile id="c45a-be92-d123-7c7a" name="Bow" hidden="false" typeId="0e82-77fd-7431-528d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Maximum Range" typeId="9a8f-f555-6fc5-411f">20&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="467e-b8ab-43f5-72ab" name="Elf Bow" hidden="false" typeId="0e82-77fd-7431-528d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Maximum Range" typeId="9a8f-f555-6fc5-411f">22&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7f38-0deb-cfe9-5a5d" name="Sling" hidden="false" typeId="0e82-77fd-7431-528d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Maximum Range" typeId="9a8f-f555-6fc5-411f">12&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="27e4-ab78-9a31-9c4d" name="Light Catapult" hidden="false" typeId="0e82-77fd-7431-528d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Maximum Range" typeId="9a8f-f555-6fc5-411f">32&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9e69-950d-59e6-c911" name="Heavy Catapult" hidden="false" typeId="0e82-77fd-7431-528d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Maximum Range" typeId="9a8f-f555-6fc5-411f">40&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bdf6-2e01-e84e-2a6d" name="Ballista" hidden="false" typeId="0e82-77fd-7431-528d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Maximum Range" typeId="9a8f-f555-6fc5-411f">30&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="93d1-db60-728e-3a56" name="Fire Breath" hidden="false" typeId="0e82-77fd-7431-528d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Maximum Range" typeId="9a8f-f555-6fc5-411f">12&quot;</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </gameSystem>

@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="12db-f453-a642-0099" name="Goblin &amp; Orc List" revision="1" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>This is the full list for playing one-off games, without a kingdom and using the Goblins and Orcs.</readme>
+  <entryLinks>
+    <entryLink id="ae9f-d420-8eb5-35b6" name="Goblin King" hidden="false" collective="false" import="true" targetId="1ef0-7a9c-49ae-5fd9" type="selectionEntry"/>
+    <entryLink id="624c-3e16-b00d-c575" name="Goblin Advisor" hidden="false" collective="false" import="true" targetId="a76b-0b19-1665-c772" type="selectionEntry"/>
+    <entryLink id="c7c6-0587-6d38-8e88" name="Wolf" hidden="false" collective="false" import="true" targetId="44f3-32b5-7a46-9b17" type="selectionEntry"/>
+    <entryLink id="4518-0ea6-da20-6d78" name="Troll" hidden="false" collective="false" import="true" targetId="a395-7e32-f46b-628c" type="selectionEntry"/>
+    <entryLink id="420e-de79-b65c-364a" name="Orc Spearman" hidden="false" collective="false" import="true" targetId="cc77-a2de-e98d-4612" type="selectionEntry"/>
+    <entryLink id="cde0-bac5-9671-683c" name="Goblin Spearman" hidden="false" collective="false" import="true" targetId="5c0d-94ad-6390-bc73" type="selectionEntry"/>
+    <entryLink id="8aa8-6734-2ff0-3759" name="Orc Warrior" hidden="false" collective="false" import="true" targetId="bacf-c148-9033-79e0" type="selectionEntry"/>
+    <entryLink id="55b4-6d0b-2bd7-4f9c" name="Orc Soldier" hidden="false" collective="false" import="true" targetId="3517-a18a-4a15-bae3" type="selectionEntry"/>
+    <entryLink id="10c6-46e3-ff04-3c6b" name="Goblin Soldier" hidden="false" collective="false" import="true" targetId="0e03-70ae-12ab-aaa5" type="selectionEntry"/>
+    <entryLink id="415e-06b4-c65b-3987" name="Orc Linebreaker" hidden="false" collective="false" import="true" targetId="ec61-fcdc-7c81-7c64" type="selectionEntry"/>
+    <entryLink id="c8b5-d3b1-197c-0c9d" name="Orc King" hidden="false" collective="false" import="true" targetId="0071-154e-3b3c-ad5e" type="selectionEntry"/>
+    <entryLink id="688b-1036-2953-2eb8" name="Goblin Archer" hidden="false" collective="false" import="true" targetId="aa5a-3c6b-2106-833a" type="selectionEntry"/>
+    <entryLink id="252f-ac9f-c7cf-238a" name="Orc Archer" hidden="false" collective="false" import="true" targetId="ce6b-95b8-33a8-6b11" type="selectionEntry"/>
+    <entryLink id="17c5-dcc7-f1f8-45fb" name="Goblin Captain" hidden="false" collective="false" import="true" targetId="95f3-288f-5624-74c2" type="selectionEntry"/>
+    <entryLink id="9bba-30f7-8582-75e2" name="Orc Captain" hidden="false" collective="false" import="true" targetId="7833-7696-0b71-9681" type="selectionEntry"/>
+    <entryLink id="5327-bb01-253e-1e89" name="Goblin Light Catapult" hidden="false" collective="false" import="true" targetId="4185-615f-b1c0-10df" type="selectionEntry"/>
+    <entryLink id="9e58-12e6-3cb8-b0d3" name="Orc Heavy Catapult" hidden="false" collective="false" import="true" targetId="ed17-504d-11c4-65bc" type="selectionEntry"/>
+    <entryLink id="5ecc-863f-30de-5af9" name="Goblin Slave" hidden="false" collective="false" import="true" targetId="9994-f278-400b-9ef0" type="selectionEntry"/>
+    <entryLink id="3411-b0f6-4a71-fac2" name="Goblin Slave Slinger" hidden="false" collective="false" import="true" targetId="d735-862e-2f7a-2a6d" type="selectionEntry"/>
+    <entryLink id="850e-fe97-cce9-ba69" name="Goblin Wolf Rider" hidden="false" collective="false" import="true" targetId="e095-831b-6171-c5b4" type="selectionEntry"/>
+    <entryLink id="412d-d873-125f-bc49" name="Goblin Wolf Rider Scout" hidden="false" collective="false" import="true" targetId="6286-2d7e-da2e-e332" type="selectionEntry"/>
+    <entryLink id="2e11-6798-d83b-b1de" name="Goblin Champion" hidden="false" collective="false" import="true" targetId="fef1-a6f4-0d62-7a0f" type="selectionEntry"/>
+    <entryLink id="1f14-10f8-2a51-4063" name="Orc Champion" hidden="false" collective="false" import="true" targetId="7e1a-c783-9cb3-461e" type="selectionEntry"/>
+    <entryLink id="5b2e-97a2-4ead-0b40" name="Goblin General" hidden="false" collective="false" import="true" targetId="47b1-3f5c-c919-6e49" type="selectionEntry"/>
+    <entryLink id="245b-9015-7c98-29d2" name="Orc General" hidden="false" collective="false" import="true" targetId="35ee-c241-1b32-8514" type="selectionEntry"/>
+    <entryLink id="5349-beb2-6272-9f34" name="Knucker" hidden="false" collective="false" import="true" targetId="c3c7-95ea-4309-2221" type="selectionEntry"/>
+    <entryLink id="f84a-ba7a-9e07-3a98" name="Orc Prince" hidden="false" collective="false" import="true" targetId="abd3-43db-1ad4-dda8" type="selectionEntry"/>
+    <entryLink id="7e29-0c58-8e1e-7642" name="Goblin Spellcaster" hidden="false" collective="false" import="true" targetId="e12a-efa8-d040-c79b" type="selectionEntry"/>
+    <entryLink id="e49c-6d67-6323-02f8" name="Orc Spellcaster" hidden="false" collective="false" import="true" targetId="3781-feb0-7aa1-bfde" type="selectionEntry"/>
+    <entryLink id="7b06-1119-5cd5-3993" name="Bodach" hidden="false" collective="false" import="true" targetId="63b4-a5a1-fe29-183b" type="selectionEntry"/>
+    <entryLink id="1091-c3d6-969f-0b39" name="Dragon" hidden="false" collective="false" import="true" targetId="2c9d-2aa8-9473-2bd9" type="selectionEntry"/>
+    <entryLink id="2199-e953-3481-0d89" name="Gargoyles" hidden="false" collective="false" import="true" targetId="4be8-a5b8-f44e-fe37" type="selectionEntry"/>
+    <entryLink id="68cf-bd56-ba3a-c6f1" name="Surma" hidden="false" collective="false" import="true" targetId="77db-fa21-7015-ff51" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="4185-615f-b1c0-10df" name="Goblin Light Catapult" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f032-ed37-d9e8-00e1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="02ba-04b7-d6f8-7a72" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="3477-de3e-c1af-ceab" name="New CategoryLink" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="19fa-9b5b-aff7-6fde" name="Artillery" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9480-3820-53d6-ca88" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27bd-7d1e-ab4b-9b30" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8f4b-523b-ec16-f08f" name="Goblin Light Catapult" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">3</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">3</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Crew (3), Indirect Fire, Shielding (1), Charge (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b185-516c-6585-49ff" name="Light Catapult" hidden="false" targetId="27e4-ab78-9a31-9c4d" type="profile"/>
+            <infoLink id="e2fe-863b-4ba1-e21c" name="Artillery" hidden="false" targetId="fb1c-4a18-0425-e322" type="rule"/>
+            <infoLink id="0ef6-927b-7c38-83dd" name="Crew (X)" hidden="false" targetId="fdc2-63bc-906e-0d9b" type="rule"/>
+            <infoLink id="f9e6-88b3-8e24-3e9c" name="Indirect Fire" hidden="false" targetId="f48d-b532-ea17-421c" type="rule"/>
+            <infoLink id="e5ec-ce89-273d-4354" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="fe07-e0d5-06e2-0bbb" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="80.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a395-7e32-f46b-628c" name="Troll" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1749-cfc8-4ecf-7b88" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7060-d0bb-6a37-e810" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="1746-a7db-7190-0d85" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="921c-4974-9e94-de98" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="4b7e-e7f8-4cde-0608" value="0.0"/>
+                <modifier type="increment" field="4b7e-e7f8-4cde-0608" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84d2-fdec-cab0-8074" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="831c-33c6-3e52-86ed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b08a-da19-c01e-16b2" type="min"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b7e-e7f8-4cde-0608" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bbe3-1a06-4b3d-868e" name="Troll" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Champion, Shielding (1), Charge (2), Wild Charge, Horrific, Water Walk, Large</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="052b-558e-fc8e-b006" name="Waterwalk" hidden="false" targetId="b459-60f0-d543-c520" type="rule"/>
+            <infoLink id="23dc-5e8f-e770-7b6c" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="eab7-7321-0261-c616" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="5fdd-dafc-da22-cd5d" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="bb3a-2ef5-719b-a30b" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="dca1-1541-4933-828f" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="670f-49e5-8174-0c75" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="65.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44f3-32b5-7a46-9b17" name="Wolf" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f31-67a1-1dca-e403" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0e81-52ef-527d-0b42" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="a591-2544-5f7d-aa29" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4841-837d-aa97-618b" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e5-20d7-0e89-e364" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b666-3339-44eb-0fbb" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0b53-6589-0e95-9bd4" name="Wolf" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d9d6-b99b-bfd5-459d" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ef0-7a9c-49ae-5fd9" name="Goblin King" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ef-ef50-564c-4c64" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4297-c57f-fda1-dbf1" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="d6fc-fc52-53f8-5bfc" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2679-d500-5912-4531" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb2b-bd2b-7fdb-34b7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="002a-c78c-1803-6b91" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="5470-61ff-5a96-5409" name="Goblin King" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="1ef0-7a9c-49ae-5fd9" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="5c37-3dde-a0bd-0c1d" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (2), Champion, Shielding (1), Charge (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9257-215a-ec4c-ba0b" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="2a37-def1-9a40-b3da" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="0a67-be20-2034-31bd" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="2fd5-988f-aade-019d" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e3df-ec7d-469d-4ea9" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="245.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5c37-3dde-a0bd-0c1d" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e2f-941e-0d8a-5baa" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6f4f-0ff8-f96d-c565" name="Wolf Mount" hidden="false" targetId="634e-ca03-904f-9370" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="fef8-a9ce-4c21-7f44" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e03-70ae-12ab-aaa5" name="Goblin Soldier" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6125-f611-5cb6-7da0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="33d3-4ffe-6177-4ffc" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="c9d6-fca7-7742-0f1f" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7d0d-0480-b7e9-dcb5" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="617a-28c7-58ca-3c76" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b63-7011-0f1b-ee12" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0b8b-b645-d2af-2c7b" name="Goblin Soldier" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (1), Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e418-08b5-18ad-c1ce" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="d86f-af47-4727-2503" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3c7-95ea-4309-2221" name="Knucker" publicationId="c602-4fcf-d13f-d9b9" page="95" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c195-2e99-6f8f-53d9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cea6-ced6-201e-92d9" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="e543-f088-f49f-e181" name="New CategoryLink" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9ac1-96cc-b165-af66" name="Monster" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b43b-45b1-cfdb-1112" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c431-9a61-d29d-272f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="629e-645e-f2b9-0cf8" name="Knucker" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">6</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">13</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">5</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">8</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Horrific, Poisonous Breath, Water Walk, Courage (3), Enormous</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1d01-b3ba-1e2f-8da8" name="Poisonous Breath" hidden="false" targetId="2d46-18c4-93b6-cb76" type="rule"/>
+            <infoLink id="0016-9200-8c25-b856" name="Enormous" hidden="false" targetId="f1d0-4ab5-870c-853b" type="rule"/>
+            <infoLink id="b8ae-067b-cec7-f2b3" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="240e-9f08-32e5-101f" name="Waterwalk" hidden="false" targetId="b459-60f0-d543-c520" type="rule"/>
+            <infoLink id="8ddb-7638-9ae7-e2a5" name="Enormous" hidden="false" targetId="f1d0-4ab5-870c-853b" type="rule"/>
+            <infoLink id="1084-9f16-9c6f-37f1" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="500.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a76b-0b19-1665-c772" name="Goblin Advisor" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7029-5123-2642-1eab" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4fd9-322e-70d3-509e" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="d50a-fa1d-24c1-e2f0" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cc48-0f80-2b58-d794" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c98f-c4a9-2fd0-3543" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faee-5cb4-2489-5f03" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9539-85fd-972b-89cc" name="Goblin Advisor" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="a76b-0b19-1665-c772" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="beb5-5a60-3179-f320" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (1), Champion, Shielding (1), Charge (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f253-3b05-2d34-eea9" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="8223-8c59-a687-7cdc" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="e708-8a3f-5a4d-a5e3" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="f36b-821c-6ee9-5d71" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="fb5e-91b2-cbb2-6d70" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="124.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="beb5-5a60-3179-f320" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f87c-6815-f3ed-9eaf" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="174a-e22b-f7c0-01b9" name="Wolf Mount" hidden="false" targetId="634e-ca03-904f-9370" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8330-0716-4e01-213c" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47b1-3f5c-c919-6e49" name="Goblin General" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ac-d973-1278-7b11" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4026-39b9-5dcf-c96f" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="37ed-6dfb-c4bb-2ed8" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="5dd7-e4d3-fd78-4224" name="General" hidden="false" targetId="a28c-54a8-2442-de24" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="25b3-5b05-6888-2802" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="957e-8137-b420-8ed3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed83-df19-ed66-a8dc" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d4fb-63e3-c326-457a" name="Goblin General" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="47b1-3f5c-c919-6e49" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="9baa-34fb-9ba6-6a5a" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (2), Shielding (1), Charge (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7fa6-da4e-a6af-2513" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="9fca-7b16-af3d-c637" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="23b0-8654-0add-5245" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="4b6e-7eab-c72f-7f59" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="227.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9baa-34fb-9ba6-6a5a" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d7d6-ecc2-586c-4df0" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8146-520e-1e64-d31f" name="Wolf Mount" hidden="false" targetId="634e-ca03-904f-9370" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95f3-288f-5624-74c2" name="Goblin Captain" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bffb-bc6d-2fda-400b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5d42-6a89-0e11-9e34" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="df9e-879a-84e8-47cf" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="535e-70fe-ec01-ef33" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7850-6dab-bacb-56be" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aab9-38a4-1bc8-0fab" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9e34-b6e6-7763-b446" name="Goblin General" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="95f3-288f-5624-74c2" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2814-e435-d5e4-ced4" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (1), Shielding (1), Charge (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f705-02c1-e23e-0eb3" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="9078-3193-9d52-e702" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="ff14-0d1a-3516-85b0" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="77ba-a182-43d9-2778" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="114.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2814-e435-d5e4-ced4" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ee7-953d-f87e-c418" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9ac4-5ba8-c049-3f32" name="Wolf Mount" hidden="false" targetId="634e-ca03-904f-9370" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fef1-a6f4-0d62-7a0f" name="Goblin Champion" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27e4-22cb-14df-2067" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="af9f-cec0-b2d1-7fae" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="ff2c-069a-2e57-f4b6" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="025c-d562-b558-7e41" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf05-9125-532c-106e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4f9-589c-9f9b-b1aa" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="adce-b8e1-8247-5096" name="Goblin Champion" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="fef1-a6f4-0d62-7a0f" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a677-949f-1f26-c1e2" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Champion, Shielding (1), Charge (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ea41-1d49-fb18-0004" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="c601-88d7-44dd-d555" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="3788-6c8e-49db-3624" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e644-e688-8fb6-270b" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="37.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a677-949f-1f26-c1e2" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ed0-e0cd-f9ec-db70" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3313-274b-42eb-5b52" name="Wolf Mount" hidden="false" targetId="634e-ca03-904f-9370" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0071-154e-3b3c-ad5e" name="Orc King" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eea9-0d5c-dfec-95d1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7cad-4d93-aeb9-97a5" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="8430-ebc6-b2d7-6787" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7824-a121-5cfa-2953" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a11-a06a-5d07-9b0b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="528b-7ed1-5558-b7d9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="42aa-2c06-2617-87f7" name="Orc King" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="0071-154e-3b3c-ad5e" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2f92-140f-3aa3-36f0" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (2), Champion, Shielding (1), Charge (1), Wild Charge, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="989d-38a2-205e-3823" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="139c-0df0-ae2c-e9f2" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="7379-0401-bf42-8e6a" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="bce8-aa80-b848-c1c6" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="451a-16fe-d639-0117" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="279.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2f92-140f-3aa3-36f0" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a0e-5500-c81a-ca8a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b906-3e65-aba4-f900" name="Wolf Mount" hidden="false" targetId="634e-ca03-904f-9370" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e7a3-1cf3-1e4b-3564" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c22a-bc41-4a72-57c3" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="abd3-43db-1ad4-dda8" name="Orc Prince" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e794-3cc8-ea4b-6249" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="426f-e558-2944-c386" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="25fc-4226-85f8-9e22" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a739-6fd2-a3ad-a299" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f2f-4d7e-47f0-7ac6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a14-03ba-594b-aba0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="eb85-fc62-4719-285c" name="Orc Prince" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="abd3-43db-1ad4-dda8" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b6d2-c387-7928-1601" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (1), Champion, Shielding (1), Charge (1), Wild Charge, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="de00-0835-64cd-20f1" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="8a9d-000e-0db7-9e76" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="fdbe-27e5-9855-a6c7" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="40ce-3dec-5a90-ecab" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="7843-4bee-f4b9-17a1" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="1ef1-f9eb-d056-8946" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="145.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b6d2-c387-7928-1601" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9aaa-6d22-3b98-04e5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="da75-a829-dafe-17f2" name="Wolf Mount" hidden="false" targetId="634e-ca03-904f-9370" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="454a-36ac-c39e-a7d3" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c5c6-98e0-2470-3bfc" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="35ee-c241-1b32-8514" name="Orc General" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddc4-c95a-fee1-be82" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="df00-0cac-846c-b914" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="0a21-cbd1-0fbc-0cc2" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="f0c0-bcd4-def5-f8ed" name="General" hidden="false" targetId="a28c-54a8-2442-de24" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2c2f-6277-4447-e23f" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f6f-a13a-b74c-4b63" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f3b-6507-8a30-ecda" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="e522-b62f-56c7-efbb" name="Orc General" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="35ee-c241-1b32-8514" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="89fd-1b80-164f-a77d" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (2), Shielding (1), Charge (1), Wild Charge, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dbd7-6cc9-ea87-6156" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="866c-b9d9-5c85-2776" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="1b3f-3641-70d5-2ff7" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="a52b-1b91-8ed0-4e91" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="4502-19a7-b708-f955" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="260.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="89fd-1b80-164f-a77d" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="465b-e86e-09f5-5311" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c3e4-f2ff-37b8-dcca" name="Wolf Mount" hidden="false" targetId="634e-ca03-904f-9370" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="ae79-869c-2724-6ecd" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0a2a-e0e9-f419-8b9e" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7833-7696-0b71-9681" name="Orc Captain" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e24-2f1f-f165-8c46" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3c6d-5479-eee9-0bce" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="9d8c-cb59-4838-e3fb" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b578-dbaf-eee2-550c" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd44-1969-40d6-aa91" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52a4-8bb2-efa4-c3a7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="fa30-6f6c-0993-6e5c" name="Orc Captain" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="7833-7696-0b71-9681" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="ae73-ea77-17db-3903" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (1), Shielding (1), Charge (1), Wild Charge, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="aa48-d7c2-885c-7321" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="b88a-034a-e440-0ad7" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="330a-c4f6-7b5e-05db" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="fbe0-41f5-251f-1661" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="941d-457f-b537-fdf8" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="133.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ae73-ea77-17db-3903" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="81f8-a734-e260-c44e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7cfe-d3c1-55f2-9c2a" name="Wolf Mount" hidden="false" targetId="634e-ca03-904f-9370" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="ae96-64cc-9e9c-fa87" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9770-5ebf-564a-5577" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e1a-c783-9cb3-461e" name="Orc Champion" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="025a-eb0d-6327-4096" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="29ca-0967-220d-c5c2" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="6af8-e9da-7bc4-acb8" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="aaa7-cc74-70c6-1c71" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03c0-73c8-2e3d-f5e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf1-da1e-1f71-8693" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a2d0-f1a6-a93f-53aa" name="Orc Champion" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="7e1a-c783-9cb3-461e" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="39f3-4f0d-80df-e38f" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Champion, Shielding (1), Charge (1), Wild Charge, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="63e8-9482-309a-18db" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="40ae-401a-66d6-ab30" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="1385-9662-ee49-861a" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="4eff-3a79-c14c-7ef8" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="49.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="39f3-4f0d-80df-e38f" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cf92-8923-d0ca-4619" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6e76-0502-6927-145a" name="Wolf Mount" hidden="false" targetId="634e-ca03-904f-9370" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="9277-3961-d9e2-6b4d" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="23ce-2e61-f059-9013" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c0d-94ad-6390-bc73" name="Goblin Spearman" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="582f-deb9-d350-8b78" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0f9c-23f6-6dc6-876e" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="5f11-2c65-c860-3e2b" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3c4b-e6ae-f9b8-965a" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde5-879a-f022-b74e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb3-88ea-31b3-2663" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="92d9-022f-b135-2212" name="Goblin Spearman" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (1), Shielding (1), Brace</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d2ec-be7b-7263-9eaf" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="5d5d-e98b-41e0-a88f" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="12a2-d06c-2a1b-a349" name="Brace" hidden="false" targetId="be12-50f9-c669-1c39" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="11.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa5a-3c6b-2106-833a" name="Goblin Archer" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c94a-a80d-5fb7-cbf1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f30c-cef5-8101-956b" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="993d-1970-4708-a6bd" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2f3b-c409-7a2e-1c17" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ab-6aa8-8c99-54ee" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be84-6bad-11a6-6930" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="e29a-8ad6-de3a-c3a4" name="Goblin Archer" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">0</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">1</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Fire Over</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3f04-8200-44ca-62df" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+            <infoLink id="ad35-d1d0-c79b-355d" name="Bow" hidden="false" targetId="c45a-be92-d123-7c7a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9994-f278-400b-9ef0" name="Goblin Slave" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22be-32bc-3df9-7b2a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d94f-4d40-2c31-8ebd" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="d917-743b-7cf4-8e31" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="342e-0f9b-71a4-75e6" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b07-dcaa-34a1-2e1f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2395-d3eb-2b36-5b29" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b35e-3629-c59c-be77" name="Goblin Slave" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">7</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">0</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="71bc-3b59-9e1f-7995" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d735-862e-2f7a-2a6d" name="Goblin Slave Slinger" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95a8-0c7a-2a46-bc38" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ad83-1e23-eeb8-e310" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="4f84-ce2c-b999-da1e" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ebdd-734b-812e-da3d" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b05a-c0a7-b95f-7f6b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ef-a652-2170-c326" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9534-1252-18a7-93ce" name="Goblin Slave" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">7</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">0</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915"/>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a93f-d060-3303-747d" name="Sling" hidden="false" targetId="7f38-0deb-cfe9-5a5d" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3517-a18a-4a15-bae3" name="Orc Soldier" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c3-5c0d-be0e-55f8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d880-e461-df2d-4d41" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="ffc9-d042-feb3-0a2d" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="01d0-26c8-9872-04ae" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc45-e7e3-194f-03c0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d846-0436-b5a7-b749" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6412-a924-7b98-5ee3" name="Orc Soldier" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (1), Wild Charge, Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3de8-d5e9-31e9-43f3" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="f4f8-20b6-7c1b-c393" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="a588-16a7-30b6-3a42" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cc77-a2de-e98d-4612" name="Orc Spearman" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4f0-211e-e87c-d739" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b09c-9741-3b54-62d4" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="2f34-adcc-afe0-0f14" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="96b8-c135-f82a-9a1f" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9250-c5e6-91f0-172e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d493-cdd5-b657-e7ef" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="84e2-9fad-9230-862f" name="Orc Spearman" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (1), Wild Charge, Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8998-fb03-36b1-3a96" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="a2ed-6ca8-4017-5ef8" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="17df-40ea-10a1-5a1e" name="Brace" hidden="false" targetId="be12-50f9-c669-1c39" type="rule"/>
+            <infoLink id="2152-d663-7522-a87f" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="14.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce6b-95b8-33a8-6b11" name="Orc Archer" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b9-8a1c-5f2e-0304" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="046a-456e-e574-4661" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="9e93-a07f-c230-7d53" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4ab2-495d-05cc-d65a" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5440-c3a8-674e-df5a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a04b-d2c0-a1d8-02be" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="528f-ac99-45bd-a25e" name="Orc Archer" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">0</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">2</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (1), Wild Charge, Fire Over</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c75d-b241-3bdc-d1c6" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="fc26-5797-0df4-667c" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+            <infoLink id="d97a-1a6d-68b7-0fa2" name="Bow" hidden="false" targetId="c45a-be92-d123-7c7a" type="profile"/>
+            <infoLink id="9be9-eff6-e852-9f64" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="14.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bacf-c148-9033-79e0" name="Orc Warrior" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e295-4a3e-2498-59bf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="06ac-83d5-5945-7142" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="44bc-e402-bc3c-8895" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ca86-1bd7-fd3f-814c" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a5-58f6-915b-942e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e092-107b-7138-95c7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="e2d5-f714-7104-ac35" name="Orc Warrior" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (1), Wild Charge, Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5984-9c71-0fbd-caf6" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="17b3-f40e-0ece-90f1" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="b932-21ac-6e29-861a" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec61-fcdc-7c81-7c64" name="Orc Linebreaker" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b868-64ef-93d9-2883" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ddbc-77b0-25d8-096b" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="015c-c755-55bc-36d9" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c0f4-96bc-07f1-0e76" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc37-335b-fa17-d606" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4965-62e4-e42b-ad8f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ca0a-3b79-666f-1e23" name="Orc Linebreaker" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (1), Wild Charge</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4df1-402a-1920-721b" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="5aa1-9384-bc37-d30c" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="18.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e095-831b-6171-c5b4" name="Goblin Wolf Rider" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c0b-3c68-e65d-7fa0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="60aa-20b4-ff0c-6a0c" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="97fb-0d25-50a0-b651" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7269-be52-e642-0385" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e1-d7a8-871c-5ad9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d4c-67d1-56f0-898b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c7e8-b9cf-36aa-f09a" name="Goblin Wolf Rider" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">11</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (2), Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4d12-ae00-850e-13a9" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="bc1a-2129-3718-349b" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6286-2d7e-da2e-e332" name="Goblin Wolf Rider Scout" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e308-82a2-e85b-0bb0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d321-06ad-8e9b-59e3" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="df10-0255-06bb-d8ef" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d7f3-c9bf-4380-4f16" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d43-8260-6219-855b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="776c-9fd2-a659-57bc" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="194f-803e-c742-6a49" name="Goblin Wolf Rider Scout" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">1</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">11</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (1), Aimed Fire</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c7aa-28e9-833d-f301" name="Bow" hidden="false" targetId="c45a-be92-d123-7c7a" type="profile"/>
+            <infoLink id="1d49-87e7-f0b3-9502" name="Aimed Fire" hidden="false" targetId="bddf-fe50-8bf3-c960" type="rule"/>
+            <infoLink id="e7aa-aebf-5653-f763" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="24.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed17-504d-11c4-65bc" name="Orc Heavy Catapult" publicationId="c602-4fcf-d13f-d9b9" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6195-9450-b9f0-d5da" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e5f6-aadb-524c-fc55" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="342a-603c-de59-fdf2" name="New CategoryLink" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="013f-35ac-a629-4ba7" name="Artillery" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9087-d118-4f28-4561" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ad8-19aa-9dd1-fde7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0139-6f45-acfb-a1e6" name="Orc Heavy Catapult" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">2</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">4</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Crew (4), Indirect Fire, Shielding (1), Charge (1), Wild Charge</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="83ab-6b6c-d91c-3fac" name="Heavy Catapult" hidden="false" targetId="9e69-950d-59e6-c911" type="profile"/>
+            <infoLink id="583f-83d4-b040-afda" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="d68d-dfa6-f4e9-0c67" name="Crew (X)" hidden="false" targetId="fdc2-63bc-906e-0d9b" type="rule"/>
+            <infoLink id="5a54-ab1d-851f-1739" name="Indirect Fire" hidden="false" targetId="f48d-b532-ea17-421c" type="rule"/>
+            <infoLink id="1310-37c0-7354-4581" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="a63a-60b2-1d26-eea9" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="1644-c9a0-de5b-754c" name="Artillery" hidden="false" targetId="fb1c-4a18-0425-e322" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="120.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e12a-efa8-d040-c79b" name="Goblin Spellcaster" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ed-0914-677a-d1e5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7ecf-50b2-b1ce-9d61" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+        <infoLink id="2c1e-63a5-83b9-8ccf" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+        <infoLink id="b099-7b15-5ee6-aa55" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+        <infoLink id="1870-6777-8851-9971" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+        <infoLink id="d036-3877-21be-73aa" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4fd3-1382-1589-b384" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b3e7-6df0-af5e-bb96" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="13f6-b498-5fe2-e165" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3d83-5021-c955-c4d6" name="Character" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="80.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="180.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="260.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="340.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a752-99e3-10d7-7a2a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdae-16fc-6cc7-5110" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2aa5-7048-03ec-f8fa" name="Goblin Spellcaster (Level 1)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66d0-bce5-3b98-915c" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="122a-e17f-6d74-9b98" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (1), Charge (1), Shielding (1), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b8ec-739c-2a68-7e2c" name="Goblin Spellcaster (Level 2)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="122a-e17f-6d74-9b98" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcasting (2), Charge (1), Shielding (1), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4bf6-3f80-3578-33be" name="Goblin Spellcaster (Level 3)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="122a-e17f-6d74-9b98" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (3), Charge (1), Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="af61-2512-b34a-1ad8" name="Goblin Spellcaster (Level 4)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="122a-e17f-6d74-9b98" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (4), Charge (1), Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3b1c-3eea-fe0d-0944" name="Goblin Spellcaster (Level 5)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="122a-e17f-6d74-9b98" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (5), Champion, Charge (1), Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="122a-e17f-6d74-9b98" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="40.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="40.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc6e-07d7-178f-194c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b03b-491c-5323-bfa4" name="Wolf Mount (Spellcaster)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mount on a wolf and change stats to M8, D10, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="fb16-4093-18ca-6522" name="Spell Level" hidden="false" collective="false" import="true" targetId="0815-6515-7fe0-65b3" type="selectionEntryGroup"/>
+        <entryLink id="0996-eca7-ef3c-af94" name="Spells" hidden="false" collective="false" import="true" targetId="5f76-a51d-f38e-80fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3781-feb0-7aa1-bfde" name="Orc Spellcaster" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb06-859e-61a7-e8e5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0da8-4db5-eba2-54ae" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+        <infoLink id="528e-963f-b893-e9bc" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+        <infoLink id="937d-33ed-f39d-434b" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+        <infoLink id="df05-0839-dc25-e2de" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+        <infoLink id="123f-64b5-68d5-faea" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="156f-f70e-41f6-b2d5" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2d83-e4c2-bac0-1d6c" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="1714-3f16-bda5-b66e" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9884-c892-c10b-071e" name="Character" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="100.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="200.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="300.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="400.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07c9-044b-b032-7b0d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f17d-377c-9127-7f14" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="48d3-4a70-2f17-87cf" name="Orc Spellcaster (Level 1)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66d0-bce5-3b98-915c" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33e0-9e08-cd39-082d" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (1), Charge (1), Wild Charge, Shielding (1), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b06c-65dd-0bca-1fe1" name="Orc Spellcaster (Level 2)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33e0-9e08-cd39-082d" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcasting (2), Charge (1), Wild Charge, Shielding (1), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ccc2-2d77-2152-7c89" name="Orc Spellcaster (Level 3)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33e0-9e08-cd39-082d" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (3), Charge (1), Wild Charge, Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5442-0e74-59fe-b798" name="Orc Spellcaster (Level 4)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33e0-9e08-cd39-082d" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (4), Charge (1), Wild Charge, Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0a86-fb12-4968-cd8b" name="Orc Spellcaster (Level 5)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="3781-feb0-7aa1-bfde" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33e0-9e08-cd39-082d" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (5), Champion, Charge (1), Wild Charge, Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2421-2c67-9e1b-79f1" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="33e0-9e08-cd39-082d" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="40.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="40.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba91-5372-47a7-03cc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3762-a3bd-bb72-2c03" name="Wolf Mount (Spellcaster)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mount on a wolf and change stats to M8, D10, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="18eb-a770-2f22-26b2" name="Spell Level" hidden="false" collective="false" import="true" targetId="0815-6515-7fe0-65b3" type="selectionEntryGroup"/>
+        <entryLink id="06ea-63c7-0608-bd21" name="Spells" hidden="false" collective="false" import="true" targetId="5f76-a51d-f38e-80fb" type="selectionEntryGroup"/>
+        <entryLink id="9f98-6693-ff5b-c504" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="634e-ca03-904f-9370" name="Wolf Mount" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+      <characteristics>
+        <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mount on wolf and change stats to M8, D12, Base 25 x 50</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

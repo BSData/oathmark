@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="08f6-6df4-c8f1-ff8f" name="Elf List" revision="1" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>This is the full list for playing one-off games, without a kingdom and using the Elfs.</readme>
+  <entryLinks>
+    <entryLink id="3fab-598d-4a2c-d32b" name="Elf King or Queen" hidden="false" collective="false" import="true" targetId="984a-8fec-379d-8e62" type="selectionEntry"/>
+    <entryLink id="9183-9979-de0a-c935" name="Elf Archer" hidden="false" collective="false" import="true" targetId="a74a-bd1f-df84-6514" type="selectionEntry"/>
+    <entryLink id="50be-f03c-a60c-c173" name="Elf Captain" hidden="false" collective="false" import="true" targetId="238e-1488-29f7-54b9" type="selectionEntry"/>
+    <entryLink id="c5af-c459-6dba-b86d" name="Elf Champion" hidden="false" collective="false" import="true" targetId="a001-2065-68b4-7d45" type="selectionEntry"/>
+    <entryLink id="bfbd-ee61-c6bc-737f" name="Elf General" hidden="false" collective="false" import="true" targetId="b695-fa9b-bcbf-de57" type="selectionEntry"/>
+    <entryLink id="a945-4f93-02f3-230c" name="Elf Soldier" hidden="false" collective="false" import="true" targetId="81fd-00cd-4e00-ddfd" type="selectionEntry"/>
+    <entryLink id="fcc9-d95a-4b50-f77d" name="Elf Prince or Princess" hidden="false" collective="false" import="true" targetId="57e6-aa64-ac6a-1c25" type="selectionEntry"/>
+    <entryLink id="39e3-974b-b30a-2db7" name="Elf Spearman" hidden="false" collective="false" import="true" targetId="6dc1-bc84-c7d3-27cd" type="selectionEntry"/>
+    <entryLink id="b534-9ac7-24db-855b" name="Elf Warrior" hidden="false" collective="false" import="true" targetId="2bf9-65db-4e8b-6041" type="selectionEntry"/>
+    <entryLink id="29a8-784e-e339-fb19" name="Elf Linebreaker" hidden="false" collective="false" import="true" targetId="e2f4-be22-71fe-22c8" type="selectionEntry"/>
+    <entryLink id="9dcd-c097-d535-2a9b" name="Elf Pathguard" hidden="false" collective="false" import="true" targetId="d841-e086-bfae-0499" type="selectionEntry"/>
+    <entryLink id="e563-a14c-1166-c3b7" name="Elf Mounted Ranger" hidden="false" collective="false" import="true" targetId="ae68-3d06-a4b1-28bb" type="selectionEntry"/>
+    <entryLink id="495f-6da7-778e-0ade" name="Elf Ranger" hidden="false" collective="false" import="true" targetId="c8fc-9f31-d625-5503" type="selectionEntry"/>
+    <entryLink id="4e9a-c047-345a-4303" name="Elf Cavalry" hidden="false" collective="false" import="true" targetId="3b0d-437e-bfd3-222a" type="selectionEntry"/>
+    <entryLink id="a20f-bb7d-7dc3-b01d" name="Elf Ballista" hidden="false" collective="false" import="true" targetId="9138-60a6-a8d4-9dbb" type="selectionEntry"/>
+    <entryLink id="51ca-1fd8-7b63-1032" name="Lindwurm" hidden="false" collective="false" import="true" targetId="aff1-9f61-0462-eed4" type="selectionEntry"/>
+    <entryLink id="6223-9b9d-fa20-b882" name="Giant Spider" hidden="false" collective="false" import="true" targetId="8fef-8f44-3acb-6e0c" type="selectionEntry"/>
+    <entryLink id="e995-3aab-d7e4-4568" name="Wulver" hidden="false" collective="false" import="true" targetId="91d4-5421-2757-6cda" type="selectionEntry"/>
+    <entryLink id="135f-1ee9-30d4-8e45" name="Elf Hunt Master" hidden="false" collective="false" import="true" targetId="b629-5d40-5b4c-900f" type="selectionEntry"/>
+    <entryLink id="f1e1-84df-699a-a631" name="Elf Spellcaster" hidden="false" collective="false" import="true" targetId="bc9d-6ca5-82cf-2bec" type="selectionEntry"/>
+    <entryLink id="68a5-caa4-20ec-af0b" name="Bodach" hidden="false" collective="false" import="true" targetId="63b4-a5a1-fe29-183b" type="selectionEntry"/>
+    <entryLink id="3bc7-40a4-c315-997a" name="Dragon" hidden="false" collective="false" import="true" targetId="2c9d-2aa8-9473-2bd9" type="selectionEntry"/>
+    <entryLink id="7f79-18b9-0ce3-567e" name="Surma" hidden="false" collective="false" import="true" targetId="77db-fa21-7015-ff51" type="selectionEntry"/>
+    <entryLink id="4a2a-6679-145b-14f3" name="Gargoyles" hidden="false" collective="false" import="true" targetId="4be8-a5b8-f44e-fe37" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="984a-8fec-379d-8e62" name="Elf King or Queen" publicationId="c602-4fcf-d13f-d9b9" page="113" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21f5-5d9a-0e5f-93bf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="53ce-f9b5-4448-1cd5" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="cb1d-ec36-307b-311d" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f3ab-7333-d74c-02aa" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef8-da32-a17a-8efb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb4f-e0c9-b0c5-5677" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9a02-c16e-05bc-8252" name="Elf King or Queen" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="984a-8fec-379d-8e62" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2c9-eb1a-8e3b-3f92" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">5</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (2), Champion, Shielding (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3c57-08f9-ceda-c3bd" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="c3f6-2b16-733e-6c63" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="eb7f-d053-26b3-a97d" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="0e9e-5fca-5e36-bce4" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="356.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a2c9-eb1a-8e3b-3f92" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4698-1d9c-ab26-7276" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2731-c060-c86e-f2a9" name="Mounted (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mount on a horse and change stats to M8, D12, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="37ab-54d5-a414-2b53" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="57e6-aa64-ac6a-1c25" name="Elf Prince or Princess" publicationId="c602-4fcf-d13f-d9b9" page="114" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a225-966d-2d7b-ab8a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="211b-b8d2-1395-5d11" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="e4ac-73e1-1c48-c53c" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2e2b-5ca0-7012-8ee9" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b929-e75f-e314-b991" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd36-0a94-2a94-cf75" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="462a-ebaa-618d-94f6" name="Elf Prince or Princess" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="57e6-aa64-ac6a-1c25" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8842-e5bc-365e-f8d9" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (1), Champion, Shielding (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2034-e1fe-044e-a07d" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="9315-582e-d715-e8c9" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="5941-e823-4774-37e3" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="5a86-c24b-5212-17b7" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="189.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8842-e5bc-365e-f8d9" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="92ae-82f4-253c-b906" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c200-dbb9-8898-1d13" name="Mounted (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mount on a horse and change stats to M8, D12, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="84cb-30f8-a231-2211" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b695-fa9b-bcbf-de57" name="Elf General" publicationId="c602-4fcf-d13f-d9b9" page="115" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="904d-01f2-eb06-2da8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="88ee-4abd-2f04-536a" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="3f6a-00e8-dbe7-992f" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="6218-200c-0ab0-8804" name="General" hidden="false" targetId="a28c-54a8-2442-de24" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cfc8-95cf-28b4-340c" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9864-04c5-b58a-eec8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fd8-7a1a-4850-3bc2" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="34da-5a83-6cbb-1790" name="Elf General" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="b695-fa9b-bcbf-de57" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f61e-e164-4b87-49c4" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (2), Shielding (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4bc7-3bee-9c14-f2a9" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="32f7-f87f-60cf-fb79" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="d37e-9572-3197-c162" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="329.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f61e-e164-4b87-49c4" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e064-2098-7664-6487" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="354f-dd0a-aaff-89ce" name="Mounted (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mount on a horse and change stats to M8, D12, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="dd50-5d8f-75f5-746b" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="238e-1488-29f7-54b9" name="Elf Captain" publicationId="c602-4fcf-d13f-d9b9" page="115" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69b6-b6e8-78ab-8494" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4fab-5ae9-53a8-262b" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="e431-9f73-c7f3-aa39" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cfc4-8ef4-5107-ebc8" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3f3-432c-0953-0fea" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e3d-925a-17ac-20b9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b799-fd1c-36ef-48c6" name="Elf Captain" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="238e-1488-29f7-54b9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="21f0-b257-d0f0-5b7e" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (1), Shielding (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4e16-f24c-ba19-955b" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="87fc-6531-80be-181f" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="d103-9a08-5251-a6f8" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="174.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="21f0-b257-d0f0-5b7e" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7a84-f2c8-765d-aa1b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="565f-4300-2a6e-6b29" name="Mounted (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mount on a horse and change stats to M8, D12, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a537-0593-a730-a88e" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a001-2065-68b4-7d45" name="Elf Champion" publicationId="c602-4fcf-d13f-d9b9" page="116" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66d4-0a8b-1881-83e2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d362-eb49-2b10-c244" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="1a00-13f2-cd91-5499" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="663f-cf02-5f4c-7fe1" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edc2-d200-0d44-16d3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c90-c3bc-7c1f-76b3" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0af9-31cd-435b-4c1a" name="Elf Champion" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="a001-2065-68b4-7d45" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f325-d8db-7622-af94" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="12"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">5</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Champion, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="fb39-72e1-7edf-ddea" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="312b-b917-0236-e636" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="74.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f325-d8db-7622-af94" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d012-526b-32e6-496b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="aa83-4f8c-0024-29da" name="Mounted (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mount on a horse and change stats to M8, D12, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="39af-029f-f77c-225b" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="81fd-00cd-4e00-ddfd" name="Elf Soldier" publicationId="c602-4fcf-d13f-d9b9" page="118" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e041-63d6-c124-dc99" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d8c0-d8de-fdf1-c8d6" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="154f-14ec-8420-9e92" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c73e-f5b4-f111-a27a" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32cc-b79c-2855-1fbd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1b-1770-2023-6882" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="aa5a-a836-c1a2-4271" name="Elf Soldier" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d887-a067-c30e-a26b" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6dc1-bc84-c7d3-27cd" name="Elf Spearman" publicationId="c602-4fcf-d13f-d9b9" page="118" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45d3-a9f6-8e88-5591" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="708f-29d5-ac54-91b1" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="d004-cfc7-5c58-7613" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="852c-fe9f-2f09-485f" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c01-169c-359b-de15" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6982-0ba7-4062-e6ea" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="57e3-fed0-01e6-9354" name="Elf Soldier" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Shielding (1), Brace</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e163-51fa-14bd-31c4" name="Brace" hidden="false" targetId="be12-50f9-c669-1c39" type="rule"/>
+            <infoLink id="fc9e-3f14-f126-1d4e" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="22.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a74a-bd1f-df84-6514" name="Elf Archer" publicationId="c602-4fcf-d13f-d9b9" page="118" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a6a-6794-a65f-98d6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fb61-b7bf-f89e-c6a0" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="98ac-6875-fc54-8277" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2838-55e7-1cd3-ad48" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57b8-6677-c0be-78af" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d21-6294-9f2b-0525" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="bbf2-e463-8299-7756" name="Elf Archer" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">3</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Fire Over, Aimed Fire</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3884-fb34-fc43-5903" name="Elf Bow" hidden="false" targetId="467e-b8ab-43f5-72ab" type="profile"/>
+            <infoLink id="2683-3376-8dab-dba9" name="Aimed Fire" hidden="false" targetId="bddf-fe50-8bf3-c960" type="rule"/>
+            <infoLink id="ee70-5033-3dcd-149e" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="24.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2bf9-65db-4e8b-6041" name="Elf Warrior" publicationId="c602-4fcf-d13f-d9b9" page="119" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee5e-3941-960f-93a1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="43e9-495c-a91c-cc7f" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="9a17-b7d1-ae63-d937" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e561-597b-e8ff-ba31" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d20-9ba1-674d-76a9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="896a-207b-c491-f2ae" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0dfe-1f14-00e8-2391" name="Elf Warrior" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8af9-ad8f-e2c2-672f" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="26.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2f4-be22-71fe-22c8" name="Elf Linebreaker" publicationId="c602-4fcf-d13f-d9b9" page="119" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fde-33db-2da5-58c1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="64b6-6ce2-aa62-5952" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="d49a-2500-8564-b3b6" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a315-044c-1583-8675" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fece-c5e2-41c6-5154" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ee4-d056-fca4-8c38" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b737-9c9f-a46e-2284" name="Elf Warrior" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915"/>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c8fc-9f31-d625-5503" name="Elf Ranger" publicationId="c602-4fcf-d13f-d9b9" page="119" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b99c-4467-f94a-fa8f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f4f4-5a62-1517-903a" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="f753-d0a9-601e-bb07" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e49d-1875-8f1d-e467" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="331b-eed0-9542-970f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f96-2299-da81-e32f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b688-1939-bcc4-69de" name="Elf Ranger" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">3</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Nimble, Aimed Fire</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5e5a-3d76-5e69-3228" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="9c95-c197-2569-1040" name="Aimed Fire" hidden="false" targetId="bddf-fe50-8bf3-c960" type="rule"/>
+            <infoLink id="6928-ea70-1c54-a34a" name="Elf Bow" hidden="false" targetId="467e-b8ab-43f5-72ab" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d841-e086-bfae-0499" name="Elf Pathguard" publicationId="c602-4fcf-d13f-d9b9" page="122" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1336-c799-6a75-1fd4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="59a0-3d5b-54f9-e162" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="0c29-be0e-bb79-62b7" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fc95-7eb1-2af9-3196" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7982-7084-0738-19af" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8ec-9918-91f5-5baa" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="80d1-71c9-6f5a-b001" name="Elf Pathguard" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Shielding (1), Nimble</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9bd9-9a9d-00e6-8954" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="975b-21a3-7c3a-6ddb" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="22.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b0d-437e-bfd3-222a" name="Elf Cavalry" publicationId="c602-4fcf-d13f-d9b9" page="122" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b86f-00f1-ba90-e9d4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5902-d03a-11f2-c2c7" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="ad36-86c5-5238-badf" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="775c-5991-03fe-7eda" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d30-1ab8-d0d3-71db" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90eb-5a0f-0c65-f341" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ccb4-dba1-10b3-48a8" name="Elf Cavalry" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (3), Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="499b-959f-3ad1-b89f" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="19b0-0e5a-a3a5-cc66" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae68-3d06-a4b1-28bb" name="Elf Mounted Ranger" publicationId="c602-4fcf-d13f-d9b9" page="123" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42b2-c957-397d-2288" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2294-756a-e1fd-da1b" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="8467-013e-b391-6a0d" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c216-e838-c530-ff03" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe19-18c7-0ffc-fec8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c557-b7b6-3b39-bdd7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="af77-ccf8-bcd2-9e21" name="Elf Mounted Ranger" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">3</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Aimed Fire</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3076-8b28-0682-3ce2" name="Elf Bow" hidden="false" targetId="467e-b8ab-43f5-72ab" type="profile"/>
+            <infoLink id="4772-6472-2223-950d" name="Aimed Fire" hidden="false" targetId="bddf-fe50-8bf3-c960" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="55.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b629-5d40-5b4c-900f" name="Elf Hunt Master" publicationId="c602-4fcf-d13f-d9b9" page="123" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34bc-29ea-924e-866f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e33e-188a-636b-212d" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="8b4b-746d-5e3e-ae42" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6925-4b38-d759-9a75" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5de5-5366-7092-e7ab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fc9-3210-928b-eef4" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="68ec-4cd7-b26b-ff4f" name="Elf Hunt Master" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Nimble</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8df7-e4c8-3c26-4c9e" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9138-60a6-a8d4-9dbb" name="Elf Ballista" publicationId="c602-4fcf-d13f-d9b9" page="125" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c3-22e1-50c4-efca" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="feef-6269-daa7-747a" name="New CategoryLink" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="true"/>
+        <categoryLink id="9286-3537-bbf5-74ab" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f0a0-0663-b9e3-d909" name="Artillery" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3820-13ca-e579-fb5c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38b5-e38e-2a39-c400" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a214-6e3c-6a52-104f" name="Elf Ballista" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">3</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">4</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Aimed Fire, Crew (2), Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2d3c-e062-f1ae-ce15" name="Ballista" hidden="false" targetId="bdf6-2e01-e84e-2a6d" type="profile"/>
+            <infoLink id="d0c6-002b-3606-f333" name="Aimed Fire" hidden="false" targetId="bddf-fe50-8bf3-c960" type="rule"/>
+            <infoLink id="6dfe-c2ba-956e-83e0" name="Artillery" hidden="false" targetId="fb1c-4a18-0425-e322" type="rule"/>
+            <infoLink id="66f0-4b54-d3bf-1589" name="Crew (X)" hidden="false" targetId="fdc2-63bc-906e-0d9b" type="rule"/>
+            <infoLink id="4978-fdeb-8a67-811b" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="120.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aff1-9f61-0462-eed4" name="Lindwurm" publicationId="c602-4fcf-d13f-d9b9" page="125" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b10-dea5-0f1b-bda5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4e00-0a2d-87ea-fcb6" name="New CategoryLink" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bd96-9843-728e-9f43" name="Monster" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="351f-c161-8f53-5c6a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17a4-3074-e291-1f37" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="68a0-b61d-2e94-3a04" name="Lindwurm" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">5</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">5</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">8</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Horrific, Shielding (2), Flying, Enormous</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a633-dcde-84bf-fddf" name="Flying" hidden="false" targetId="53f3-38fb-5599-0b6d" type="rule"/>
+            <infoLink id="3129-2c85-7c95-544d" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="bf99-5b03-d0d6-578e" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="eb2e-008a-b0ac-2dbb" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="8483-0bdc-cd76-5add" name="Enormous" hidden="false" targetId="f1d0-4ab5-870c-853b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="500.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8fef-8f44-3acb-6e0c" name="Giant Spider" publicationId="c602-4fcf-d13f-d9b9" page="126" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f17-48a9-1d22-9bde" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="75d2-85cd-cb8c-6ec8" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="59e1-834b-239c-4bb4" name="Giant Spiders" hidden="false" collective="false" import="true" type="model">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="ef8c-d963-2a54-60f2" value="0.0"/>
+                <modifier type="increment" field="ef8c-d963-2a54-60f2" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d8c5-7a2d-24c5-6364" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="decrement" field="ef8c-d963-2a54-60f2" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ca1-345a-875a-8827" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="927f-8fa7-4690-b5dc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb3b-4e7e-2930-9aa6" type="min"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ef8c-d963-2a54-60f2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2861-67dc-bdc0-a64f" name="Giant Spider" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">11</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Horrific, Shielding (1), Nimble</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4f07-9629-254e-3ba5" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="5328-043f-52e4-4e2c" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="b59f-018a-2457-7cb5" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="48.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91d4-5421-2757-6cda" name="Wulver" publicationId="c602-4fcf-d13f-d9b9" page="126" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a140-6e9f-d289-e7d1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="893c-bd59-4a39-0e6c" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3ca1-345a-875a-8827" name="Wulvers" hidden="false" collective="false" import="true" type="model">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="f1e2-a8ee-e924-638d" value="0.0"/>
+                <modifier type="increment" field="f1e2-a8ee-e924-638d" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d8c5-7a2d-24c5-6364" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="decrement" field="f1e2-a8ee-e924-638d" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ca1-345a-875a-8827" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3922-e087-fefc-c567" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="729f-61d0-8286-0cb9" type="min"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f1e2-a8ee-e924-638d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9a45-f3ec-cf06-f5e9" name="Wulver" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">7</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Horrific, Charge (2), Wild Charge (1), Nimble, Regenerate (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b968-7991-506a-d774" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="9411-4b59-1c8d-c156" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="c0d7-3693-58c4-a52d" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="bb14-520c-9554-a5fe" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="0600-5c3d-6035-bbdf" name="Regenerate (X)" hidden="false" targetId="6f49-85ad-2c9d-22ce" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="80.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc9d-6ca5-82cf-2bec" name="Elf Spellcaster" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc2-df0d-c3e9-79ce" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d947-782d-79a8-3d8c" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+        <infoLink id="9733-98dc-3ad0-3e90" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+        <infoLink id="95a7-71c1-5a71-f75d" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+        <infoLink id="b2a2-1daf-064b-d3b4" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+        <infoLink id="3fb3-0ab3-eee4-6c5e" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bce7-73ed-e50f-0160" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+        <categoryLink id="863a-5031-da49-65ec" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2dfd-e44f-204e-9258" name="Character" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="130.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="240.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="350.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="490.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e567-4d36-3538-545c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="473a-b200-9368-fcf4" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0466-60fe-d41a-37b6" name="Elf Spellcaster (Level 1)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66d0-bce5-3b98-915c" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afb4-a38d-b2b7-3fcf" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (1), Shielding (1), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3af9-3101-cc78-625c" name="Elf Spellcaster (Level 2)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afb4-a38d-b2b7-3fcf" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcasting (2), Shielding (1), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c3ce-8103-325f-6c31" name="Elf Spellcaster (Level 3)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afb4-a38d-b2b7-3fcf" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (3), Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0135-1965-dc98-2f47" name="Elf Spellcaster (Level 4)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afb4-a38d-b2b7-3fcf" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (4), Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6ac9-f648-28d0-43ca" name="Elf Spellcaster (Level 5)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="bc9d-6ca5-82cf-2bec" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afb4-a38d-b2b7-3fcf" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (5), Champion, Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="60.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="afb4-a38d-b2b7-3fcf" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="40.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="40.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b083-1d60-ea4c-d361" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e4c9-9924-94de-7d15" name="Mounted (Spellcaster)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mount on a horse and change stats to M8, D11, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b42f-cc3a-fe2e-08cd" name="Spell Level" hidden="false" collective="false" import="true" targetId="0815-6515-7fe0-65b3" type="selectionEntryGroup"/>
+        <entryLink id="c52b-0236-a355-fbf2" name="Spells" hidden="false" collective="false" import="true" targetId="5f76-a51d-f38e-80fb" type="selectionEntryGroup"/>
+        <entryLink id="3208-d794-4707-2675" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

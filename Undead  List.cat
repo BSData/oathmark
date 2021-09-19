@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f753-4ff4-aa42-1f65" name="Undead  List" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="cf29-21f7-5742-928d" name="Revenant King" hidden="false" collective="false" import="true" targetId="b514-09ea-cfe3-8bbc" type="selectionEntry"/>
+    <entryLink id="23f4-6921-a6e4-0b66" name="Revenant Prince" hidden="false" collective="false" import="true" targetId="8aec-66c5-6248-0bfd" type="selectionEntry"/>
+    <entryLink id="c2a2-2ec1-bfbb-f26f" name="Revenant General" hidden="false" collective="false" import="true" targetId="5082-96a2-087b-ffa1" type="selectionEntry"/>
+    <entryLink id="ea57-3b10-5538-3e89" name="Revenant Captain" hidden="false" collective="false" import="true" targetId="8983-ef36-25b7-a338" type="selectionEntry"/>
+    <entryLink id="bc08-0866-4bbc-898c" name="Revenant Champion" hidden="false" collective="false" import="true" targetId="56c8-c0ce-05ba-413b" type="selectionEntry"/>
+    <entryLink id="35c6-2ea2-db7e-272d" name="Revenant Warrior" hidden="false" collective="false" import="true" targetId="28af-f8f7-13c5-3495" type="selectionEntry"/>
+    <entryLink id="3df7-423f-9b51-c78e" name="Revenant Linebreaker" hidden="false" collective="false" import="true" targetId="93d2-5417-c0c1-cb2f" type="selectionEntry"/>
+    <entryLink id="220b-7227-62ff-5f3b" name="Revenant Cavalry" hidden="false" collective="false" import="true" targetId="a753-0674-5156-7ec0" type="selectionEntry"/>
+    <entryLink id="f8b3-ae71-fd85-14ec" name="Revenant Chariot" hidden="false" collective="false" import="true" targetId="65c1-c73d-0ed1-9afa" type="selectionEntry"/>
+    <entryLink id="32b3-98e6-f5fe-9eb7" name="Necromancer" hidden="false" collective="false" import="true" targetId="178d-48a8-53ab-bc55" type="selectionEntry"/>
+    <entryLink id="37ac-6def-3754-049d" name="Skeletal Champion" hidden="false" collective="false" import="true" targetId="1cac-7185-8ad8-b49b" type="selectionEntry"/>
+    <entryLink id="35ab-7875-9cbe-83d3" name="Skeletal Archer" hidden="false" collective="false" import="true" targetId="9662-2e62-32da-c81e" type="selectionEntry"/>
+    <entryLink id="4806-ec1d-7186-c9e6" name="Skeletal Soldier" hidden="false" collective="false" import="true" targetId="3075-e1f4-7870-a3b6" type="selectionEntry"/>
+    <entryLink id="b2ae-3360-d8dd-d7ea" name="Skeletal Spearman" hidden="false" collective="false" import="true" targetId="d6cd-2a24-edaf-980e" type="selectionEntry"/>
+    <entryLink id="a2fe-423f-1873-c49f" name="Ghoul" hidden="false" collective="false" import="true" targetId="e63d-31cb-0234-2be9" type="selectionEntry"/>
+    <entryLink id="c055-f20f-c055-4aa6" name="Skeletal Light Catapult" hidden="false" collective="false" import="true" targetId="ad83-23d5-ad64-8cb8" type="selectionEntry"/>
+    <entryLink id="9922-a0eb-c542-751b" name="Wraith" hidden="false" collective="false" import="true" targetId="ee6e-5382-0f8a-a15a" type="selectionEntry"/>
+    <entryLink id="a196-545f-6f6a-485a" name="Corpse Fire " hidden="false" collective="false" import="true" targetId="2d7d-18f8-2202-b07d" type="selectionEntry"/>
+    <entryLink id="80fd-48bb-4e58-df36" name="Vampire" hidden="false" collective="false" import="true" targetId="67e0-e102-71f4-5a08" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="b514-09ea-cfe3-8bbc" name="Revenant King" publicationId="3f4b-7972-0d88-d8ba" page="10" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b058-174e-7a66-aa84" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8368-74b1-ff12-d275" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="311b-b919-3d2a-8cc1" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2ab6-5628-3229-222f" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5b5-f0ae-6c38-1402" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7d1-0686-7c3b-d45e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d709-2f37-dbd2-5dab" name="Revenant King" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="b514-09ea-cfe3-8bbc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="210e-0705-a90d-97ed" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25x50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="b514-09ea-cfe3-8bbc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7718-8b75-e601-a306" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="append" field="7d31-280f-897f-0915" value=" Wild Charge, Large, Limited Manoeuvres,Limited Movement"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Command(2), Champion, Magic Items, Spellcaster (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b009-79f4-070c-30bd" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="640d-8bff-9447-0036" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="73f3-937f-1c62-fc87" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="bb3a-e768-92b2-5fe9" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="12d4-3581-be3f-4d0a" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="1a77-d0d2-fce8-0679" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="325.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="210e-0705-a90d-97ed" name="Undead Horse" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35df-e888-a70b-b598" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1b5f-260a-ea6e-53bb" name="Undead Horse (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Undead Horse +40pts, change stats to M8, D13, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7718-8b75-e601-a306" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25e9-3db8-5946-fe1c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="93ea-5784-e242-f9dc" name="Chariot (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +100pts, change stats to M7, D13, Charge (2), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e6bf-25f7-8d6a-77bb" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="0788-1d7c-de6f-f4b8" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="8225-444d-355b-0078" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="ef73-7acc-bec6-996d" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+            <infoLink id="f779-06ec-ee29-813a" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="19ab-c6f4-ad88-9af0" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8aec-66c5-6248-0bfd" name="Revenant Prince" publicationId="3f4b-7972-0d88-d8ba" page="11" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90aa-33db-c413-53ef" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="976a-d5c2-7d93-0971" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="451f-c68e-8f09-b3b7" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="28ed-d8cf-09b6-1f1f" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b87-714e-b673-36d1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6138-a316-6b75-114b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="157b-1c51-45ee-3f7c" name="Revenant Prince" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="8aec-66c5-6248-0bfd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c5-9518-996c-c949" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25x50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="8aec-66c5-6248-0bfd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="639d-1b46-7fca-e152" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="append" field="7d31-280f-897f-0915" value=" Wild Charge, Large, Limited Manoeuvres,Limited Movement"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Command(1), Champion, Magic Items, Spellcaster (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e985-47f4-bd98-d63d" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="bb19-48d6-b8ce-2556" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="8a9e-9baa-5c83-1cfe" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="2bee-effb-43c5-364e" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="87f0-a966-5378-73aa" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="2b21-13f8-4015-16aa" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="156.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="69c5-9518-996c-c949" name="Undead Horse" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="232c-87e1-5373-b2e9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="84f9-54d9-1797-be83" name="Undead Horse (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Undead Horse +40pts, change stats to M8, D13, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="639d-1b46-7fca-e152" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38d5-aace-c845-97be" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="69a2-e851-9e99-e46c" name="Chariot (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +100pts, change stats to M7, D13, Charge (2), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8df3-2dce-d888-aa69" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="6a67-fc2f-eba0-3ac1" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="9b43-fc3e-9bc3-ce7d" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="7483-f2ee-2af6-8b8f" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+            <infoLink id="3436-774a-0dbc-fb8d" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="120.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d89e-e9e5-4c4c-b481" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5082-96a2-087b-ffa1" name="Revenant General" publicationId="3f4b-7972-0d88-d8ba" page="11" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1278-56e0-ba0c-66c4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="74e2-e152-37f7-aa96" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="e435-810a-daaa-1c2b" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="351a-9752-8923-8d6b" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0efb-2eda-2413-3254" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d57e-165c-02d4-d17c" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="40a5-3b26-2bb3-6267" name="Revenant General" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="8aec-66c5-6248-0bfd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c5-9518-996c-c949" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25x50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="8aec-66c5-6248-0bfd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="639d-1b46-7fca-e152" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="append" field="7d31-280f-897f-0915" value=" Wild Charge, Large, Limited Manoeuvres,Limited Movement"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Command(2), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f31c-d3b4-3add-c014" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="974e-69f2-8724-216a" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="108e-60f0-9e0a-9fa1" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="b46f-a41d-c92a-6f45" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="0306-93b7-da83-425c" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="1217-5c50-e3b2-f514" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="279.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="98fa-eb51-e9d3-80d4" name="Undead Horse" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7c4-e980-cd14-c7a0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ddff-2bea-ebf4-19cb" name="Undead Horse (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Undead Horse +40pts, change stats to M8, D13, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5aa7-14aa-ff3e-163a" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ce-6cd0-0124-583f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ab49-708f-e78b-2954" name="Chariot (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +100pts, change stats to M7, D13, Charge (2), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="827e-8422-9466-6fa3" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="90dc-539f-a659-5789" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="1c6a-cfa2-14e9-b594" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="f8b3-755b-8dbf-02ff" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+            <infoLink id="e9cb-388e-9693-b2cf" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="120.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ac51-d7b6-f0c3-bf8c" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8983-ef36-25b7-a338" name="Revenant Captain" publicationId="3f4b-7972-0d88-d8ba" page="12" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="610d-3c52-f102-40ea" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5457-4213-1b7e-2138" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="5dbd-58ec-fb21-acf2" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d4e4-b77e-e7d9-e43d" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1df-bc56-0183-9ff7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c30-7bde-e182-0448" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="db55-45b1-1f4c-5488" name="Revenant Captain" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="8aec-66c5-6248-0bfd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c5-9518-996c-c949" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25x50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="8aec-66c5-6248-0bfd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="639d-1b46-7fca-e152" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="append" field="7d31-280f-897f-0915" value=" Wild Charge, Large, Limited Manoeuvres,Limited Movement"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Command(1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="85b0-2fb3-6f31-5910" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="d3bd-11d0-0b78-5b7c" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="071f-fc50-51da-a85b" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="8122-298d-9664-bde5" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="b999-e3e8-3185-410b" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="ef05-4f0a-954b-5c53" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="279.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d2af-8979-966f-e1f1" name="Undead Horse" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10a0-1628-2c4c-f33d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9a75-e687-5822-c6e7" name="Undead Horse (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Undead Horse +40pts, change stats to M8, D13, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4774-01a4-0c07-9b8e" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49d6-85ad-34b7-d9c7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6ba2-5397-23ee-b5a5" name="Chariot (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +100pts, change stats to M7, D13, Charge (2), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="22ab-e266-b277-5038" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="9d8d-9d4f-7eca-ec57" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="a151-7faa-a68b-7270" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="bac6-dfc2-7b15-64b0" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+            <infoLink id="e087-123b-435c-823d" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="140.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1dcc-2033-bb6d-e25d" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56c8-c0ce-05ba-413b" name="Revenant Champion" publicationId="3f4b-7972-0d88-d8ba" page="14" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b646-fc31-ea86-e1e1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d68f-fa1b-c9f4-eef2" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="58ee-c88a-b32b-a7d0" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f5c0-17a9-49e2-4072" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2146-894d-c9c0-b152" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e2c-8f49-3218-fa55" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a9e1-9bac-e2f7-3a66" name="Revenant Champion" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="8aec-66c5-6248-0bfd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69c5-9518-996c-c949" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25x50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="8aec-66c5-6248-0bfd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="639d-1b46-7fca-e152" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="append" field="7d31-280f-897f-0915" value=" Wild Charge, Large, Limited Manoeuvres,Limited Movement"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Command(1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dd40-1fa0-44f9-e407" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="39b0-5e84-893c-f492" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="d157-d014-5ab7-2816" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="370c-9f24-b5e2-2161" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="1a57-880f-83b7-cc96" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="1b4d-cb9d-09a7-7d8f" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="52.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="63bc-4634-8562-81a2" name="Undead Horse" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d43-c09d-29b9-d193" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0079-d521-3582-fb4d" name="Undead Horse (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Undead Horse +40pts, change stats to M8, D13, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0f08-f23a-966b-2779" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b45-18cb-ccab-ab85" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f9e6-8051-e958-f924" name="Chariot (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +100pts, change stats to M7, D13, Charge (2), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7048-b4a7-2459-f7b5" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="5965-8038-c89e-256e" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="0f36-d820-f9b6-f535" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="14b8-66fa-055c-1dd4" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+            <infoLink id="7eed-8914-35ea-9408" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="140.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a748-7403-ba43-4ebf" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="28af-f8f7-13c5-3495" name="Revenant Warrior" publicationId="3f4b-7972-0d88-d8ba" page="14" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd69-108e-831b-8e34" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="37ef-10a9-99c0-1761" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="a2e7-fd8e-7fa0-6d4a" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9969-0421-7d3e-1ffb" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7db7-a8d8-dae0-4aca" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1589-3890-aab6-ae05" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f9ca-5bec-1f44-45b1" name="Revenant Warrior" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1ec2-01af-5e09-2b01" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="813b-f6db-be6d-cc32" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="bb70-3694-7d20-0989" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="958f-0c7a-32cc-c22b" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93d2-5417-c0c1-cb2f" name="Revenant Linebreaker" publicationId="3f4b-7972-0d88-d8ba" page="15" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcc4-09a7-d950-1b48" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cd85-e81b-7f14-abed" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="b666-96a2-b63a-d4ad" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d7b8-2c91-b81d-6fae" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40c8-713e-0eca-53bb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a942-7407-5131-7105" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a9e6-8140-8daa-cb4a" name="Revenant Linebreaker" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6433-e4c0-f351-8bc1" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="c5c9-7eb2-3af6-02bb" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="2a55-144c-bdcb-1788" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="5821-f953-e791-3473" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a753-0674-5156-7ec0" name="Revenant Cavalry" publicationId="3f4b-7972-0d88-d8ba" page="15" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ef-4ff1-cb63-31c4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5c24-76c0-9d0e-261a" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="5a1f-b45e-da04-e32c" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3359-6aa3-af6c-ff27" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bf8-b474-b029-323c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90f3-7953-226a-15ee" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9ccd-1980-9f5f-737e" name="Revenant Cavalry" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">13</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, , Charge (3) </characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="96ea-63a8-10d1-0f13" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="15df-7879-4b8c-cfcf" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="7dc3-6bec-eac7-ab75" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="fb88-794c-b5cd-cf30" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="0477-de55-1dc3-bef5" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65c1-c73d-0ed1-9afa" name="Revenant Chariot" publicationId="3f4b-7972-0d88-d8ba" page="16" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1720-f7e6-5447-dce1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1fa6-c3bb-eb1b-775b" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="9ec6-18c5-60ac-aab2" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6acd-0a61-6a9b-5eae" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8034-9cbb-9b1f-73ff" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51dc-5508-5dc6-fa0b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="1283-7fd1-7d75-88a3" name="Revenant Chariot" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">7</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">13</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Charge (3), Wild Charge, Large, Limited Manoeuvres, Limited Movement</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="733d-1b2c-e4ac-e7d0" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="e5a0-f055-ab70-5981" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="88a3-9ab3-d0df-a877" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="7674-f867-60b4-5940" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="0266-cb0a-3ac6-ded2" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="c5eb-71f2-1489-2b3d" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="2b2a-5e3e-8aff-13de" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="0961-5f70-3b47-bc9e" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="85fe-bf5e-7d3f-4e59" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="150.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="178d-48a8-53ab-bc55" name="Necromancer" publicationId="3f4b-7972-0d88-d8ba" page="18" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19a2-c65b-df64-ce8a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="402d-0af4-4ef3-ae6b" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="975b-78ec-122b-acbe" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+        <infoLink id="a43f-43e0-7f11-6df8" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+        <infoLink id="1fe7-db26-9ae4-b8f7" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+        <infoLink id="0ee1-2c51-c89a-03dc" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="57ad-51f7-5955-6d12" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="828f-1a75-284c-4095" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b58f-4ecb-be23-fed6" name="Character" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="400.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="100.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="200.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="300.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c90c-6fe5-7479-9b8e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="629d-406e-9978-510a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="eefb-4fe5-e8fc-2209" name="Necromancer (Level 1) " hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66d0-bce5-3b98-915c" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="456f-64d0-740f-9df7" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="94f5-807a-779d-3240" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="append" field="7d31-280f-897f-0915" value=" Wild Charge, Large, Limited Manoeuvres,Limited Movement"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee9c-4d65-815e-1dd5" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="append" field="7d31-280f-897f-0915" value="Undead"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (1), Shielding (1), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25	</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="453d-7097-c33f-4270" name="Necromancer (Level 2) " hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="456f-64d0-740f-9df7" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="94f5-807a-779d-3240" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="append" field="7d31-280f-897f-0915" value=" Wild Charge, Large, Limited Manoeuvres,Limited Movement"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee9c-4d65-815e-1dd5" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="append" field="7d31-280f-897f-0915" value="Undead"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (2), Shielding (1), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25	</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6e0b-eae5-cb6d-63d5" name="Necromancer (Level 3) " hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="456f-64d0-740f-9df7" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="94f5-807a-779d-3240" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="append" field="7d31-280f-897f-0915" value=" Wild Charge, Large, Limited Manoeuvres,Limited Movement"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee9c-4d65-815e-1dd5" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="append" field="7d31-280f-897f-0915" value="Undead"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (3), Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25	</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2d3f-3b20-769b-7282" name="Necromancer (Level 4) " hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="456f-64d0-740f-9df7" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="94f5-807a-779d-3240" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="append" field="7d31-280f-897f-0915" value=" Wild Charge, Large, Limited Manoeuvres,Limited Movement"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee9c-4d65-815e-1dd5" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="append" field="7d31-280f-897f-0915" value="Undead"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (4), Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25	</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="70c4-ccbb-0479-34ed" name="Necromancer (Level 5) " hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="456f-64d0-740f-9df7" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="94f5-807a-779d-3240" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="append" field="7d31-280f-897f-0915" value=" Wild Charge, Large, Limited Manoeuvres,Limited Movement"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="178d-48a8-53ab-bc55" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee9c-4d65-815e-1dd5" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="append" field="7d31-280f-897f-0915" value="Undead"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (5), Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25	</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="456f-64d0-740f-9df7" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="40.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="40.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8ba-614e-e552-cbb8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9deb-a130-eefe-0f25" name="Mounted (Necromancer)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">change stats to M8, D11, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="94f5-807a-779d-3240" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="160.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="150.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="150.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="160.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77fc-59ee-e312-d9fd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="613a-01a9-4733-f50d" name="Chariot (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +100pts, change stats to M7, D13, Charge (2), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="02c3-7d17-7a67-110d" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="912a-8e66-1304-d79a" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="0a8f-2504-f49c-ecf2" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="d999-d06a-0f1b-9255" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+            <infoLink id="f71c-4aae-de6b-6073" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="100.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ee9c-4d65-815e-1dd5" name="Lich" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1d7-7181-6e09-59ab" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b80f-ce91-cc08-23cf" name="Lich" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">add special ability Undead</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="222b-2a39-4c25-7ff6" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+        <entryLink id="650c-0acc-d9f3-98ab" name="Spell Level" hidden="false" collective="false" import="true" targetId="0815-6515-7fe0-65b3" type="selectionEntryGroup"/>
+        <entryLink id="82b9-9ba1-84df-51ce" name="Spells" hidden="false" collective="false" import="true" targetId="5f76-a51d-f38e-80fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1cac-7185-8ad8-b49b" name="Skeletal Champion" publicationId="3f4b-7972-0d88-d8ba" page="19" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40da-ae39-f8bc-f6fd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e3f7-823c-07e3-de06" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+        <categoryLink id="8c37-be69-b00e-c1a7" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0b27-ce2b-7d6b-1ebd" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2c4-1945-54ea-8e59" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d99f-3ad6-e0bf-7586" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8359-3bb6-c9fc-b9a1" name="Skeletal Champion" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Unthinking, Champion, Spellcaster Control, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3c1f-0859-872e-9be1" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="d886-3aec-0269-c63d" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="cef3-405d-2160-d6f2" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="c41c-dd06-de19-0dfb" name="SPELLCASTER CONTROL" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
+            <infoLink id="2262-e894-e81e-a547" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="591f-79fb-6fe8-1ba8" name="UNTHINKING" hidden="false" targetId="1b73-6496-f03f-df10" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="0ab1-6124-b568-6d36" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="e717-af0d-7ccf-2e23" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b453-3d08-d625-3f0e" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3075-e1f4-7870-a3b6" name="Skeletal Soldier" publicationId="3f4b-7972-0d88-d8ba" page="20" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a753-5905-9503-77fc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="75f6-976f-d1d4-0f86" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="83e8-62fa-f101-364b" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4f4e-f919-b6b6-1347" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae7c-c33c-8215-99e3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="860a-45de-15aa-acd4" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="27f0-8866-f78b-1561" name="Skeletal Soldier" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Unthinking, Spellcaster Control</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e07c-6686-735f-a5fb" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="7ae9-d53f-8fa2-edf9" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="a6d0-73a7-0c16-b43a" name="UNTHINKING" hidden="false" targetId="1b73-6496-f03f-df10" type="rule"/>
+            <infoLink id="99cc-2000-291f-bde5" name="SPELLCASTER CONTROL" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a2bc-7abd-ffb5-451f" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="3f58-727a-966a-536b" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="11.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6cd-2a24-edaf-980e" name="Skeletal Spearman" publicationId="3f4b-7972-0d88-d8ba" page="20" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d9e-7d81-01dc-9e2b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8e2f-2c61-3a89-0090" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="171e-c37b-f7c4-cfb5" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="29ab-b343-7ca6-32d8" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a960-ceff-8fd9-c7b2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d73e-cdd6-eaa7-cc19" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d955-33e3-7333-2f0a" name="Skeletal Spearman" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Unthinking, Brace, Spellcaster Control</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8a35-d5ce-719a-6474" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="b63f-2226-df44-70e1" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="d17b-adb9-5feb-27a8" name="UNTHINKING" hidden="false" targetId="1b73-6496-f03f-df10" type="rule"/>
+            <infoLink id="8dba-ecac-2d65-ca2d" name="SPELLCASTER CONTROL" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
+            <infoLink id="84b3-e740-729b-169f" name="Brace" hidden="false" targetId="be12-50f9-c669-1c39" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="3062-1e80-4daa-d0f3" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="9fe5-e8ac-5ed4-925a" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9662-2e62-32da-c81e" name="Skeletal Archer" publicationId="3f4b-7972-0d88-d8ba" page="21" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c8-b7b2-76b7-d916" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e735-7ce9-accb-68e7" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="eae1-5a9c-ee1a-587a" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="aacb-2452-180e-bc93" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d13-cb02-1d91-4b12" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5298-624e-8869-8a55" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9b70-cc14-5932-ee10" name="Skeletal Archer" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">0</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Unthinking, Fire Over, Spellcaster Control</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1c22-0f11-8d32-1ef3" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="a451-e114-4ab0-1188" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="1270-d134-4e2a-27c8" name="UNTHINKING" hidden="false" targetId="1b73-6496-f03f-df10" type="rule"/>
+            <infoLink id="08dc-2fa9-b16c-af88" name="SPELLCASTER CONTROL" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
+            <infoLink id="b1bf-6e51-e268-87ff" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+            <infoLink id="a632-4aab-4f0e-0cab" name="Bow" hidden="false" targetId="c45a-be92-d123-7c7a" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="f62c-ec60-ba61-d5b9" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="2ab6-0af4-37c1-c277" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="14.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e63d-31cb-0234-2be9" name="Ghoul" publicationId="3f4b-7972-0d88-d8ba" page="21" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dde-a8bb-5f42-6378" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a199-0620-f215-b0d8" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+        <categoryLink id="11be-1309-9273-bcb7" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bbce-ac88-91b0-4aa1" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0bd-31d1-f038-8c35" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4191-4ef3-8fea-1f98" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="79a4-a755-447f-77e5" name="Ghoul" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Undead, Uncaring, Nimble, Wild Charge</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="21dc-a553-427c-7aa3" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="d528-f014-1aad-7780" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="3d7f-2f69-394c-cde9" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="82ac-0a64-5795-49fd" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="02d3-83fd-9bae-5f1d" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="b4fc-f7de-e53c-fde7" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad83-23d5-ad64-8cb8" name="Skeletal Light Catapult" publicationId="3f4b-7972-0d88-d8ba" page="22" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="184e-29bf-91c0-e1e4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="23ab-cc8d-615d-5c09" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="0e3d-9309-8577-8dc6" name="New CategoryLink" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8af8-ee4e-ea83-bee5" name="Artillery" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9885-e60c-ac0a-b61f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a01f-d634-5eee-5cbf" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2e69-28cd-d6c2-605a" name="Skeletal Light Catapult" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">3</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">3</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Crew (3), Indirect Fire, Undead, Uncaring, Unthinking, Spellcaster Control</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3a3b-269d-9e07-efe1" name="Light Catapult" hidden="false" targetId="27e4-ab78-9a31-9c4d" type="profile"/>
+            <infoLink id="132f-5f70-e920-d530" name="Artillery" hidden="false" targetId="fb1c-4a18-0425-e322" type="rule"/>
+            <infoLink id="1e1a-1d1e-5d44-f205" name="Crew (X)" hidden="false" targetId="fdc2-63bc-906e-0d9b" type="rule"/>
+            <infoLink id="bf13-3b83-e77a-3a39" name="Indirect Fire" hidden="false" targetId="f48d-b532-ea17-421c" type="rule"/>
+            <infoLink id="a0f3-5939-2866-c493" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="ad61-ba14-67cc-364a" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="b34b-b836-1c64-2382" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="77c6-b6ac-63f4-f769" name="UNTHINKING" hidden="false" targetId="1b73-6496-f03f-df10" type="rule"/>
+            <infoLink id="0ecb-c781-6927-7b2e" name="SPELLCASTER CONTROL" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f176-c930-693c-e493" name="Skeletal Ballista" publicationId="3f4b-7972-0d88-d8ba" page="23" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2861-1435-028e-26f7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d44f-2398-a362-1008" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="0222-1146-d828-84fb" name="New CategoryLink" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f29d-e88f-047b-17ea" name="Artillery" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a0a-f6cd-2ab5-3bbe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5171-9150-8f42-a7af" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="313e-010a-072a-c41f" name="Skeletal Ballista" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">3</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">3</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Crew (2), Aimed Fire, Undead, Uncaring, Unthinking, Spellcaster Contro</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="75c2-fe11-a903-f9f6" name="Ballista" hidden="false" targetId="bdf6-2e01-e84e-2a6d" type="profile"/>
+            <infoLink id="07a4-075b-f477-5d94" name="Artillery" hidden="false" targetId="fb1c-4a18-0425-e322" type="rule"/>
+            <infoLink id="370f-ec05-ab8a-cf52" name="Crew (X)" hidden="false" targetId="fdc2-63bc-906e-0d9b" type="rule"/>
+            <infoLink id="d692-9bbc-e1ad-5fd7" name="Aimed Fire" hidden="false" targetId="bddf-fe50-8bf3-c960" type="rule"/>
+            <infoLink id="5c46-3130-cbc9-95d6" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="cba7-9ca9-c242-5872" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="422e-2b82-8e28-6c65" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="a2fa-c47e-6e98-05cc" name="UNTHINKING" hidden="false" targetId="1b73-6496-f03f-df10" type="rule"/>
+            <infoLink id="cca9-45ec-6db1-441e" name="SPELLCASTER CONTROL" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="95.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee6e-5382-0f8a-a15a" name="Wraith" publicationId="3f4b-7972-0d88-d8ba" page="23" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4440-1c61-102f-384b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2523-c5c3-5875-6518" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="5bc0-8b84-1ed6-307b" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="61f7-709b-fe36-96d8" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d042-9402-f351-d46b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f91a-a3c9-bb27-5e30" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0901-00eb-42d8-d40a" name="Wraith" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">4</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">4</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Undead, Shadowform, Nimble, Horrific</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5cbe-deb1-1e5f-3aa5" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="eff2-347e-6e85-3714" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="2966-b08f-7a97-6ddb" name="SHADOWFORM" hidden="false" targetId="d14f-c1a4-f48e-f672" type="rule"/>
+            <infoLink id="e44b-fc0b-6a06-3727" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="d892-809b-d50a-ab85" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="cc31-6611-7e82-c93d" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="93b6-a0ca-14f3-988e" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="154.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d7d-18f8-2202-b07d" name="Corpse Fire " publicationId="3f4b-7972-0d88-d8ba" page="25" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df09-3431-82dd-cef8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c9ca-6571-132e-6208" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="a196-d4b1-8596-e8fe" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b6d8-0f50-27db-34ce" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c33f-af1e-cb2e-990a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f544-933c-4218-7ff0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="43b8-1189-c918-9964" name="Corpse Fire " hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">2</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">11</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Undead, Uncaring, Unthinking, Fire Breath, Horrific, Regeneration (1), Spellcaster Control</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5ebf-5129-691e-7ca0" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="d3db-13d8-a801-61e9" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="cd52-7555-1318-77de" name="SHADOWFORM" hidden="false" targetId="d14f-c1a4-f48e-f672" type="rule"/>
+            <infoLink id="7c9b-4bcf-0747-1df3" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="71b2-181e-ca9a-3f26" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="133e-e6bf-516e-b2c3" name="UNTHINKING" hidden="false" targetId="1b73-6496-f03f-df10" type="rule"/>
+            <infoLink id="3092-a12d-08c8-5cb4" name="Fire Breath" hidden="false" targetId="ab77-bad4-c97e-bb83" type="rule"/>
+            <infoLink id="5cfb-00ec-557b-2528" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="e964-7c04-0d17-815b" name="Regenerate (X)" hidden="false" targetId="6f49-85ad-2c9d-22ce" type="rule"/>
+            <infoLink id="aef5-b605-eda5-0778" name="SPELLCASTER CONTROL" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="8881-60c4-25ec-7475" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="b053-38db-ec33-850f" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="154.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="443c-d1ae-b6b1-d6f0" name="Barrow Worm" publicationId="3f4b-7972-0d88-d8ba" page="27" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5789-8ec5-256b-d019" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9788-3533-1117-f32e" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="9208-135b-145d-da09" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="69d5-8f26-fe29-4303" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ec7-1737-6d89-be84" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="550a-2435-2a75-b8a8" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8188-4214-749f-843e" name="Barrow Worm" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">8</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">8</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">5</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Enormous, Nimble, Horrific, Spellcaster Control, Undead, Uncaring, Unthinking, Waterwalk</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c480-acf0-09f6-3377" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="e7d8-93b0-0bca-1207" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="4f6e-d94c-6569-c0f5" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="4ecf-6bbf-ec50-ff76" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="afad-5905-8796-8c32" name="UNCARING" hidden="false" targetId="aa47-8fc8-52b5-bd0b" type="rule"/>
+            <infoLink id="2183-782a-9583-f940" name="UNTHINKING" hidden="false" targetId="1b73-6496-f03f-df10" type="rule"/>
+            <infoLink id="e0c5-95ff-e1f7-bb03" name="Enormous" hidden="false" targetId="f1d0-4ab5-870c-853b" type="rule"/>
+            <infoLink id="73bb-a6ff-8772-1100" name="SPELLCASTER CONTROL" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
+            <infoLink id="b1b4-45b9-af20-4522" name="Waterwalk" hidden="false" targetId="b459-60f0-d543-c520" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="76a8-1b62-1a4d-3e23" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="f13d-4a9e-23c7-615f" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="154.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67e0-e102-71f4-5a08" name="Vampire" publicationId="3f4b-7972-0d88-d8ba" page="23" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9601-d477-0c0f-02b4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e620-dcd4-bbad-2ab8" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="dec2-e572-9df4-656f" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6e92-80f7-7f15-52fd" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b0-a233-2e4d-aa2e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a58-a02f-4767-095a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="5cd4-ee48-ba64-8d9c" name="Vampire" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">2</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">5</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Undead, Discorporate, Magic Items, Shielding (1), Spellcaster (3), Stone Gaze</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f94b-7bbd-da2b-5245" name="Undead" hidden="false" targetId="dc53-392d-09cc-cd4d" type="rule"/>
+            <infoLink id="8815-a33d-f960-014b" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="43fb-3949-3069-85f6" name="Discorporate" hidden="false" targetId="27f8-1735-5af6-a1f3" type="rule"/>
+            <infoLink id="a562-71d7-2354-d0ec" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="ce80-cbea-9205-6177" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="b808-27f3-964e-eb2d" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+            <infoLink id="58a9-35ac-a3b4-4790" name="Stone Gaze" hidden="false" targetId="d559-fed2-454b-cc4d" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="24fb-a23e-53c4-5ce5" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="d9bf-2eb9-a454-afae" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="154.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="38e9-f7c0-2cf7-2681" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

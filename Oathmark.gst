@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="1" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="2" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Here&apos;s the first attempt at making a BattleScribe builder for Oathmark. Included are only the unit entries, and armybuilding, for the units found in the main rulebook. Supplements will be added at a later date.
 
 If you spot any errors, bugs or the like - please be sure to send me an email regarding the problem</readme>
   <publications>
     <publication id="c602-4fcf-d13f-d9b9" name="Oathmark Rulebook" shortName="Oathmark Rulebook" publisher="Oathmark - Battles of the Lost Age" publicationDate="2020" publisherUrl="https://ospreypublishing.com/oathmark"/>
+    <publication id="3f4b-7972-0d88-d8ba" name="Oathmark Oathbreakers"/>
   </publications>
   <costTypes>
     <costType id="8612-cb2b-a715-55c1" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -73,6 +74,7 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
     <categoryEntry id="b676-0147-76d1-e7ef" name="Ogres" hidden="false"/>
     <categoryEntry id="d8c5-7a2d-24c5-6364" name="Beasts of the Dark Forest" hidden="false"/>
     <categoryEntry id="84d2-fdec-cab0-8074" name="Trolls" hidden="false"/>
+    <categoryEntry id="b233-64d3-92e8-37b0" name="Undead" hidden="true"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b3c1-debf-2214-b167" name="Army Roster" hidden="true">
@@ -1480,6 +1482,49 @@ unit with Shielding (1) loses their Shielding ability altogether.)</characterist
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="9dbc-5691-1f93-1239" name="NECROMANCER SPELLS" hidden="false" collective="false" import="true">
+          <categoryLinks>
+            <categoryLink id="2c0e-59a4-700b-c2b8" name="Spells" hidden="false" targetId="dd82-2575-d2d6-fb17" primary="false"/>
+            <categoryLink id="f349-0e69-4b1d-2a20" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="4c72-d71d-80c9-bb1c" name="Bone Shards" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c8e4-ccde-4e3d-08e2" name="Death Vision" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b5af-a924-b72e-f987" name="Necrotic Touch" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b754-8a77-809a-26e8" name="Poison Blades" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d3a-77f5-fe63-7dc0" name="Reanimate" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ec59-58a6-4cde-2a1d" name="Revive" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3885-264d-5e5a-674a" name="Summon Barrow Worm" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="17ea-6571-7037-998a" name="Magic Items" hidden="false" collective="false" import="true">
@@ -1735,6 +1780,38 @@ Additionally, if a unit containing figures with Shielding is the target of a sho
     </rule>
     <rule id="5250-4de4-6b16-d431" name="Wild Charge" publicationId="c602-4fcf-d13f-d9b9" page="172" hidden="false">
       <description>When a unit containing this figure is active and engaged in combat, it may use Wild Charge to re-roll any one Combat Die. The controlling player may make this decision after rolling, and may choose which die to re-roll, including the Champion Die. If a player decides to use this ability, their opponent may also choose to reroll one Combat Die of their choosing.</description>
+    </rule>
+    <rule id="dc53-392d-09cc-cd4d" name="Undead" publicationId="3f4b-7972-0d88-d8ba" page="74" hidden="false">
+      <description>This figure automatically passes all morale tests. Furthermore, it is immune to the effects of Poison Breath and Stone Gaze. Because an undead figure feels no pain, it is hard to stop with missile weapons. Whenever an undead unit suffers an attack from bows, determine the number of hits, then halve that number (round down). For example, if a unit of elf archers fires on a unit of 20 skeletons and it takes 3 hits, reduce that number to 1 hit (3/2 = 1.5, rounded down to 1).</description>
+    </rule>
+    <rule id="744b-785a-00b6-d1f4" name="LEGENDARY HERO" publicationId="3f4b-7972-0d88-d8ba" page="72" hidden="false">
+      <description>This figure possesses one or more heroic traits and can gain experience points.</description>
+    </rule>
+    <rule id="3bdd-058d-91fc-a22a" name="LIMITED MANOEUVRES" publicationId="3f4b-7972-0d88-d8ba" page="72" hidden="false">
+      <description>This figure may not perform pivot or about-face manoeuvres. Furthermore, when performing a wheel manoeuvre, this unit may not wheel more than 90-degrees in a single action. </description>
+    </rule>
+    <rule id="81ee-c10a-cf0e-e434" name="LIMITED MOVEMENT" publicationId="3f4b-7972-0d88-d8ba" page="72" hidden="false">
+      <description>This figure may not move over any obstacles, even climbable ones. Furthermore, any time this unit moves or manoeuvres into contact with rough ground, it must make an immediate activation roll with a -3 modifier. If the unit fails this roll, its activation ends immediately, and it suffers 1 hit per figure in the unit. Otherwise, it may continue its activation, as usual. If the unit begins its activation in – or in contact with – rough ground, it makes its activation roll as usual, with no modifier, and does not have to roll again for that specific area of rough ground unless it completely exits and re-enters it.</description>
+    </rule>
+    <rule id="d14f-c1a4-f48e-f672" name="SHADOWFORM" publicationId="3f4b-7972-0d88-d8ba" page="73" hidden="false">
+      <description>This figure exists only partially on this plane of existence; thus, it is impossible to kill it with normal weapons. Only magic weapons and fire can harm it. Thankfully, it is just common enough that most units know what to do when they encounter one. This figure takes the usual damage from any attack generated by a spell or otherwise defined as magical, and from any figure wielding a magic weapon. If a unit in combat with a figure with the special ability Shadowform contains a figure with a magic weapon, it may elect to have that figure fight alone. If so, use only that figure’s stats to determine the Target Number and Combat Dice. However, continue to use the unit’s usual Defence stat to determine the Target Number of the figure with the special ability Shadowform.
+
+If the unit does not contain figures with magic weapons (or the player chooses not to use them in the fight), the combat proceeds as normal, albeit with the unit rolling a maximum of 2 Combat Dice (this may include the Champion Die), to represent attacking with lit torches</description>
+    </rule>
+    <rule id="79b0-2398-3d7d-ee67" name="SPELLCASTER CONTROL" publicationId="3f4b-7972-0d88-d8ba" page="74" hidden="false">
+      <description>This figure may only join an army that also contains a figure with the special ability Spellcaster. Further, if at any point this army no longer has a spellcaster on the table, immediately remove all figures in this army with this ability and count them as casualties.</description>
+    </rule>
+    <rule id="aa47-8fc8-52b5-bd0b" name="UNCARING" publicationId="3f4b-7972-0d88-d8ba" page="74" hidden="false">
+      <description>This figure does not have the same sense of self-preservation as most creatures. Whenever it is involved in melee combat and must make a morale test, it automatically passes; however, it takes additional damage equal to one hit for each full -2 modifier to the morale test. For example, if a unit of 20 skeletons takes 4 casualties, it must make a morale test with a -3 modifier (-4 for casualties, +1 for having over 2 full ranks). It passes this morale test automatically, but it takes 1 additional hit. In the case of Monsters with Uncaring, while not suffering any modifiers to their morale tests, they should count them here for the purposes of determining the additional damage.
+
+If the unit suffers casualties from sources other than melee attacks, it automatically passes its morale test, as usual, but it does not suffer additional damage.
+
+A unit that contains figures with the special ability Uncaring may never possess any levels of Shielding. Any spells or other special effects that give the unit Shielding have no effect.
+
+A unit that contains figures with the special ability Uncaring never suffers any of the effects from Death of an Officer.</description>
+    </rule>
+    <rule id="1b73-6496-f03f-df10" name="UNTHINKING" publicationId="3f4b-7972-0d88-d8ba" page="74" hidden="false">
+      <description>This figure rolls only 1 die for activation rolls. If the figure is within range of a unit that contains a figure with the special ability Command, increase this to 2 dice. A unit that contains a figure with the special ability Unthinking may never roll more than 2 dice for activation rolls</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

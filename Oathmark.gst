@@ -1482,7 +1482,7 @@ unit with Shielding (1) loses their Shielding ability altogether.)</characterist
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9dbc-5691-1f93-1239" name="NECROMANCER SPELLS" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9dbc-5691-1f93-1239" name="Necromancer Spells" hidden="false" collective="false" import="true">
           <categoryLinks>
             <categoryLink id="2c0e-59a4-700b-c2b8" name="Spells" hidden="false" targetId="dd82-2575-d2d6-fb17" primary="false"/>
             <categoryLink id="f349-0e69-4b1d-2a20" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
@@ -1528,9 +1528,6 @@ unit with Shielding (1) loses their Shielding ability altogether.)</characterist
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="17ea-6571-7037-998a" name="Magic Items" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7098-1ca0-0da9-539e" type="max"/>
-      </constraints>
       <selectionEntries>
         <selectionEntry id="c03d-8652-2937-099d" name="Armour of Starsilver" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>

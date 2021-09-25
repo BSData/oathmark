@@ -723,6 +723,18 @@
                     <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
                   </modifiers>
                 </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="fef1-a6f4-0d62-7a0f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10f2-9a1e-920c-0bc0" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
               </modifierGroups>
               <characteristics>
                 <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
@@ -758,6 +770,28 @@
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="10f2-9a1e-920c-0bc0" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e4e-9db4-69cc-d3eb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="82ec-2e72-a34c-762e" name="Chariot" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b"> Chariot +110pts, change stats to M7, D13, CD3, H3, add Charge (3), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4da6-5c7f-033f-205a" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="c8bf-425c-f100-c2bb" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="68fc-e8b7-5512-d893" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="1bc1-11ce-98ec-3181" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="6ad0-ae50-3ded-463f" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="110.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1891,6 +1925,18 @@
                     <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
                   </modifiers>
                 </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d13-9a8a-eb42-979c" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
               </modifierGroups>
               <characteristics>
                 <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
@@ -1921,6 +1967,18 @@
                     <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
                     <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
                     <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d13-9a8a-eb42-979c" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
                   </modifiers>
                 </modifierGroup>
               </modifierGroups>
@@ -1955,6 +2013,18 @@
                     <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
                   </modifiers>
                 </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d13-9a8a-eb42-979c" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
               </modifierGroups>
               <characteristics>
                 <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
@@ -1987,6 +2057,18 @@
                     <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
                   </modifiers>
                 </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d13-9a8a-eb42-979c" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
               </modifierGroups>
               <characteristics>
                 <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
@@ -2017,6 +2099,18 @@
                     <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
                     <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
                     <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e12a-efa8-d040-c79b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d13-9a8a-eb42-979c" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
                   </modifiers>
                 </modifierGroup>
               </modifierGroups>
@@ -2072,6 +2166,28 @@
           </profiles>
           <costs>
             <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7d13-9a8a-eb42-979c" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1e2-3c36-95e3-3ff1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="78f9-ed68-16de-dd44" name="Chariot" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +115pts for all levels, change stats to M7, D13, CD3, H3, add Charge (3), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9be7-a0ba-bb73-a00a" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="5f93-7b37-f3ce-dee8" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="4c73-fb2b-a133-8ebb" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="8422-b4bd-c714-5668" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="714d-57c4-b451-4ae2" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="115.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

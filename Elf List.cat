@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="08f6-6df4-c8f1-ff8f" name="Elf List" revision="2" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="08f6-6df4-c8f1-ff8f" name="Elf List" revision="3" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>This is the full list for playing one-off games, without a kingdom and using the Elfs.</readme>
   <entryLinks>
     <entryLink id="3fab-598d-4a2c-d32b" name="Elf King or Queen" hidden="false" collective="false" import="true" targetId="984a-8fec-379d-8e62" type="selectionEntry"/>
@@ -1586,8 +1586,8 @@
             <infoLink id="278e-5223-49a6-3bf5" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
             <infoLink id="7cde-f050-3b48-173c" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
             <infoLink id="a328-8ba3-a5af-73d1" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
-            <infoLink id="991f-d52c-092d-eef0" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
-            <infoLink id="cf7d-3ccd-41c4-669f" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+            <infoLink id="991f-d52c-092d-eef0" name="Limited Manoeuvres" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="cf7d-3ccd-41c4-669f" name="Limited Movement" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="195.0"/>

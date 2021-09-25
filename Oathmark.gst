@@ -1501,7 +1501,7 @@ friendly unit.)</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a60c-844a-2295-47fb" type="max"/>
               </constraints>
               <profiles>
-                <profile id="dc42-789e-f596-aae3" name="Sail Like a Swan" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                <profile id="dc42-789e-f596-aae3" name="Sail Like a Swan" publicationId="0120-952f-21a2-501d" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">4</characteristic>
                     <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may only cast this spell on a boat. This boat receives +3 to its Move stat for the rest of the game. Each boat may only gain the benefit from Sail Like a Swan once during a game.</characteristic>

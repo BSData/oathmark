@@ -722,6 +722,16 @@
           </constraints>
           <profiles>
             <profile id="1283-7fd1-7d75-88a3" name="Revenant Chariot" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="65c1-c73d-0ed1-9afa" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ffa6-ab99-d744-26b4" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="6b0c-a9f4-5f79-acfe" value="1"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <characteristics>
                 <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
                 <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">7</characteristic>
@@ -750,6 +760,16 @@
           </categoryLinks>
           <costs>
             <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="150.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ffa6-ab99-d744-26b4" name="Archer" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Option: Archer +25pts, change stats to Shoot 1 and add Bow to equipment. A chariot unit may make one free shooting attack after its first move action each turn. However, the figure only has CD1 for this attack.</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f1c-ead4-9796-f8d9" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f3-9933-a0a8-fc37" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="25.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

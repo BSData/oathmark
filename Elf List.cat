@@ -26,7 +26,12 @@
     <entryLink id="3bc7-40a4-c315-997a" name="Dragon" hidden="false" collective="false" import="true" targetId="2c9d-2aa8-9473-2bd9" type="selectionEntry"/>
     <entryLink id="7f79-18b9-0ce3-567e" name="Surma" hidden="false" collective="false" import="true" targetId="77db-fa21-7015-ff51" type="selectionEntry"/>
     <entryLink id="4a2a-6679-145b-14f3" name="Gargoyles" hidden="false" collective="false" import="true" targetId="4be8-a5b8-f44e-fe37" type="selectionEntry"/>
-    <entryLink id="46ca-162e-970e-b4ae" name="Elf Chariot" hidden="false" collective="false" import="true" targetId="b2c6-25f7-cbb5-2100" type="selectionEntry"/>
+    <entryLink id="46ca-162e-970e-b4ae" name="Elf Chariot" hidden="false" collective="false" import="true" targetId="b2c6-25f7-cbb5-2100" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c31d-a82f-b844-fd29" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="6576-96a1-abdf-4b5c" name="Elf" hidden="false" targetId="188b-5b13-d21e-e9ba" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="984a-8fec-379d-8e62" name="Elf King or Queen" publicationId="c602-4fcf-d13f-d9b9" page="113" hidden="false" collective="false" import="true" type="unit">

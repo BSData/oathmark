@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="2" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="3" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Here&apos;s the first attempt at making a BattleScribe builder for Oathmark. Included are only the unit entries, and armybuilding, for the units found in the main rulebook. Supplements will be added at a later date.
 
 If you spot any errors, bugs or the like - please be sure to send me an email regarding the problem</readme>
   <publications>
     <publication id="c602-4fcf-d13f-d9b9" name="Oathmark Rulebook" shortName="Oathmark Rulebook" publisher="Oathmark - Battles of the Lost Age" publicationDate="2020" publisherUrl="https://ospreypublishing.com/oathmark"/>
     <publication id="3f4b-7972-0d88-d8ba" name="Oathmark Oathbreakers"/>
+    <publication id="ac8e-0c0e-dbc8-0f86" name="Oathmark Bane of Kings"/>
+    <publication id="0120-952f-21a2-501d" name="Oathmark Battlesworn"/>
   </publications>
   <costTypes>
     <costType id="8612-cb2b-a715-55c1" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -304,6 +306,116 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
       <costs>
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="6c55-f3b1-9f20-5642" name="Giant Eel" publicationId="0120-952f-21a2-501d" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c4c-a239-6f23-acef" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="084c-1a4d-0efc-7de9" name="Monsters" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dbd6-86f6-1d8f-8a7f" name="Giant Eel" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a431-a37b-fb09-c33a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63bf-1fa1-82ac-0243" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="73d9-631e-627c-34f3" name="Giant Eel" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">5</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">4</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Aquatic, Champion, Monster, Courage (3)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">40 x 40 </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="fff0-2200-47cd-7436" name="Aquatic" hidden="false" targetId="ba42-e63c-f275-17ba" type="rule"/>
+            <infoLink id="a612-d9d3-0721-4589" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="ddb6-9c99-bcd5-fef3" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="37a9-5388-cf0d-56af" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="6ac6-7641-9fd1-c125" name="Lake Beast" publicationId="0120-952f-21a2-501d" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1dc-df5a-cdcf-cc50" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="34dd-e769-ab25-9fbc" name="Monsters" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f9a3-d989-1fe2-1c43" name="Lake Beast" publicationId="0120-952f-21a2-501d" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90e7-7ba9-dc00-dbf4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d56-77ce-2e9e-4f92" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c6e9-ed56-afe3-4021" name="Lake Beast" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">5</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">8</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Aquatic, Champion, Charge (2), Enormous, Horrific, Monster</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c0ea-19eb-fbb9-9e7d" name="Aquatic" hidden="false" targetId="ba42-e63c-f275-17ba" type="rule"/>
+            <infoLink id="a347-9bcc-c6df-dd24" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="746d-2e79-5ec7-ccb3" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="e544-f450-efda-ed2b" name="Enormous" hidden="false" targetId="f1d0-4ab5-870c-853b" type="rule"/>
+            <infoLink id="1644-dfdd-c666-5e31" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="3c0e-9628-2aa9-ca47" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="635e-d578-c70e-44ec" name="Water Elemental" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="415f-b8ef-408a-e17e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e72b-8a92-c872-ecb1" name="Water Elemental" hidden="false" collective="false" import="true" type="unit">
+          <profiles>
+            <profile id="8994-b0b4-1e03-ec3f" name="Water Elemental" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">4</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Champion, Courage (4), Large, Monster, Nimble, Regeneration (1), Spellcaster Control, Waterwalk</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="12f6-01b0-2e5e-d2ae" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="f0a4-8d9a-342c-8d3f" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="21fc-e132-86ea-3b60" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="715c-5472-cce5-dec8" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="78b4-1194-c4ec-3494" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="80ef-db9f-9d6e-183d" name="Regenerate (X)" hidden="false" targetId="6f49-85ad-2c9d-22ce" type="rule"/>
+            <infoLink id="ded6-edda-c0d3-634b" name="Spellcaster Control" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
+            <infoLink id="6e0e-941e-0a41-a6d0" name="Waterwalk" hidden="false" targetId="b459-60f0-d543-c520" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -654,32 +766,32 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
     </selectionEntryGroup>
     <selectionEntryGroup id="5f76-a51d-f38e-80fb" name="Spells" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="3.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="3.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="5.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="5.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="4.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="4.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="2.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="2.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="4.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="4.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b4-a5a1-fe29-183b" type="instanceOf"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="3.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="3.0">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
@@ -691,7 +803,7 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5fa-800a-971c-b5ee" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1530-6029-cee3-1833" type="max"/>
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup id="5703-4cb5-d092-eca5" name="Human Spells" hidden="false" collective="false" import="true">
@@ -842,6 +954,19 @@ combat with this action.</characteristic>
               <costs>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="a581-59c3-3c14-c887" name="Stabilize" publicationId="0120-952f-21a2-501d" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fce-6ca3-c9b4-abff" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="88c1-2dda-d25a-cb21" name="Stabilize" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may only cast this spell on a boat. Units on this boat no longer suffer the penalty for shooting from an unstable platform. At the end of each turn, roll a die: on a 1, the spell’s effect ends.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1166,6 +1291,46 @@ At the end of each turn, roll one die. If the result is a 10, remove the smoke.<
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="8cff-d6fc-9554-77b9" name="Calm the Waters" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ffc-0a84-5e23-d3ba" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8804-836a-f09e-83ac" name="Calm the Waters" publicationId="0120-952f-21a2-501d" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">4</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Immediately reduce river velocity to 0”. At the end of each turn, roll a die: on a 1 or 2, the river returns to its normal velocity.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="0fbd-d135-4078-0f44" name="Enrage the Waters" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="252e-0f94-5e9b-9057" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="85fc-1771-1dc4-46a6" name="Enrage the Waters" publicationId="0120-952f-21a2-501d" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Modify river velocity by 4”. The spellcaster may choose whether this increases the river velocity by 4” in the direction it is currently flowing, or subtracts 4” from the current direction of flow – possibly causing the river to flow in the opposite direction. For example, if the spell is cast on a river with a river velocity of 2” to the north, the spellcaster may cause this to become 2” to the south. At the end of each turn, roll a die: on a 1 the river returns to its normal velocity.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="266d-5235-e955-d10b" name="Summon Water Elemental" publicationId="0120-952f-21a2-501d" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30a0-64f0-7a6b-8f28" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6d3a-e8d0-9089-d21b" name="Summon Water Elemental" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">9</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Place a water elemental on the table within 6” and line of sight of the caster. This water elemental counts as a member of the spellcaster’s army. A spellcaster may
+not cast this spell while a water elemental they previously summoned remains on the table. Additionally, while the water elemental is on the table, the spellcaster suffers -1 to all casting dice they roll to cast other spells.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="a94e-dcc9-1513-7f8a" name="Elf Spells" hidden="false" collective="false" import="true">
@@ -1331,6 +1496,19 @@ friendly unit.)</characteristic>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="b0ce-f7a1-6ebd-21bf" name="Sail Like a Swan" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a60c-844a-2295-47fb" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="dc42-789e-f596-aae3" name="Sail Like a Swan" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">4</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may only cast this spell on a boat. This boat receives +3 to its Move stat for the rest of the game. Each boat may only gain the benefit from Sail Like a Swan once during a game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="ec76-0124-182b-4c7d" name="Dwarf Spells" hidden="false" collective="false" import="true">
@@ -1479,6 +1657,19 @@ unit with Shielding (1) loses their Shielding ability altogether.)</characterist
               <costs>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="dedb-ad96-3fc3-54ca" name="Anchor" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c25-d2e4-e8ec-129f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9f2a-dcad-1f0e-1115" name="Anchor" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may only cast this spell on a boat. The next time this boat activates, it does not move with the river and its Move stat is reduced to 0.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1809,6 +2000,9 @@ A unit that contains figures with the special ability Uncaring never suffers any
     </rule>
     <rule id="1b73-6496-f03f-df10" name="Unthinking" publicationId="3f4b-7972-0d88-d8ba" page="74" hidden="false">
       <description>This figure rolls only 1 die for activation rolls. If the figure is within range of a unit that contains a figure with the special ability Command, increase this to 2 dice. A unit that contains a figure with the special ability Unthinking may never roll more than 2 dice for activation rolls</description>
+    </rule>
+    <rule id="ba42-e63c-f275-17ba" name="Aquatic" hidden="false">
+      <description>This creature lives in water and never suffers penalties of any kind for being in water. This creature never voluntarily moves onto land. If it is ever on land, its Move stat is immediately reduced to 1 and it suffers -2 to its Fight stat (to a minimum of 0). Additionally, every time an Aquatic creature on land fails an activation roll, it becomes either Disordered or Broken, as though it failed a morale test. A Disordered aquatic creature on land remains Disordered even if it passes an activation roll. It may only recover from being Disordered when it is once again in the water.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

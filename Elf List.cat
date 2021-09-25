@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="08f6-6df4-c8f1-ff8f" name="Elf List" revision="1" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="08f6-6df4-c8f1-ff8f" name="Elf List" revision="2" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>This is the full list for playing one-off games, without a kingdom and using the Elfs.</readme>
   <entryLinks>
     <entryLink id="3fab-598d-4a2c-d32b" name="Elf King or Queen" hidden="false" collective="false" import="true" targetId="984a-8fec-379d-8e62" type="selectionEntry"/>
@@ -1290,6 +1290,63 @@
       <costs>
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="b2c6-25f7-cbb5-2100" name="Elf Chariot" page="20" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e19-c3b8-3a0b-56f4" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f31a-a756-523a-b1aa" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="631f-4364-accc-21cc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ed7-2057-48a4-57f5" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c1ad-d3d3-5064-6bb3" name="Figures" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="b2c6-25f7-cbb5-2100" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6557-223f-6eeb-1a13" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="6b0c-a9f4-5f79-acfe" value="1"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">7</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">13</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (3), Wild Charge, Large, Limited Manoeuvres, Limited Movement</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="278e-5223-49a6-3bf5" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="7cde-f050-3b48-173c" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="a328-8ba3-a5af-73d1" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="991f-d52c-092d-eef0" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="cf7d-3ccd-41c4-669f" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="195.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6557-223f-6eeb-1a13" name="Archer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8272-fb21-0f96-311e" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f52e-e644-b10d-91ca" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cbd2-af1d-2c14-1bc0" name="Human List" revision="2" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cbd2-af1d-2c14-1bc0" name="Human List" revision="3" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>This is the full list for playing one-off games, without a kingdom and using the Humans.</readme>
   <entryLinks>
     <entryLink id="fafc-d166-f350-1121" name="Human King" hidden="false" collective="false" import="true" targetId="bcb8-7d26-b36c-7cd4" type="selectionEntry"/>
@@ -1645,6 +1645,10 @@
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f1c-77fc-a65b-1b02" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="592e-cb5f-50b2-fdee" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="f318-813c-f8a5-bfde" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4d6c-0b27-d87f-1927" name="Archer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1697,6 +1701,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

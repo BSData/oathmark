@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="2" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="5" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Here&apos;s the first attempt at making a BattleScribe builder for Oathmark. Included are only the unit entries, and armybuilding, for the units found in the main rulebook. Supplements will be added at a later date.
 
 If you spot any errors, bugs or the like - please be sure to send me an email regarding the problem</readme>
   <publications>
     <publication id="c602-4fcf-d13f-d9b9" name="Oathmark Rulebook" shortName="Oathmark Rulebook" publisher="Oathmark - Battles of the Lost Age" publicationDate="2020" publisherUrl="https://ospreypublishing.com/oathmark"/>
     <publication id="3f4b-7972-0d88-d8ba" name="Oathmark Oathbreakers"/>
+    <publication id="ac8e-0c0e-dbc8-0f86" name="Oathmark Bane of Kings"/>
+    <publication id="0120-952f-21a2-501d" name="Oathmark Battlesworn"/>
   </publications>
   <costTypes>
     <costType id="8612-cb2b-a715-55c1" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -75,6 +77,7 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
     <categoryEntry id="d8c5-7a2d-24c5-6364" name="Beasts of the Dark Forest" hidden="false"/>
     <categoryEntry id="84d2-fdec-cab0-8074" name="Trolls" hidden="false"/>
     <categoryEntry id="b233-64d3-92e8-37b0" name="Undead" hidden="true"/>
+    <categoryEntry id="f6f0-c070-14cd-8fcb" name="Greater Undead Magic" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b3c1-debf-2214-b167" name="Army Roster" hidden="true">
@@ -305,6 +308,134 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6c55-f3b1-9f20-5642" name="Giant Eel" publicationId="0120-952f-21a2-501d" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c4c-a239-6f23-acef" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="084c-1a4d-0efc-7de9" name="Monsters" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dbd6-86f6-1d8f-8a7f" name="Giant Eel" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a431-a37b-fb09-c33a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63bf-1fa1-82ac-0243" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="73d9-631e-627c-34f3" name="Giant Eel" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">4</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">5</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">4</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Aquatic, Champion, Monster, Courage (3)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">40 x 40 </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="fff0-2200-47cd-7436" name="Aquatic" hidden="false" targetId="ba42-e63c-f275-17ba" type="rule"/>
+            <infoLink id="a612-d9d3-0721-4589" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="ddb6-9c99-bcd5-fef3" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="37a9-5388-cf0d-56af" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ac6-7641-9fd1-c125" name="Lake Beast" publicationId="0120-952f-21a2-501d" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1dc-df5a-cdcf-cc50" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="34dd-e769-ab25-9fbc" name="Monsters" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f9a3-d989-1fe2-1c43" name="Lake Beast" publicationId="0120-952f-21a2-501d" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90e7-7ba9-dc00-dbf4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d56-77ce-2e9e-4f92" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c6e9-ed56-afe3-4021" name="Lake Beast" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">5</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">8</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Aquatic, Champion, Charge (2), Enormous, Horrific, Monster</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c0ea-19eb-fbb9-9e7d" name="Aquatic" hidden="false" targetId="ba42-e63c-f275-17ba" type="rule"/>
+            <infoLink id="a347-9bcc-c6df-dd24" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="746d-2e79-5ec7-ccb3" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="e544-f450-efda-ed2b" name="Enormous" hidden="false" targetId="f1d0-4ab5-870c-853b" type="rule"/>
+            <infoLink id="1644-dfdd-c666-5e31" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="3c0e-9628-2aa9-ca47" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="635e-d578-c70e-44ec" name="Water Elemental" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="415f-b8ef-408a-e17e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e72b-8a92-c872-ecb1" name="Water Elemental" hidden="false" collective="false" import="true" type="unit">
+          <profiles>
+            <profile id="8994-b0b4-1e03-ec3f" name="Water Elemental" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">4</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Champion, Courage (4), Large, Monster, Nimble, Regeneration (1), Spellcaster Control, Waterwalk</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="12f6-01b0-2e5e-d2ae" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="f0a4-8d9a-342c-8d3f" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="21fc-e132-86ea-3b60" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="715c-5472-cce5-dec8" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="78b4-1194-c4ec-3494" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="80ef-db9f-9d6e-183d" name="Regenerate (X)" hidden="false" targetId="6f49-85ad-2c9d-22ce" type="rule"/>
+            <infoLink id="ded6-edda-c0d3-634b" name="Spellcaster Control" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
+            <infoLink id="6e0e-941e-0a41-a6d0" name="Waterwalk" hidden="false" targetId="b459-60f0-d543-c520" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="0815-6515-7fe0-65b3" name="Spell Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="66d0-bce5-3b98-915c">
@@ -333,7 +464,7 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
           </modifiers>
           <modifierGroups>
             <modifierGroup>
-              <comment>Dwarf Magic</comment>
+              <comment>Undead Magic</comment>
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
               </conditions>
@@ -342,15 +473,15 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e6bb-cd21-a6e2-1584" type="instanceOf"/>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f176-1228-2d4d-da95" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b233-64d3-92e8-37b0" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f6f0-c070-14cd-8fcb" type="lessThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
                 <modifier type="increment" field="6306-15b0-1ff3-8702" value="1.0">
                   <repeats>
-                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f176-1228-2d4d-da95" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f6f0-c070-14cd-8fcb" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -420,6 +551,29 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
                 <modifier type="increment" field="6306-15b0-1ff3-8702" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d52-d1e3-e0dc-f111" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Dwarf Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e6bb-cd21-a6e2-1584" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f176-1228-2d4d-da95" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="6306-15b0-1ff3-8702" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f176-1228-2d4d-da95" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -488,7 +642,7 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
               </modifiers>
             </modifierGroup>
             <modifierGroup>
-              <comment>Goblin and Orc Magic</comment>
+              <comment>Undead Magic</comment>
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
               </conditions>
@@ -497,15 +651,15 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d84-6195-827a-5e8b" type="instanceOf"/>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e3d-451f-209c-2ebb" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b233-64d3-92e8-37b0" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f6f0-c070-14cd-8fcb" type="lessThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
                 <modifier type="increment" field="25b9-8bd6-2247-9054" value="1.0">
                   <repeats>
-                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e3d-451f-209c-2ebb" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f6f0-c070-14cd-8fcb" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -529,6 +683,29 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
                 <modifier type="increment" field="25b9-8bd6-2247-9054" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d52-d1e3-e0dc-f111" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Goblin and Orc Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d84-6195-827a-5e8b" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e3d-451f-209c-2ebb" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="25b9-8bd6-2247-9054" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e3d-451f-209c-2ebb" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -642,6 +819,29 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
                 </modifier>
               </modifiers>
             </modifierGroup>
+            <modifierGroup>
+              <comment>Undead Magic</comment>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b233-64d3-92e8-37b0" type="instanceOf"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f6f0-c070-14cd-8fcb" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="8d99-4a44-f4d0-2389" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f6f0-c070-14cd-8fcb" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
           </modifierGroups>
           <constraints>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d99-4a44-f4d0-2389" type="max"/>
@@ -654,32 +854,32 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
     </selectionEntryGroup>
     <selectionEntryGroup id="5f76-a51d-f38e-80fb" name="Spells" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="3.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="3.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="5.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="5.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="4.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="4.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="2.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="2.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="4.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="4.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63b4-a5a1-fe29-183b" type="instanceOf"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="a5fa-800a-971c-b5ee" value="3.0">
+        <modifier type="set" field="1530-6029-cee3-1833" value="3.0">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
@@ -691,7 +891,7 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5fa-800a-971c-b5ee" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1530-6029-cee3-1833" type="max"/>
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup id="5703-4cb5-d092-eca5" name="Human Spells" hidden="false" collective="false" import="true">
@@ -836,6 +1036,22 @@ count for determining Strange and Catastrophic Events before rolling).</characte
                     <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
                     <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may cast this spell on any friendly unit. That unit may immediately make one Move action (using its full Move stat). The unit may not move into
 combat with this action.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a581-59c3-3c14-c887" name="Stabilize" publicationId="0120-952f-21a2-501d" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fce-6ca3-c9b4-abff" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="88c1-2dda-d25a-cb21" name="Stabilize" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may only cast this spell on a boat. Units on this boat no longer suffer the penalty for shooting from an unstable platform. At the end of each turn, roll a die: on a 1, the spell’s effect ends.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1166,6 +1382,55 @@ At the end of each turn, roll one die. If the result is a 10, remove the smoke.<
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="8cff-d6fc-9554-77b9" name="Calm the Waters" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ffc-0a84-5e23-d3ba" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8804-836a-f09e-83ac" name="Calm the Waters" publicationId="0120-952f-21a2-501d" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">4</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Immediately reduce river velocity to 0”. At the end of each turn, roll a die: on a 1 or 2, the river returns to its normal velocity.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0fbd-d135-4078-0f44" name="Enrage the Waters" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="252e-0f94-5e9b-9057" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="85fc-1771-1dc4-46a6" name="Enrage the Waters" publicationId="0120-952f-21a2-501d" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Modify river velocity by 4”. The spellcaster may choose whether this increases the river velocity by 4” in the direction it is currently flowing, or subtracts 4” from the current direction of flow – possibly causing the river to flow in the opposite direction. For example, if the spell is cast on a river with a river velocity of 2” to the north, the spellcaster may cause this to become 2” to the south. At the end of each turn, roll a die: on a 1 the river returns to its normal velocity.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="266d-5235-e955-d10b" name="Summon Water Elemental" publicationId="0120-952f-21a2-501d" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30a0-64f0-7a6b-8f28" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6d3a-e8d0-9089-d21b" name="Summon Water Elemental" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">9</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Place a water elemental on the table within 6” and line of sight of the caster. This water elemental counts as a member of the spellcaster’s army. A spellcaster may
+not cast this spell while a water elemental they previously summoned remains on the table. Additionally, while the water elemental is on the table, the spellcaster suffers -1 to all casting dice they roll to cast other spells.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="a94e-dcc9-1513-7f8a" name="Elf Spells" hidden="false" collective="false" import="true">
@@ -1331,6 +1596,22 @@ friendly unit.)</characteristic>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="b0ce-f7a1-6ebd-21bf" name="Sail Like a Swan" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a60c-844a-2295-47fb" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="dc42-789e-f596-aae3" name="Sail Like a Swan" publicationId="0120-952f-21a2-501d" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">4</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may only cast this spell on a boat. This boat receives +3 to its Move stat for the rest of the game. Each boat may only gain the benefit from Sail Like a Swan once during a game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="ec76-0124-182b-4c7d" name="Dwarf Spells" hidden="false" collective="false" import="true">
@@ -1480,45 +1761,155 @@ unit with Shielding (1) loses their Shielding ability altogether.)</characterist
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="dedb-ad96-3fc3-54ca" name="Anchor" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c25-d2e4-e8ec-129f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9f2a-dcad-1f0e-1115" name="Anchor" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may only cast this spell on a boat. The next time this boat activates, it does not move with the river and its Move stat is reduced to 0.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="9dbc-5691-1f93-1239" name="Necromancer Spells" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b233-64d3-92e8-37b0" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180a-19cb-96c5-3f0a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <categoryLinks>
-            <categoryLink id="2c0e-59a4-700b-c2b8" name="Spells" hidden="false" targetId="dd82-2575-d2d6-fb17" primary="false"/>
-            <categoryLink id="f349-0e69-4b1d-2a20" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
+            <categoryLink id="0176-f263-ed40-fa59" name="Spells" hidden="false" targetId="dd82-2575-d2d6-fb17" primary="false"/>
+            <categoryLink id="bd1f-fb97-8163-4a99" name="Undead" hidden="false" targetId="b233-64d3-92e8-37b0" primary="false"/>
           </categoryLinks>
           <selectionEntries>
             <selectionEntry id="4c72-d71d-80c9-bb1c" name="Bone Shards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce1f-1db0-9765-766b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="840c-393c-13ae-3c65" name="Bone Shards" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">6</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The necromancer makes an immediate Shoot 2, Combat Dice 2 shooting attack against the target unit</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c8e4-ccde-4e3d-08e2" name="Death Vision" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed9e-42b3-f00f-e664" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7f7b-4e6d-d030-3605" name="Death Vision" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">9</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The target unit must make an immediate moral test.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b5af-a924-b72e-f987" name="Necrotic Touch" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be88-8a12-a779-3f50" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="312d-52ec-504d-78f7" name="Necrotic Touch" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">8</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The necromancer selects one friendly unit within line of sight. This unit immediately suffers 2 hits and must make a morale test as though it suffered this damage in melee combat. The necromancer may then select one friendly figure (including themselves) whose unit is within line of sight. This figure regains up to 2 Health. This may neither take a figure above its starting Health, nor bring back a figure that was reduced to 0 Health. A figure that takes damage from a Necrotic Touch spell cannot use Regeneration to heal this damage.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b754-8a77-809a-26e8" name="Poison Blades" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6254-ac5b-395d-643b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e23d-fb11-d650-f86a" name="Poison Blades" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">5</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The next time the target unit causes 2 or more hits in melee combat, it delivers one additional hit. After causing this additional hit, the spell’s effects end (though a necromancer may cast it again on the same unit). You cannot inflict this additional hit against an opposing unit if a majority of the figures in that unit have the special ability Undead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8d3a-77f5-fe63-7dc0" name="Reanimate" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a42e-ce79-3ee5-9c28" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="872e-f90b-7d59-f41a" name="Reanimate" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">4</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">This spell may be cast on a unit composed primarily of skeletal soldiers, skeletal spearman, or skeletal archers. The unit may immediately replace one figure that was killed during the game. For each ‘10’ rolled on the Casting Dice, replace one additional fallen skeleton to a maximum of three. You may not bring a character figure back with this spell. You may cast this spell on the same unit multiple times; each time, it gains another figure back. You may not use this spell to increase the number of figures in the unit beyond what it contained at the start
+of the game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ec59-58a6-4cde-2a1d" name="Revive" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5149-4f2c-3241-ef67" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="278c-c3f8-88c5-0734" name="Revive" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Cast this spell on a unit composed primarily of revenant warriors, revenant linebreakers, or revenant cavalry. The unit may immediately replace one figure that was killed during the game. You may not bring a character figure back with this spell. You may cast this spell on the same unit multiple times; each time, it gains another figure back. You may not use this spell to increase the number of figures in the unit beyond what it contained at the start of the game</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3885-264d-5e5a-674a" name="Summon Barrow Worm" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9df-f1b1-4676-e74b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7bbe-8e98-4c11-7573" name="Summon Barrow Worm" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">10</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Mark any point on the table that is within line of sight but is not directly on top of a unit (the point may be directly adjacent to a unit). At the end of the current turn, the controlling player rolls two dice. Move the marker a number of inches equal to the result on the higher of the two dice in a random direction. If this causes the marker to move off the table, it is lost, and the spell has no effect. If this causes the marker to land on top of a unit, move it to the closest point at which it is no longer on top of the unit. After moving the marker, replace it with a barrow worm.
+
+If the barrow worm is in contact with a unit, it immediately attacks that unit. Determine the fight’s outcome immediately. Otherwise, the summoning player makes an activation roll for the barrow worm. If it fails, the worm does not move. If it succeeds, the worm uses its actions to move directly toward the closest unit (even if that unit belongs to the summoning player’s army). The summoning player makes this activation roll for the barrow worm at the end of each turn, following the same rules. However, if the player ever rolls a result of 2 or less on the worm’s activation dice on any turn after the turn it appears, it immediately burrows back into the ground and disappears. This also happens if the summoning necromancer is removed from the table for any reason.
+
+A necromancer cannot use this spell again if it already successfully cast this spell and either the worm or marker is currently on the table.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
               </costs>
@@ -1809,6 +2200,9 @@ A unit that contains figures with the special ability Uncaring never suffers any
     </rule>
     <rule id="1b73-6496-f03f-df10" name="Unthinking" publicationId="3f4b-7972-0d88-d8ba" page="74" hidden="false">
       <description>This figure rolls only 1 die for activation rolls. If the figure is within range of a unit that contains a figure with the special ability Command, increase this to 2 dice. A unit that contains a figure with the special ability Unthinking may never roll more than 2 dice for activation rolls</description>
+    </rule>
+    <rule id="ba42-e63c-f275-17ba" name="Aquatic" hidden="false">
+      <description>This creature lives in water and never suffers penalties of any kind for being in water. This creature never voluntarily moves onto land. If it is ever on land, its Move stat is immediately reduced to 1 and it suffers -2 to its Fight stat (to a minimum of 0). Additionally, every time an Aquatic creature on land fails an activation roll, it becomes either Disordered or Broken, as though it failed a morale test. A Disordered aquatic creature on land remains Disordered even if it passes an activation roll. It may only recover from being Disordered when it is once again in the water.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

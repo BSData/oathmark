@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12db-f453-a642-0099" name="Goblin &amp; Orc List" revision="3" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12db-f453-a642-0099" name="Goblin &amp; Orc List" revision="4" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>This is the full list for playing one-off games, without a kingdom and using the Goblins and Orcs.</readme>
   <entryLinks>
     <entryLink id="ae9f-d420-8eb5-35b6" name="Goblin King" hidden="false" collective="false" import="true" targetId="1ef0-7a9c-49ae-5fd9" type="selectionEntry"/>
@@ -2553,6 +2553,10 @@
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac63-94ec-4bc8-9865" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="6815-8eed-3c23-2ad9" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+        <categoryLink id="462a-124a-4652-c425" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b417-bb78-0124-cd42" name="Archer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2605,6 +2609,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dcf5-9e78-961c-1102" name="Orc Chariot" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2662,6 +2669,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>

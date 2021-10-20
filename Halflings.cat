@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ef96-f1c3-d2d3-c947" name="Halflings" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="50b4-b287-3f23-3e65" name="Halfling Adventurer" hidden="false" collective="false" import="true" targetId="962c-4313-fa66-4772" type="selectionEntry"/>
+    <entryLink id="f54b-6098-c04e-0595" name="Halfling Captain" hidden="false" collective="false" import="true" targetId="26c4-2632-2cc0-cfba" type="selectionEntry"/>
+    <entryLink id="2888-68f3-3802-3737" name="Halfling Champion" hidden="false" collective="false" import="true" targetId="d468-8c1b-b100-87ac" type="selectionEntry"/>
+    <entryLink id="54ee-d1c7-6ddc-85cd" name="Halfling Archer" hidden="false" collective="false" import="true" targetId="d1d2-12c4-5962-3112" type="selectionEntry"/>
+    <entryLink id="99a3-9e6a-96b1-70a3" name="Halfling Soldier" hidden="false" collective="false" import="true" targetId="7a6a-2fa3-3b3b-657f" type="selectionEntry"/>
+    <entryLink id="c749-c007-0679-dd2a" name="Halfling Spearman" hidden="false" collective="false" import="true" targetId="51fc-7cb4-296e-9eb9" type="selectionEntry"/>
+    <entryLink id="7c5a-c70b-2684-9a96" name="Halfling Border Scout" hidden="false" collective="false" import="true" targetId="5183-b74d-cc53-f015" type="selectionEntry"/>
+    <entryLink id="abfd-7161-c3f3-9d19" name="Halfling Light Catapult" hidden="false" collective="false" import="true" targetId="4661-c1b9-3cc3-27e1" type="selectionEntry"/>
+    <entryLink id="b01c-b64c-ba43-5636" name="Hound" hidden="false" collective="false" import="true" targetId="5bdc-a10e-27a4-c792" type="selectionEntry"/>
+    <entryLink id="8b0d-f07b-b22e-5215" name="Hafling Spellcaster" hidden="false" collective="false" import="true" targetId="e788-6778-4491-e0f6" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="962c-4313-fa66-4772" name="Halfling Adventurer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d696-026a-6764-1931" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="26c9-b5b3-ee6c-040e" name="Characters" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="e242-c1a2-33b2-df99" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1f4e-ffdb-e8f9-4032" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3121-d658-d8cf-7b4b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a1c-3315-a32a-fd0f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2b0f-1876-0a56-8fca" name="Character" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="962c-4313-fa66-4772" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f65-e152-7814-129f" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25x50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (1), Champion, Courage (2), Shielding (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25x25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="eebc-9dfb-aaa0-0d5b" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="548c-b544-bfb3-fc2f" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="bf0b-b6b1-a7ff-9b1a" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="3dbd-dae6-2b72-f808" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="4645-daad-59a2-41e5" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="112.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3f65-e152-7814-129f" name="Pony" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8522-8d3a-1a57-9779" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="35ad-05dd-7a64-0499" name="Pony" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Pony Mount +30pts, change stats to M7, D11, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26c4-2632-2cc0-cfba" name="Halfling Captain" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f59e-02ba-bc96-0b7a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0683-b4b7-ba1d-a8a6" name="Characters" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="de99-7678-939e-2183" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9e54-159b-e8e1-330a" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bce1-6856-23bd-91d8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6db-2f6a-2e8a-ffc4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c5c8-9cb6-0f88-90db" name="Character" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="26c4-2632-2cc0-cfba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f385-a147-a878-3e99" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25x50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (1), Courage (2), Shielding (1) </characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25x25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a69c-be3c-b62f-02a2" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="cf28-01df-1430-00c3" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="fb4d-fe7b-2c95-f372" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="98.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f385-a147-a878-3e99" name="Pony" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b109-f11f-3a4c-b85c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d1ed-c30f-fcea-2609" name="Pony" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Pony Mount +20pts, change stats to M7, D11, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d468-8c1b-b100-87ac" name="Halfling Champion" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abbc-d0cf-98b0-ce53" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2412-5c60-7654-2d28" name="Characters" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="5b95-3e5e-dc86-7a8c" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6b28-3286-ed03-01d2" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ec1-f602-5a63-da11" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a18-2234-3a83-b9d7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0bd5-c257-4c3c-f970" name="Character" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="d468-8c1b-b100-87ac" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3798-12b9-2d11-ee6e" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25x50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="d468-8c1b-b100-87ac" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0f2a-70cb-914a-559a" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="f43f-b98a-b1e7-29ee" value="2"/>
+                    <modifier type="set" field="7d31-280f-897f-0915" value="Champion, Courage (2)"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Champion, Courage (2), Shielding (1)
+</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25x25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3b95-4466-1609-4bae" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="fdfb-58ef-254d-9610" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="33d1-2a91-e1af-d715" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="98.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3798-12b9-2d11-ee6e" name="Pony" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d72-b0e7-29ee-4de4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3b01-e5b9-6752-035b" name="Pony" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Pony Mount +20pts, change stats to M7, D11, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0f2a-70cb-914a-559a" name="Two-handed weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff14-6397-8a9d-49ba" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fb60-8b4f-4850-aa51" name="Two-handed weapon" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Two-handed weapon +2pts, change stats to F3, but lose Shielding (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a6a-2fa3-3b3b-657f" name="Halfling Soldier" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df85-0643-c93f-a83a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a4bc-6d3b-0137-2a99" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+        <categoryLink id="28e6-3364-1ef6-11f1" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b663-bdf8-9656-b714" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08a0-a9e7-3eb9-3e8d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a925-a56f-e665-77fb" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8954-2c51-2785-b242" name="Figures" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Courage (2), Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25x25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="493f-6565-1d39-043d" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="fa96-143c-7e9e-58e8" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="1105-bdb8-a94e-c1da" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+            <categoryLink id="80a3-47f7-f276-3b7e" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="51fc-7cb4-296e-9eb9" name="Halfling Spearman" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77dc-9373-f0d8-c0ff" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="da7c-fddb-101a-bb7c" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+        <categoryLink id="7e38-1cd9-1dfa-8f9b" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e201-bf5c-9b16-46b5" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a899-989b-9cec-1495" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b0-bc93-9af6-e4c1" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="705c-0fe7-b68e-625b" name="Figures" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Brace, Courage (2), Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25x25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="75c5-3881-b180-d1e3" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="3a04-7769-26d6-c445" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="554c-c5d0-87fc-8c5d" name="Brace" hidden="false" targetId="be12-50f9-c669-1c39" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="3441-437c-fd57-df0a" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+            <categoryLink id="5049-2d11-b832-3d63" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1d2-12c4-5962-3112" name="Halfling Archer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d3-9aaf-a77f-ed63" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="004b-ed11-6236-75f2" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+        <categoryLink id="4b26-9808-9d53-d60c" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d1a5-d20b-17df-daed" name="Figures" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c48f-992c-9c41-cae8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eb9-01cd-25d3-9572" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="362f-c340-0760-524c" name="Figures" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">0</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">1</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Courage (2), Fire Over</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25x25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4c99-7764-ac66-271e" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="0399-6078-05e8-e8a6" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+            <infoLink id="8c61-9a4d-0c58-485b" name="Halfling Bow" hidden="false" targetId="0108-bdb7-dfde-6340" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5183-b74d-cc53-f015" name="Halfling Border Scout" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fd9-07ec-763b-c4c7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1de1-5b9d-c8ed-4eb3" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+        <categoryLink id="671e-1925-6433-9aba" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2b67-c447-b966-1d57" name="Figures" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c2e-f2eb-540d-5437" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcee-2bb5-15d4-3035" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="839f-9021-9b8f-9742" name="Figures" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">0</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">2</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Courage (2), Nimble, Aimed Fire</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25x25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f774-d0e1-f8d9-1f34" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="8704-4f13-2816-c27a" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="352b-f385-177b-296f" name="Aimed Fire" hidden="false" targetId="bddf-fe50-8bf3-c960" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="afd7-1707-0646-cad9" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+            <categoryLink id="011d-b5ef-bbf5-9d37" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4661-c1b9-3cc3-27e1" name="Halfling Light Catapult" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf0e-7259-97d5-0361" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cd9b-aa64-1e3e-d85c" name="New CategoryLink" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+        <categoryLink id="1aef-75ab-f464-6400" name="Artillery" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6738-7f52-29fc-dc52" name="Artillery" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="259e-bdc5-15cd-1fb4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47c5-2d98-c272-e044" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="03df-96ff-4d8c-5dff" name="Artillery" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">3</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">3</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Crew (3), Courage (2), Indirect Fire, Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50x100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="881e-5c56-34c6-8064" name="Light Catapult" hidden="false" targetId="27e4-ab78-9a31-9c4d" type="profile"/>
+            <infoLink id="b587-e7b3-6494-8353" name="Artillery" hidden="false" targetId="fb1c-4a18-0425-e322" type="rule"/>
+            <infoLink id="ba45-91b9-2404-213d" name="Crew (X)" hidden="false" targetId="fdc2-63bc-906e-0d9b" type="rule"/>
+            <infoLink id="d74a-1ff0-87bb-7147" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="38d0-69f5-b925-1c36" name="Indirect Fire" hidden="false" targetId="f48d-b532-ea17-421c" type="rule"/>
+            <infoLink id="b333-c2e5-765c-c69e" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="80.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bdc-a10e-27a4-c792" name="Hound" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b88-fb58-4cb6-7c5e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4b2f-04c2-847c-9c77" name="New CategoryLink" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+        <categoryLink id="ca38-6d32-8514-384c" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ede1-fb1f-ab6c-1694" name="Figures" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c62-3276-a275-88d9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="756d-9b5e-d2f9-02a9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c5e8-961d-6307-f722" name="Hound" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Courage (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25x25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="942d-9ed9-bed8-372e" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="991d-f994-6891-a228" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+            <categoryLink id="f850-f4b0-ecfe-9b5f" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e788-6778-4491-e0f6" name="Hafling Spellcaster" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d26-dcdc-8c9c-1dcc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4a41-fc45-69d7-fd50" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+        <infoLink id="80df-b8f1-3510-8d61" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+        <infoLink id="1b1f-6f04-5a49-b8aa" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+        <infoLink id="4502-2aba-1910-56a8" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+        <infoLink id="3383-3c17-28dd-81cc" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f21a-4056-312b-c52f" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="1221-ca9c-4075-0730" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="88e5-bcc4-f86d-e284" name="Character" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="70.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="144.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e735-93ae-8158-b5b1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e19-923a-c3d2-5581" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d2e5-0e38-b5df-58ba" name="Hafling  Spellcaster (Level 1)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e788-6778-4491-e0f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66d0-bce5-3b98-915c" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e788-6778-4491-e0f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66d0-bce5-3b98-915c" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="10"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (1), Shielding (1), Courage (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c814-7497-8cb7-fea6" name="Hafling Spellcaster (Level 2)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e788-6778-4491-e0f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e788-6778-4491-e0f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="10"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (2), Shielding (1), Courage (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b813-84d2-ee35-dbc6" name="Hafling Spellcaster (Level 3)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e788-6778-4491-e0f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="e788-6778-4491-e0f6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="10"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (3), Shielding (2), Courage (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9845-8e0c-cb14-d39d" name="Pony Mount" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="20.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66d0-bce5-3b98-915c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea80-b03b-01d0-592e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="080e-8362-3b76-991b" name="Pony Mount (Spellcaster)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Pony Mount Level 1 +20pts, Level 2–3 +30pts, change stats to M7, D10, Base 25 x 50.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5ae5-b082-bdd1-293e" name="Spell Level" hidden="false" collective="false" import="true" targetId="0815-6515-7fe0-65b3" type="selectionEntryGroup"/>
+        <entryLink id="7947-c780-0503-fa59" name="Spells" hidden="false" collective="false" import="true" targetId="5f76-a51d-f38e-80fb" type="selectionEntryGroup"/>
+        <entryLink id="d1ae-f069-eed9-ef6a" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

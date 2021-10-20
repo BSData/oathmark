@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f753-4ff4-aa42-1f65" name="Undead  List" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f753-4ff4-aa42-1f65" name="Undead  List" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cf29-21f7-5742-928d" name="Revenant King" hidden="false" collective="false" import="true" targetId="b514-09ea-cfe3-8bbc" type="selectionEntry"/>
     <entryLink id="23f4-6921-a6e4-0b66" name="Revenant Prince" hidden="false" collective="false" import="true" targetId="8aec-66c5-6248-0bfd" type="selectionEntry"/>

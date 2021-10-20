@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="5" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="9" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Here&apos;s the first attempt at making a BattleScribe builder for Oathmark. Included are only the unit entries, and armybuilding, for the units found in the main rulebook. Supplements will be added at a later date.
 
 If you spot any errors, bugs or the like - please be sure to send me an email regarding the problem</readme>
@@ -78,6 +78,7 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
     <categoryEntry id="84d2-fdec-cab0-8074" name="Trolls" hidden="false"/>
     <categoryEntry id="b233-64d3-92e8-37b0" name="Undead" hidden="true"/>
     <categoryEntry id="f6f0-c070-14cd-8fcb" name="Greater Undead Magic" hidden="false"/>
+    <categoryEntry id="42bf-812a-6e4c-31e6" name="Halfling" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b3c1-debf-2214-b167" name="Army Roster" hidden="true">
@@ -1916,6 +1917,106 @@ A necromancer cannot use this spell again if it already successfully cast this s
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="3020-014f-373e-90e5" name="Halfling Spells" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42bf-812a-6e4c-31e6" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180a-19cb-96c5-3f0a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="3083-92ee-9c62-2c22" name="Spells" hidden="false" targetId="dd82-2575-d2d6-fb17" primary="true"/>
+            <categoryLink id="0350-1b23-bffc-9eaa" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="6aa7-e730-705e-f443" name="Camouflage" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee7e-cdbc-f847-2b50" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ba98-e672-726d-254f" name="Camouflage" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">3</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">This spell can be cast on any friendly unit that is on 25 x 25 bases and is not equipped with Heavy Armour. The unit gains +1 Defence, but only against Shooting Attacks.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6686-f0c3-b0a1-6526" name="Heroic Effort" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e3b-966c-effc-cd8b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8418-7172-750a-20fd" name="Heroic Effort" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">3</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">This spell can be cast on any friendly unit that does not contain a figure with the Champion special ability. The next time that unit is in combat, it should roll the champion die. After this is done, the spell is cancelled.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0bcb-9a8a-b950-d647" name="Mettle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5a1-259d-8a82-a463" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7648-2542-3ba1-540d" name="Mettle" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">5</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">This spell can be cast on any friendly unit. The next time that unit would roll for activation, it passes automatically, with no roll necessary.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ee24-6dc7-abe1-d788" name="Stench" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fc1-c828-1ec7-1e14" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="24ac-4709-a473-c2e8" name="Stench" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">7</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">The spellcaster may target a single enemy unit that is within 10”. That unit must immediately roll one Activation Die. If the result is less than the unit’s Activation stat, it is immediately Disordered. This spell has no effect on a unit that is already Disordered.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="554c-7fe0-5cd5-bf2a" name="Stout-Heart" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ba-231a-f4e6-05d8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d0e0-bba5-ddff-37ed" name="Stout-Heart" hidden="false" typeId="b57e-191b-9c49-d0da" typeName="Spell">
+                  <characteristics>
+                    <characteristic name="Casting Number" typeId="a1a2-a7e8-376c-3065">5</characteristic>
+                    <characteristic name="Description" typeId="a21e-63f1-95a2-ce47">Every friendly halfling unit on the table, that is currently Disordered, may roll one Activation Die. If a unit rolls equal to or greater than its Activation stat, then it is no longer Disordered. There are no modifiers to this roll, not even for being Disordered.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="17ea-6571-7037-998a" name="Magic Items" hidden="false" collective="false" import="true">
@@ -2181,7 +2282,7 @@ Additionally, if a unit containing figures with Shielding is the target of a sho
     <rule id="81ee-c10a-cf0e-e434" name="Limited Movement" publicationId="3f4b-7972-0d88-d8ba" page="72" hidden="false">
       <description>This figure may not move over any obstacles, even climbable ones. Furthermore, any time this unit moves or manoeuvres into contact with rough ground, it must make an immediate activation roll with a -3 modifier. If the unit fails this roll, its activation ends immediately, and it suffers 1 hit per figure in the unit. Otherwise, it may continue its activation, as usual. If the unit begins its activation in – or in contact with – rough ground, it makes its activation roll as usual, with no modifier, and does not have to roll again for that specific area of rough ground unless it completely exits and re-enters it.</description>
     </rule>
-    <rule id="d14f-c1a4-f48e-f672" name="SHADOWFORM" publicationId="3f4b-7972-0d88-d8ba" page="73" hidden="false">
+    <rule id="d14f-c1a4-f48e-f672" name="Shadowform" publicationId="3f4b-7972-0d88-d8ba" page="73" hidden="false">
       <description>This figure exists only partially on this plane of existence; thus, it is impossible to kill it with normal weapons. Only magic weapons and fire can harm it. Thankfully, it is just common enough that most units know what to do when they encounter one. This figure takes the usual damage from any attack generated by a spell or otherwise defined as magical, and from any figure wielding a magic weapon. If a unit in combat with a figure with the special ability Shadowform contains a figure with a magic weapon, it may elect to have that figure fight alone. If so, use only that figure’s stats to determine the Target Number and Combat Dice. However, continue to use the unit’s usual Defence stat to determine the Target Number of the figure with the special ability Shadowform.
 
 If the unit does not contain figures with magic weapons (or the player chooses not to use them in the fight), the combat proceeds as normal, albeit with the unit rolling a maximum of 2 Combat Dice (this may include the Champion Die), to represent attacking with lit torches</description>
@@ -2239,6 +2340,11 @@ A unit that contains figures with the special ability Uncaring never suffers any
     <profile id="93d1-db60-728e-3a56" name="Fire Breath" hidden="false" typeId="0e82-77fd-7431-528d" typeName="Weapons">
       <characteristics>
         <characteristic name="Maximum Range" typeId="9a8f-f555-6fc5-411f">12&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0108-bdb7-dfde-6340" name="Halfling Bow" hidden="false" typeId="0e82-77fd-7431-528d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Maximum Range" typeId="9a8f-f555-6fc5-411f">18&quot;</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

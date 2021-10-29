@@ -1,0 +1,1709 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="cbd2-af1d-2c14-1bc0" name="Human List" revision="3" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>This is the full list for playing one-off games, without a kingdom and using the Humans.</readme>
+  <entryLinks>
+    <entryLink id="fafc-d166-f350-1121" name="Human King" hidden="false" collective="false" import="true" targetId="bcb8-7d26-b36c-7cd4" type="selectionEntry"/>
+    <entryLink id="25e7-9732-09ff-c64f" name="Buggane" hidden="false" collective="false" import="true" targetId="ed22-0db9-2cb6-3135" type="selectionEntry"/>
+    <entryLink id="8b42-eacd-3b8a-f564" name="Giant" hidden="false" collective="false" import="true" targetId="ce33-f1e7-21bc-de55" type="selectionEntry"/>
+    <entryLink id="8b17-34d4-9218-1257" name="Human Archer" hidden="false" collective="false" import="true" targetId="4d4f-fd43-bff8-9b56" type="selectionEntry"/>
+    <entryLink id="1b96-af50-0ff0-500a" name="Human Captain" hidden="false" collective="false" import="true" targetId="273a-a49b-ae4f-64b6" type="selectionEntry"/>
+    <entryLink id="f32b-f3d7-2ab0-94d5" name="Human Cavalry" hidden="false" collective="false" import="true" targetId="7c63-b379-dfd8-7906" type="selectionEntry"/>
+    <entryLink id="d2d7-fb17-512d-305d" name="Human Champion" hidden="false" collective="false" import="true" targetId="16d8-1d3d-07a2-034e" type="selectionEntry"/>
+    <entryLink id="3d95-c027-fa6f-aebd" name="Human General" hidden="false" collective="false" import="true" targetId="7fb7-e834-7b31-6750" type="selectionEntry"/>
+    <entryLink id="f772-4f41-41e0-b654" name="Human Heavy Catapult" hidden="false" collective="false" import="true" targetId="9fc0-9b7b-9e4a-b239" type="selectionEntry"/>
+    <entryLink id="3601-150d-ba42-e7a5" name="Ogre Linebreaker" hidden="false" collective="false" import="false" targetId="614d-a1dd-b7bc-8126" type="selectionEntry"/>
+    <entryLink id="8a1a-f5a7-104f-0e67" name="Human Heavy Cavalry" hidden="false" collective="false" import="true" targetId="212d-fc2d-a50c-0fd3" type="selectionEntry"/>
+    <entryLink id="a635-4d19-8341-3e6d" name="Human Light Catapult" hidden="false" collective="false" import="true" targetId="4ec5-f692-d44b-1ac3" type="selectionEntry"/>
+    <entryLink id="fd6a-3d99-9d36-8444" name="Human Linebreaker" hidden="false" collective="false" import="true" targetId="684e-4191-d2f4-c720" type="selectionEntry"/>
+    <entryLink id="d17c-11a7-172d-1195" name="Human Militia" hidden="false" collective="false" import="true" targetId="10e6-bf8c-ed56-5660" type="selectionEntry"/>
+    <entryLink id="4cf9-a5a6-91c3-1336" name="Human Mounted Ranger" hidden="false" collective="false" import="true" targetId="c895-56d6-09a6-36d0" type="selectionEntry"/>
+    <entryLink id="b6e8-cf51-a4be-ee28" name="Human Prince" hidden="false" collective="false" import="true" targetId="ae3d-a80a-48cc-c2b7" type="selectionEntry"/>
+    <entryLink id="30fc-783e-d506-e678" name="Human Ranger" hidden="false" collective="false" import="true" targetId="2de1-a97c-b93e-960f" type="selectionEntry"/>
+    <entryLink id="d36b-61c4-4e60-ecfc" name="Human Soldiers" hidden="false" collective="false" import="true" targetId="7204-bff2-43bf-445c" type="selectionEntry"/>
+    <entryLink id="9a04-9912-b17e-0361" name="Human Spearman" hidden="false" collective="false" import="true" targetId="fc65-bf0b-8ca1-17c9" type="selectionEntry"/>
+    <entryLink id="686a-946b-2509-4c73" name="Human Warrior" hidden="false" collective="false" import="true" targetId="706a-135c-45ec-db24" type="selectionEntry"/>
+    <entryLink id="5699-bc86-7a7b-f995" name="Ogre" hidden="false" collective="false" import="true" targetId="5bbd-e879-3366-a2d7" type="selectionEntry"/>
+    <entryLink id="c07a-1f5a-403c-8f82" name="Human Spellcaster" hidden="false" collective="false" import="true" targetId="408b-21d9-49c6-997d" type="selectionEntry"/>
+    <entryLink id="a1ba-3b79-65a9-8655" name="Bodach" hidden="false" collective="false" import="true" targetId="63b4-a5a1-fe29-183b" type="selectionEntry"/>
+    <entryLink id="b53c-d30c-347c-ee7d" name="Dragon" hidden="false" collective="false" import="true" targetId="2c9d-2aa8-9473-2bd9" type="selectionEntry"/>
+    <entryLink id="25ff-aaa2-46bd-b7b3" name="Gargoyles" hidden="false" collective="false" import="true" targetId="4be8-a5b8-f44e-fe37" type="selectionEntry"/>
+    <entryLink id="b88f-5f45-df6e-f881" name="Surma" hidden="false" collective="false" import="true" targetId="77db-fa21-7015-ff51" type="selectionEntry"/>
+    <entryLink id="7121-231c-59fe-74db" name="Human Chariot" hidden="false" collective="false" import="true" targetId="47f5-83ea-3c3a-e769" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="614d-a1dd-b7bc-8126" name="Ogre Linebreaker" publicationId="c602-4fcf-d13f-d9b9" page="111" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c81-9da1-2745-7cf2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a047-c1a7-f0b7-4010" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="3ed6-d2f8-551a-6276" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="924e-10ea-fe51-c18c" name="Ogre Linebreakers" hidden="false" collective="false" import="true" type="model">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="9a13-a3bd-fe58-3948" value="0.0"/>
+                <modifier type="increment" field="9a13-a3bd-fe58-3948" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b676-0147-76d1-e7ef" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="decrement" field="9a13-a3bd-fe58-3948" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56ce-9e5c-0a20-b119" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2cf-1ccf-d6d0-0521" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b034-9811-f2cc-aecc" type="min"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9a13-a3bd-fe58-3948" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4434-44d4-90ce-7882" name="Ogre" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">7</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">11</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Champion, Charge (1), Courage (2), Large</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ad66-43bc-fdf6-f193" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="5a05-bb89-aa88-280d" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="bf92-2311-ba88-35a9" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="55ce-d066-d256-5b71" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="45.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bbd-e879-3366-a2d7" name="Ogre" publicationId="c602-4fcf-d13f-d9b9" page="110" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d52-fcc8-5d15-ba44" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e512-ad6f-d875-0c59" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="7964-3499-6838-f29b" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="56ce-9e5c-0a20-b119" name="Ogres" hidden="false" collective="false" import="true" type="model">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d73-b572-8fec-600c" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="3fa8-300d-78b3-ea82" value="0.0"/>
+                <modifier type="increment" field="3fa8-300d-78b3-ea82" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b676-0147-76d1-e7ef" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="decrement" field="3fa8-300d-78b3-ea82" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="924e-10ea-fe51-c18c" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ec7-be9f-fa89-378f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e812-1fb1-f9cb-0e25" type="min"/>
+            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3fa8-300d-78b3-ea82" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="321a-0c01-a785-db6b" name="Ogre" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">7</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">11</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Champion, Charge (1), Shielding (1), Courage (2), Large</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="059a-31a7-5cc7-332a" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="71f7-db9b-e474-65dd" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="c278-546a-d688-7efd" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="9899-31e6-93b9-33cc" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="0e73-f28f-0e34-a866" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="706a-135c-45ec-db24" name="Human Warrior" publicationId="c602-4fcf-d13f-d9b9" page="103" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95a2-6410-1ac1-7db6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="abc4-310b-7fc2-71ec" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="3b58-3549-c490-bbe2" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e4e9-9375-dc8b-e715" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff73-d156-8020-b460" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="160e-7f7e-31c6-2a3e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c6d9-20c2-6d48-f658" name="Human Warrior" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1a97-b992-3b62-a1bc" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="14.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc65-bf0b-8ca1-17c9" name="Human Spearman" publicationId="c602-4fcf-d13f-d9b9" page="102" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13d3-fb40-e3a6-3888" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="43b4-bf1c-294b-574d" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="8a8d-e150-b4a6-c0dd" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c3bc-9876-ab76-c721" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d295-0d31-9e3b-3bb3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8d2-6837-0fdd-4f7b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b553-84bf-189b-0f27" name="Human Spearman" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Shielding (1), Brace</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4ac4-d544-9528-5cc2" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="548a-9bc0-230a-f10a" name="Brace" hidden="false" targetId="be12-50f9-c669-1c39" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7204-bff2-43bf-445c" name="Human Soldiers" publicationId="c602-4fcf-d13f-d9b9" page="102" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4411-7ea3-923f-37e2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5c2a-c1ea-3be9-411c" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="4720-6046-5a86-f206" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0d39-a732-a525-4694" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b062-ed5a-762b-aabc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7065-7597-b11d-d0c4" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ee04-a2a5-f42f-8652" name="Human Soldier" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6859-4be8-63b8-43f2" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2de1-a97c-b93e-960f" name="Human Ranger" publicationId="c602-4fcf-d13f-d9b9" page="104" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b433-5ea4-b90e-66a8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f213-7477-8494-392d" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="b22f-5986-aeee-a9fb" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d397-f329-5076-06fc" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea2a-0e8a-01e0-9b6c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47cf-1995-efe6-a637" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="fdc8-e554-8a4d-36c2" name="Human Ranger" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">0</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">2</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Nimble, Aimed Fire</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c1e2-8109-d590-164c" name="Bow" hidden="false" targetId="c45a-be92-d123-7c7a" type="profile"/>
+            <infoLink id="1460-2e5b-32b1-4add" name="Nimble" hidden="false" targetId="14db-7b5c-2e3b-477f" type="rule"/>
+            <infoLink id="33ca-a238-1c67-0b9b" name="Aimed Fire" hidden="false" targetId="bddf-fe50-8bf3-c960" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="14.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae3d-a80a-48cc-c2b7" name="Human Prince" publicationId="c602-4fcf-d13f-d9b9" page="97" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d434-9093-cd99-422d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d785-4f50-6abe-f46d" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="a00d-defb-fc9a-c71a" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e39e-ea71-f762-7458" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ba1-d091-f676-f5d4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5cc-3678-f1e8-2cd1" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="5f4c-6f93-10d6-4ba1" name="Human Prince" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="ae3d-a80a-48cc-c2b7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0099-8909-d870-b319" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="ae3d-a80a-48cc-c2b7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cae6-d9a1-f675-dd7b" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (1), Champion, Shielding (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ba43-9146-d8a6-0ed9" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="9f45-3ef0-4057-8005" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="7a95-aa65-ea7a-822e" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="9c66-d446-2b2e-5662" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="145.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0099-8909-d870-b319" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f7c-52d2-582b-f97e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3a9c-ba0d-7717-9ddf" name="Mounted (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mounted on a Horse, change stats to M8, D13, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cae6-d9a1-f675-dd7b" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fac-5384-085e-7a99" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7107-220c-d48e-8fc4" name="Chariot" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b"> Chariot +115pts, change stats to M7, D13, CD3, H3, add Charge (3), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="30e5-ba6a-c805-5ed4" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="48d6-fc02-6237-f023" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="2e7f-6b4a-4d37-d12b" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="1d5d-7e0f-707b-cb43" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="7b5d-3727-2d76-eb1e" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="115.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="99a4-51f1-c875-ac63" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c895-56d6-09a6-36d0" name="Human Mounted Ranger" publicationId="c602-4fcf-d13f-d9b9" page="104" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dfb-c828-5bbc-7722" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d8f3-0bdd-e7fe-dc46" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="3396-e707-95d0-6dde" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6ff1-2828-7cb8-d822" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f128-732d-2451-1948" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4482-bfda-f24e-4cdf" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="db76-12c6-44fc-f0e8" name="Human Mounted Ranger" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">1</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">2</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Aimed Fire</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="be0f-e2b8-2826-6529" name="Bow" hidden="false" targetId="c45a-be92-d123-7c7a" type="profile"/>
+            <infoLink id="d34e-abf5-9d12-fff2" name="Aimed Fire" hidden="false" targetId="bddf-fe50-8bf3-c960" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="24.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10e6-bf8c-ed56-5660" name="Human Militia" publicationId="c602-4fcf-d13f-d9b9" page="104" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d95-2439-ab39-81a2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ab81-9877-201e-aa3a" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="e6cb-f402-f687-9e6d" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5349-2bd5-8349-9a6d" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a01-eada-f8b9-7290" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8aa-556c-55d2-037c" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="078b-5123-271a-5be9" name="Human Militia" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2b9b-9417-1c86-3617" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="684e-4191-d2f4-c720" name="Human Linebreaker" publicationId="c602-4fcf-d13f-d9b9" page="103" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2e4-d01c-9882-b899" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4f77-0ade-2888-a94d" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="f53d-97ae-97b5-883c" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="285a-57fc-2edf-ea87" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f9-40b3-2fff-e6d0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="281f-4888-0001-936b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="80be-fdd3-dc04-6922" name="Human Linebreaker" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">5</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915"/>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ec5-f692-d44b-1ac3" name="Human Light Catapult" publicationId="c602-4fcf-d13f-d9b9" page="107" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73f5-97f3-5597-5a72" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="143b-8ddb-14eb-6817" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="6110-f375-d223-4b60" name="New CategoryLink" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b590-574f-b576-e5c8" name="Artillery" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f947-8eeb-1085-f8bd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="344e-e78f-52f3-951a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2e85-04a0-e079-59cd" name="Human Light Catapult" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">3</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">3</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Crew (3), Indirect Fire, Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6dc0-bbe0-8fd5-89d2" name="Light Catapult" hidden="false" targetId="27e4-ab78-9a31-9c4d" type="profile"/>
+            <infoLink id="ab39-4864-3ac6-9b1e" name="Artillery" hidden="false" targetId="fb1c-4a18-0425-e322" type="rule"/>
+            <infoLink id="371c-e8d0-293d-b0fe" name="Crew (X)" hidden="false" targetId="fdc2-63bc-906e-0d9b" type="rule"/>
+            <infoLink id="0ae8-3c3c-b121-aeb5" name="Indirect Fire" hidden="false" targetId="f48d-b532-ea17-421c" type="rule"/>
+            <infoLink id="8f20-2a57-8b08-49d9" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bcb8-7d26-b36c-7cd4" name="Human King" publicationId="c602-4fcf-d13f-d9b9" page="97" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3ef-9169-866b-2f63" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b30e-f95d-cb11-0725" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="7f16-807f-e663-7e49" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3d77-6bef-035c-9bfe" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9087-37b5-c93a-39d9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a50e-4edf-fd20-3bc7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0769-14ed-2aac-b110" name="Human King" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="bcb8-7d26-b36c-7cd4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5650-12c0-03b1-8f5e" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="bcb8-7d26-b36c-7cd4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="467f-fa1c-f8a6-31d5" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (2), Champion, Shielding (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="635c-0639-f98e-af01" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="3327-813e-3f7a-f2f7" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="549f-f997-7478-e2ee" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="2681-2493-92ee-5be1" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="279.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5650-12c0-03b1-8f5e" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91fe-5d1c-5c22-e332" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="50b4-47d8-5b87-6924" name="Mounted (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mounted on a Horse, change stats to M8, D13, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="467f-fa1c-f8a6-31d5" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9267-a59f-9901-7398" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2fe3-ea84-34f1-f3d1" name="Chariot" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +100pts, change stats to M7, D13, add Charge (2), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c5ff-1a2d-e0b4-0d2d" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="225a-09ff-ace1-24e2" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="7b1e-a0ec-cd5c-df6c" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="5cc1-b0e7-4724-34cc" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="6060-5172-e5cf-4a67" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e9c1-060b-ebc0-dc36" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="212d-fc2d-a50c-0fd3" name="Human Heavy Cavalry" publicationId="c602-4fcf-d13f-d9b9" page="106" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4e-3ece-484c-3ae7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="231e-955f-d211-7e51" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="317b-745a-eb8a-5d46" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="67e7-002e-ab59-a13e" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bdd-5745-c754-cc56" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa06-c06f-2884-3289" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="5f88-e349-7b40-4d50" name="Human Heavy Cavalry" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">13</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (3), Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8006-666b-0676-22de" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="86cb-2277-062e-0c4a" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9fc0-9b7b-9e4a-b239" name="Human Heavy Catapult" publicationId="c602-4fcf-d13f-d9b9" page="110" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cb5-2a1d-d1c4-829a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8747-93b9-0c32-7baa" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="e6c0-c3db-1608-fdb5" name="New CategoryLink" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="729c-16ea-709d-694c" name="Artillery" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8b2-ad2e-cde6-629e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de2-5c24-89df-267d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="cf4c-51bf-b493-f86a" name="Human Heavy Catapult" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">2</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">4</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Crew (4), Indirect Fire, Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9a71-9dcd-dab7-4f41" name="Heavy Catapult" hidden="false" targetId="9e69-950d-59e6-c911" type="profile"/>
+            <infoLink id="b03f-aef6-ae56-a8a3" name="Artillery" hidden="false" targetId="fb1c-4a18-0425-e322" type="rule"/>
+            <infoLink id="e292-b87b-68a1-8ca1" name="Crew (X)" hidden="false" targetId="fdc2-63bc-906e-0d9b" type="rule"/>
+            <infoLink id="f260-c8bb-9ac7-5db2" name="Flying" hidden="false" targetId="53f3-38fb-5599-0b6d" type="rule"/>
+            <infoLink id="de7a-6155-6321-86d5" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="120.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7fb7-e834-7b31-6750" name="Human General" publicationId="c602-4fcf-d13f-d9b9" page="98" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4580-a9f2-18f2-56d7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e9c9-b150-4ba6-7c4e" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="eecb-16c3-169d-d369" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="0e6b-bd75-0565-3966" name="General" hidden="false" targetId="a28c-54a8-2442-de24" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8ca9-0290-d774-c3cc" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="072e-a51b-ca16-bb42" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa3f-b4df-7b3e-2934" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="cb47-aaab-390b-7370" name="Human General" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="7fb7-e834-7b31-6750" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be50-c4f2-676e-b614" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="7fb7-e834-7b31-6750" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9924-8ea4-e75e-7513" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (2), Shielding (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="304c-4588-5160-f6bd" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="51e1-0379-9915-b929" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="e715-59a6-5387-ecb2" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="260.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be50-c4f2-676e-b614" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc2-8e97-d6d6-d433" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ef60-c7e0-2f57-9e3f" name="Mounted (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mounted on a Horse, change stats to M8, D13, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9924-8ea4-e75e-7513" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a2-ee99-2129-7c93" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e876-5575-16a1-38ad" name="Chariot" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +125pts, change stats to M7, D13, CD3, H3, add Charge (3), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b444-3a60-3b66-4465" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="07b9-f7cc-7d69-5a77" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="1f95-7160-4b94-d893" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="141f-a5f3-fdd3-3113" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="a724-79b2-5d2c-235c" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="125.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f16a-7af4-e867-9f19" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="16d8-1d3d-07a2-034e" name="Human Champion" publicationId="c602-4fcf-d13f-d9b9" page="99" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d9-07d7-0061-d45d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b2cd-8760-8579-ae0e" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="85d2-6f63-a6a7-c1c6" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3f6c-88dd-49f8-014b" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc35-f1c3-67b8-a79b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cb7-7ed2-b7bd-0f98" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="438c-9fb7-3f4e-bc88" name="Human Champion" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="16d8-1d3d-07a2-034e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b645-243d-561f-ccbb" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="16d8-1d3d-07a2-034e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="378a-b864-6202-e06a" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">4</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Champion, Shielding (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="479a-c70a-5b09-9050" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule"/>
+            <infoLink id="6567-585e-9403-08cd" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="d016-5a3f-7f82-1a48" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="51.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b645-243d-561f-ccbb" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="601c-c408-bb01-8b47" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fa0a-cc29-c7c9-6bc2" name="Mounted (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mounted on a Horse, change stats to M8, D13, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="378a-b864-6202-e06a" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a57-e891-a39c-f692" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6402-aff7-9bf4-6abf" name="Chariot" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +130pts, change stats to M7, D13, CD3, H3, add Charge (2), Wild Charge, Large,Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b499-1d71-dcd1-aa25" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="4131-c9ca-1a75-409b" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="0866-a69e-1902-3f11" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="cc29-4ea9-c1fb-b6ab" name="Limited Manoeuvres" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="6647-4ea0-a284-46d6" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="130.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ff1a-6f23-c421-3bfb" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7c63-b379-dfd8-7906" name="Human Cavalry" publicationId="c602-4fcf-d13f-d9b9" page="106" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f0-2a5c-0618-04a9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b501-a221-9db7-1da7" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="06cc-128a-2576-65c2" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d05e-80e4-fe4f-b6a0" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9700-5e89-33e6-8744" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7458-fa9f-a624-8722" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="247e-3614-afcf-b7bd" name="Human Cavalry" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">8</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (3), Shielding (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="82b4-4483-a530-f16e" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="3a9b-0ac3-bf94-058f" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="45.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="273a-a49b-ae4f-64b6" name="Human Captain" publicationId="c602-4fcf-d13f-d9b9" page="99" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18b9-11cd-9590-17d4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4fe7-f793-7991-17e1" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="69dd-917b-31d6-3049" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9a28-fa81-a0ae-a022" name="Character" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0714-322b-cd25-6e9b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38fc-15f7-2112-414f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7f6c-d092-aeee-b04b" name="Human Captain" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="273a-a49b-ae4f-64b6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b48b-f573-81d3-3729" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="273a-a49b-ae4f-64b6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bb33-e90f-41d4-0526" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">10</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Command (1), Shielding (1), Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d1b6-d762-a7f8-66be" name="Command (X)" hidden="false" targetId="142c-1d3b-9cce-1f75" type="rule"/>
+            <infoLink id="a7f3-8312-e588-75a9" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+            <infoLink id="09a1-768f-7f3d-b55f" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="133.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b48b-f573-81d3-3729" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c88d-c504-3a6c-c8ba" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="39e2-3802-17a4-1dc5" name="Mounted (Character)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mounted on a Horse, change stats to M8, D13, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bb33-e90f-41d4-0526" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d82-ffcc-ddf8-f9d0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="33ff-f201-aeec-bb06" name="Chariot" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Chariot +145pts, change stats to M7, D13, CD3, H3, add Charge (3), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="44e9-f3f6-cf91-979b" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="02d3-6331-a684-c4c7" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="c9d9-4b88-8d01-bb21" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="26ef-b04d-f906-7e53" name="LIMITED MANOEUVRES" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="db08-78ab-19c6-b426" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="145.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6b71-f649-ac22-0f74" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d4f-fd43-bff8-9b56" name="Human Archer" publicationId="c602-4fcf-d13f-d9b9" page="103" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4506-e08e-8324-22ce" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f3c5-13bd-c58c-e1be" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="9029-29de-b666-d447" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="85dd-8c02-038e-1a07" name="Figures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ea0-8bf6-425b-1b5b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca90-d507-ff4d-abee" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b447-894b-03e6-e283" name="Human Archer" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">0</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">2</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">9</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Fire Over</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c6df-f789-0e74-17fd" name="Bow" hidden="false" targetId="c45a-be92-d123-7c7a" type="profile"/>
+            <infoLink id="f7ce-7e0c-c895-fbb2" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce33-f1e7-21bc-de55" name="Giant" publicationId="c602-4fcf-d13f-d9b9" page="112" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c523-4d07-3d46-7971" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="807a-6698-33d9-409a" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="dac5-eade-060f-de57" name="New CategoryLink" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cf63-d606-9611-77b0" name="Monster" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04a7-0807-a296-387b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf51-f0f4-431a-aa34" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="4fe3-7568-e789-b6f8" name="Giant" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">7</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">7</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">6</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">13</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">5</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">12</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Charge (1), Wild Charge, Horrific, Courage (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6de0-689f-d440-d6a3" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="7d0e-cd86-9f72-0291" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="aa10-2853-c5eb-93d9" name="Horrific" hidden="false" targetId="2bec-589c-3375-f5be" type="rule"/>
+            <infoLink id="6c84-d372-070e-7a35" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
+            <infoLink id="0f79-4c28-7bf1-8049" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="350.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed22-0db9-2cb6-3135" name="Buggane" publicationId="c602-4fcf-d13f-d9b9" page="111" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d11a-9d08-056a-0cfa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cb58-9dbd-ebfc-f62f" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="478a-db10-8b4f-88d2" name="New CategoryLink" hidden="false" targetId="94a6-2e72-4cf6-b491" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="67a5-1394-69d7-f6fa" name="Monster" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ca-be90-e9f0-76af" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21ba-4f29-a6d0-cce4" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="06a2-ad56-dd49-3cb4" name="Buggane" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">6</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">4</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">5</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Shielding (1), Charge (3), Brace, Large, Courage (1)</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e553-c399-7cec-949d" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+            <infoLink id="bad9-dff6-f1b8-2a06" name="Monster" hidden="false" targetId="5c48-ded2-81a8-607f" type="rule"/>
+            <infoLink id="2bf7-b5ea-70db-833d" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+            <infoLink id="bf71-67bd-c62f-f2c4" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="9675-e4a4-ce75-51cb" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="450.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0a51-2c2c-e921-f9a5" name="Spells" hidden="false" collective="false" import="true" targetId="5f76-a51d-f38e-80fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="408b-21d9-49c6-997d" name="Human Spellcaster" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0854-980f-d40d-d948" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f951-ec41-e3a1-2da4" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
+        <infoLink id="b38b-e9d3-5db3-40d7" name="Spellcaster (X)" hidden="false" targetId="094a-9b2e-6a63-2714" type="rule"/>
+        <infoLink id="21e2-cfde-df0f-8311" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
+        <infoLink id="e417-165b-ee89-e4e8" name="Magic Items" hidden="false" targetId="bd42-43d7-05ef-1eb5" type="rule"/>
+        <infoLink id="d24f-1e99-31b2-6a31" name="Champion" hidden="false" targetId="e1e0-629d-0360-a4a2" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2387-381b-d8ef-7714" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="05d8-d64d-30dd-58c4" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dc2b-1738-35fe-b63a" name="Character" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="100.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="200.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="300.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="400.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dbc-2a14-79dd-4333" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="098a-1a19-4ca7-406b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2901-6b2a-aedb-ef00" name="Human Spellcaster (Level 1)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66d0-bce5-3b98-915c" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b333-4bf7-fbe8-bfd3" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10de-fd5a-045f-fbe4" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (1), Shielding (1), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="baf2-1698-d4ee-73dd" name="Human Spellcaster (Level 2)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b333-4bf7-fbe8-bfd3" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10de-fd5a-045f-fbe4" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcasting (2), Shielding (1), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e280-08fb-08a2-5dfa" name="Human Spellcaster (Level 3)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b333-4bf7-fbe8-bfd3" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10de-fd5a-045f-fbe4" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (3), Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="07f1-83aa-fc0f-dee8" name="Human Spellcaster (Level 4)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b333-4bf7-fbe8-bfd3" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10de-fd5a-045f-fbe4" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (4), Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1107-5116-38c2-7cf4" name="Human Spellcaster (Level 5)" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="notEqualTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b333-4bf7-fbe8-bfd3" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="8"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="11"/>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="25 x 50"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="408b-21d9-49c6-997d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10de-fd5a-045f-fbe4" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="0586-fb8d-d71a-b86c" value="50 x 100"/>
+                    <modifier type="set" field="907f-2ef5-68f7-ef8e" value="7"/>
+                    <modifier type="set" field="1545-76fb-51f2-e66e" value="13"/>
+                    <modifier type="set" field="149d-d960-26fc-7094" value="3"/>
+                    <modifier type="set" field="e126-d958-ed2a-df0b" value="3"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">5</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">6</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">2</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Spellcaster (5), Champion, Shielding (2), Fire Over, Magic Items</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">25 x 25</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b333-4bf7-fbe8-bfd3" name="Mounted" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="40.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0269-6a83-81ee-70a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="40.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd1f-e4a5-1f3c-54f4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-1deb-0891-cef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8612-cb2b-a715-55c1" value="30.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f149-d990-d399-a09d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="217a-ff16-f1cb-06fb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c243-8249-a0ab-90cb" name="Mounted (Spellcaster)" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b">Mount on a horse and change stats to M8, D11, Base 25 x 50</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="10de-fd5a-045f-fbe4" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bee8-541c-92d8-afdd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="717a-9d7e-a1d7-1ab1" name="Chariot" hidden="false" typeId="e969-071d-7763-170e" typeName="Special Rule">
+              <characteristics>
+                <characteristic name="Description" typeId="36fc-b818-7170-f03b"> Chariot +150pts for all levels, change stats to M7, D13, CD3, H3, add Charge (3), Wild Charge, Large, Limited Manoeuvres, Limited Movement, Base 50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4631-67e9-94f5-09ac" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="a160-a90f-ee20-4ac3" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="4c64-77bb-5c43-a6a2" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="0521-d1c0-e1fb-6f3b" name="Limited Manoeuvres" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="d0a6-0214-4780-47a8" name="LIMITED MOVEMENT" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="150.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4b18-87d2-93b8-04c5" name="Spell Level" hidden="false" collective="false" import="true" targetId="0815-6515-7fe0-65b3" type="selectionEntryGroup"/>
+        <entryLink id="99e6-72b9-366a-9e61" name="Spells" hidden="false" collective="false" import="true" targetId="5f76-a51d-f38e-80fb" type="selectionEntryGroup"/>
+        <entryLink id="ff5f-31b3-8cb6-52b0" name="Magic Items" hidden="false" collective="false" import="true" targetId="17ea-6571-7037-998a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47f5-83ea-3c3a-e769" name="Human Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f1c-77fc-a65b-1b02" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="592e-cb5f-50b2-fdee" name="Human" hidden="false" targetId="9747-df88-6e0b-8d06" primary="false"/>
+        <categoryLink id="f318-813c-f8a5-bfde" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4d6c-0b27-d87f-1927" name="Archer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44f8-333c-c08d-4602" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="669f-5120-bf93-41e5" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b89b-0bf2-2a6b-76d8" name="Figures" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c226-c230-9fc4-90fa" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87ae-4326-13a4-2c92" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="098f-6847-3205-6370" name="Figures" hidden="false" typeId="7e46-13ea-bb70-9f02" typeName="Figure">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="47f5-83ea-3c3a-e769" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d6c-0b27-d87f-1927" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="6b0c-a9f4-5f79-acfe" value="1"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="A" typeId="9c61-a2fa-7712-0ce9">3</characteristic>
+                <characteristic name="M" typeId="907f-2ef5-68f7-ef8e">7</characteristic>
+                <characteristic name="F" typeId="f43f-b98a-b1e7-29ee">3</characteristic>
+                <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
+                <characteristic name="D" typeId="1545-76fb-51f2-e66e">13</characteristic>
+                <characteristic name="CD" typeId="149d-d960-26fc-7094">2</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">2</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Charge (3), Wild Charge, Large, Limited Manoeuvres, Limited Movement</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 100</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2ccf-76ca-a4fb-a56e" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
+            <infoLink id="0099-82a0-ff56-769a" name="Wild Charge" hidden="false" targetId="5250-4de4-6b16-d431" type="rule"/>
+            <infoLink id="a86f-aa9a-7828-aabc" name="Large" hidden="false" targetId="5e25-f5dd-20fd-b95c" type="rule"/>
+            <infoLink id="0c43-3fb4-a938-b04b" name="Limited Manoeuvres" hidden="false" targetId="3bdd-058d-91fc-a22a" type="rule"/>
+            <infoLink id="6b57-a03d-8bb0-583a" name="Limited Movement" hidden="false" targetId="81ee-c10a-cf0e-e434" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="195.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

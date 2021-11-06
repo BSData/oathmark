@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1d73-b572-8fec-600c" name="Kingdom List" revision="1" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1d73-b572-8fec-600c" name="Kingdom List" revision="2" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>In this list, all of the races are available to add to your army - provided that you select the correct regions first!
 
 It is early days, but every thing should work out just fine. If not, be sure to shoot me an email!</readme>
@@ -372,7 +372,7 @@ It is early days, but every thing should work out just fine. If not, be sure to 
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c90f-2e4b-2cb4-3370" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="e459-3037-ecc3-68d7" name="A Kingdom" hidden="false" collective="false" import="true" targetId="1030-e4cc-d603-1ad4" type="selectionEntry"/>
+    <entryLink id="e459-3037-ecc3-68d7" name="Region 1" hidden="false" collective="false" import="true" targetId="1030-e4cc-d603-1ad4" type="selectionEntry"/>
     <entryLink id="3486-96e6-d7ee-a79d" name="Region 2" hidden="false" collective="false" import="true" targetId="e1a4-e354-71c4-74ce" type="selectionEntry"/>
     <entryLink id="b025-d19c-5673-1c93" name="Region 3" hidden="false" collective="false" import="true" targetId="aaef-b5b2-45f2-2fce" type="selectionEntry"/>
     <entryLink id="9091-8c3d-3d06-795b" name="Region 4" hidden="false" collective="false" import="true" targetId="8920-5f50-7bad-5408" type="selectionEntry"/>
@@ -1028,7 +1028,7 @@ It is early days, but every thing should work out just fine. If not, be sure to 
       <modifiers>
         <modifier type="increment" field="33d7-2f10-0461-2504" value="1.0">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f38c-d870-b271-ca4c" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="52e7-ed93-8013-4437" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -1509,6 +1509,474 @@ It is early days, but every thing should work out just fine. If not, be sure to 
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink id="69a1-fca7-e55b-014e" name="Undead Skeletal Ballista" hidden="false" collective="false" import="true" targetId="f176-c930-693c-e493" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="1b1c-b26c-6ff3-2714" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b3bb-aedf-c6a0-c2e7" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b3bb-aedf-c6a0-c2e7" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b1c-b26c-6ff3-2714" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="a12d-cb7f-0b43-21fa" name="Undead Barrow Worm" hidden="false" collective="false" import="true" targetId="443c-d1ae-b6b1-d6f0" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="93b4-3b4a-8534-b700" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="1d18-b684-9dec-9b7b" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="93b4-3b4a-8534-b700" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d18-b684-9dec-9b7b" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="ca44-c740-fa06-0c45" name="Undead Corpse Fire " hidden="false" collective="false" import="true" targetId="2d7d-18f8-2202-b07d" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="e446-3f21-87bb-5f56" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9577-6a64-0630-4450" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9577-6a64-0630-4450" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e446-3f21-87bb-5f56" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="c532-8ce7-377e-55eb" name="Undead Ghoul" hidden="false" collective="false" import="true" targetId="e63d-31cb-0234-2be9" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="b805-3260-8bf4-780f" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a9-84b3-5753-510d" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84a9-84b3-5753-510d" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b805-3260-8bf4-780f" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="18bd-b8a0-b48f-5929" name="Undead Necromancer" hidden="false" collective="false" import="true" targetId="178d-48a8-53ab-bc55" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="b31c-6d8a-cecd-b9b3" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a9d-b9a2-4063-ccd1" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a9d-b9a2-4063-ccd1" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b31c-6d8a-cecd-b9b3" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="e605-cb25-85cf-7bf0" name="Undead Revenant Captain" hidden="false" collective="false" import="true" targetId="8983-ef36-25b7-a338" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="fd6e-40f0-816a-fa32" value="2.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd6e-40f0-816a-fa32" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="ef81-f898-b06c-8369" name="Undead Revenant Cavalry" hidden="false" collective="false" import="true" targetId="a753-0674-5156-7ec0" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="0576-ebfb-883b-d4f0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="66fc-895b-f3fe-50b6" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="66fc-895b-f3fe-50b6" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0576-ebfb-883b-d4f0" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="6b50-5edb-75c3-4430" name="Undead Revenant Champion" hidden="false" collective="false" import="true" targetId="56c8-c0ce-05ba-413b" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="7740-896c-46b0-7ef1" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cdcd-9933-aa77-bec3" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cdcd-9933-aa77-bec3" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7740-896c-46b0-7ef1" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="3386-6862-c34a-270a" name="Undead Revenant Chariot" hidden="false" collective="false" import="true" targetId="65c1-c73d-0ed1-9afa" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="9e92-db40-26fd-482e" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611e-bedd-682e-82b2" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611e-bedd-682e-82b2" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e92-db40-26fd-482e" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="4033-3970-81eb-c81c" name="Undead Revenant General" hidden="false" collective="false" import="true" targetId="5082-96a2-087b-ffa1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="dd44-012f-83ec-b0b1" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd44-012f-83ec-b0b1" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="d78e-c3be-ec1b-c7dd" name="Undead Revenant King" hidden="false" collective="false" import="true" targetId="b514-09ea-cfe3-8bbc" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="e700-faf7-40f4-e203" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e700-faf7-40f4-e203" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="99bd-b50d-875e-2534" name="Undead Revenant Linebreaker" hidden="false" collective="false" import="true" targetId="93d2-5417-c0c1-cb2f" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="e8a4-af96-418b-af83" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cdcd-9933-aa77-bec3" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cdcd-9933-aa77-bec3" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8a4-af96-418b-af83" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="2170-7d90-e895-de32" name="Undead Revenant Prince" hidden="false" collective="false" import="true" targetId="8aec-66c5-6248-0bfd" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="cde1-898a-e7b4-d874" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde1-898a-e7b4-d874" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="e700-cc9e-9a75-0bfc" name="Undead Revenant Warrior" hidden="false" collective="false" import="true" targetId="28af-f8f7-13c5-3495" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="810e-b738-dba3-9163" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cdcd-9933-aa77-bec3" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cdcd-9933-aa77-bec3" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="810e-b738-dba3-9163" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="139a-19cd-a77b-9649" name="Undead Skeletal Archer" hidden="false" collective="false" import="true" targetId="9662-2e62-32da-c81e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="6a6b-db18-2735-8e44" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a6b-db18-2735-8e44" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="0b10-b021-c4a7-062c" name="Undead Skeletal Light Catapult" hidden="false" collective="false" import="true" targetId="ad83-23d5-ad64-8cb8" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b3bb-aedf-c6a0-c2e7" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="bf71-77c7-b53f-f9be" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b3bb-aedf-c6a0-c2e7" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf71-77c7-b53f-f9be" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="57a4-9cff-8452-f631" name="Undead Skeletal Champion" hidden="false" collective="false" import="true" targetId="1cac-7185-8ad8-b49b" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="0f29-a064-15f5-4d0d" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="611e-bedd-682e-82b2" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611e-bedd-682e-82b2" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f29-a064-15f5-4d0d" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="e9db-5715-7143-5a74" name="Undead Skeletal Soldier" hidden="false" collective="false" import="true" targetId="3075-e1f4-7870-a3b6" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="ea84-93f9-f665-72d6" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa10-2c27-c69a-156e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26b5-dce3-e289-65da" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea84-93f9-f665-72d6" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="af23-542b-7730-178f" name="Undead Vampire" hidden="false" collective="false" import="true" targetId="67e0-e102-71f4-5a08" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="338f-c73b-95e6-dd0c" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="a185-cb7c-97f6-1184" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="338f-c73b-95e6-dd0c" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a185-cb7c-97f6-1184" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="81f6-c236-024f-6757" name="Undead Wraith" hidden="false" collective="false" import="true" targetId="ee6e-5382-0f8a-a15a" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="b282-991b-b596-092b" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfaa-733b-02e9-3390" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfaa-733b-02e9-3390" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b282-991b-b596-092b" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="1030-e4cc-d603-1ad4" name="Region 1" hidden="false" collective="false" import="true" type="unit">
@@ -1557,6 +2025,7 @@ It is early days, but every thing should work out just fine. If not, be sure to 
             <entryLink id="6ecb-ce83-85c5-1501" name="Human Terrain" hidden="false" collective="false" import="true" targetId="d067-c7a3-efc6-4d77" type="selectionEntryGroup"/>
             <entryLink id="2b5b-c505-cba0-5923" name="Elf Terrain" hidden="false" collective="false" import="true" targetId="c12c-99e4-4811-779b" type="selectionEntryGroup"/>
             <entryLink id="6dba-f379-2881-f614" name="Goblin and Orc Terrain" hidden="false" collective="false" import="true" targetId="2db0-4a9e-eb1a-d293" type="selectionEntryGroup"/>
+            <entryLink id="ee3c-522c-1dfa-c4ae" name="Undead Terrain" hidden="false" collective="false" import="true" targetId="07de-c540-7778-a21c" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1588,6 +2057,7 @@ It is early days, but every thing should work out just fine. If not, be sure to 
             <entryLink id="9da7-8638-2743-1b0d" name="Elf Terrain" hidden="false" collective="false" import="true" targetId="c12c-99e4-4811-779b" type="selectionEntryGroup"/>
             <entryLink id="343c-5eb1-0c9c-15fa" name="Goblin and Orc Terrain" hidden="false" collective="false" import="true" targetId="2db0-4a9e-eb1a-d293" type="selectionEntryGroup"/>
             <entryLink id="3b27-25c4-bd93-5709" name="Unaligned Terrain" hidden="false" collective="false" import="true" targetId="a9f5-300f-313e-6490" type="selectionEntryGroup"/>
+            <entryLink id="cd5f-42a9-d0f8-e963" name="Undead Terrain" hidden="false" collective="false" import="true" targetId="07de-c540-7778-a21c" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1619,6 +2089,7 @@ It is early days, but every thing should work out just fine. If not, be sure to 
             <entryLink id="d341-fe1c-ebbd-8cb9" name="Elf Terrain" hidden="false" collective="false" import="true" targetId="c12c-99e4-4811-779b" type="selectionEntryGroup"/>
             <entryLink id="25fd-4947-5db6-def3" name="Goblin and Orc Terrain" hidden="false" collective="false" import="true" targetId="2db0-4a9e-eb1a-d293" type="selectionEntryGroup"/>
             <entryLink id="ae89-48f8-1dd4-b25c" name="Unaligned Terrain" hidden="false" collective="false" import="true" targetId="a9f5-300f-313e-6490" type="selectionEntryGroup"/>
+            <entryLink id="33c4-4544-979a-8ad1" name="Undead Terrain" hidden="false" collective="false" import="true" targetId="07de-c540-7778-a21c" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1980,6 +2451,16 @@ It is early days, but every thing should work out just fine. If not, be sure to 
           </costs>
         </selectionEntry>
         <selectionEntry id="a0c2-e8fc-e8e0-d6d4" name="Capitol - Orc City" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8924-7858-6334-f776" name="Capitol - Necropolis" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="30e6-3b38-ee9f-97a5" name="Capitol - Cursed Burial Ground" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
           </costs>
@@ -2446,6 +2927,285 @@ It is early days, but every thing should work out just fine. If not, be sure to 
             <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ba14-b7b7-821e-660e" name="Abandoned temple complex" publicationId="0120-952f-21a2-501d" page="71" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="17ad-82ec-e93c-52fc" name="Island of flowers" publicationId="0120-952f-21a2-501d" page="71" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a6dc-775a-2357-829e" name="Gold mine" publicationId="0120-952f-21a2-501d" page="71" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6a78-9551-dcd6-6863" name="The High Seat" publicationId="ac8e-0c0e-dbc8-0f86" page="75" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ceb9-cbb7-a210-3a72" name="Prison Of The Ice Queen" publicationId="ac8e-0c0e-dbc8-0f86" page="76" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="07de-c540-7778-a21c" name="Undead Terrain" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="26b5-dce3-e289-65da" name="Necropolis" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aa10-2c27-c69a-156e" name="Cursed Burial Ground" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="84a9-84b3-5753-510d" name="Graveyard" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-9a1e-8b0f-918a" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="notEqualTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="notEqualTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cdcd-9933-aa77-bec3" name="Catacombs" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-9a1e-8b0f-918a" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="notEqualTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="notEqualTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="66fc-895b-f3fe-50b6" name="Sepulchre" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-9a1e-8b0f-918a" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="notEqualTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="notEqualTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b3bb-aedf-c6a0-c2e7" name="Tomb" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-9a1e-8b0f-918a" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="notEqualTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="notEqualTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="611e-bedd-682e-82b2" name="Mausoleum" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-9a1e-8b0f-918a" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="notEqualTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="notEqualTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1a9d-b9a2-4063-ccd1" name="Dark Tower" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6471-26d8-46d9-b5ef" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="notEqualTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="notEqualTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bfaa-733b-02e9-3390" name="Barrows" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6471-26d8-46d9-b5ef" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="notEqualTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="notEqualTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="338f-c73b-95e6-dd0c" name="Crypt" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6471-26d8-46d9-b5ef" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="notEqualTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="notEqualTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9577-6a64-0630-4450" name="Ash Wastes" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6471-26d8-46d9-b5ef" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="notEqualTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="notEqualTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="93b4-3b4a-8534-b700" name="Endless Tunnels" publicationId="3f4b-7972-0d88-d8ba" page="9" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6471-26d8-46d9-b5ef" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e6-3b38-ee9f-97a5" type="notEqualTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8924-7858-6334-f776" type="notEqualTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -2454,5 +3214,6 @@ It is early days, but every thing should work out just fine. If not, be sure to 
     <catalogueLink id="c981-23dd-2b36-8f36" name="Elf List" targetId="08f6-6df4-c8f1-ff8f" type="catalogue" importRootEntries="false"/>
     <catalogueLink id="543e-7e12-c8c4-bc1e" name="Goblin &amp; Orc List" targetId="12db-f453-a642-0099" type="catalogue" importRootEntries="false"/>
     <catalogueLink id="79c8-ff75-30aa-4103" name="Human List" targetId="cbd2-af1d-2c14-1bc0" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="5977-c585-6720-f1c0" name="Undead  List" targetId="f753-4ff4-aa42-1f65" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
 </catalogue>

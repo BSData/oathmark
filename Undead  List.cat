@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f753-4ff4-aa42-1f65" name="Undead  List" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f753-4ff4-aa42-1f65" name="Undead  List" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cf29-21f7-5742-928d" name="Revenant King" hidden="false" collective="false" import="true" targetId="b514-09ea-cfe3-8bbc" type="selectionEntry"/>
     <entryLink id="23f4-6921-a6e4-0b66" name="Revenant Prince" hidden="false" collective="false" import="true" targetId="8aec-66c5-6248-0bfd" type="selectionEntry"/>
@@ -18,11 +18,11 @@
     <entryLink id="a2fe-423f-1873-c49f" name="Ghoul" hidden="false" collective="false" import="true" targetId="e63d-31cb-0234-2be9" type="selectionEntry"/>
     <entryLink id="c055-f20f-c055-4aa6" name="Skeletal Light Catapult" hidden="false" collective="false" import="true" targetId="ad83-23d5-ad64-8cb8" type="selectionEntry"/>
     <entryLink id="9922-a0eb-c542-751b" name="Wraith" hidden="false" collective="false" import="true" targetId="ee6e-5382-0f8a-a15a" type="selectionEntry"/>
-    <entryLink id="a196-545f-6f6a-485a" name="Corpse Fire " hidden="false" collective="false" import="true" targetId="2d7d-18f8-2202-b07d" type="selectionEntry"/>
+    <entryLink id="a196-545f-6f6a-485a" name="UdCorpse Fire " hidden="false" collective="false" import="true" targetId="2d7d-18f8-2202-b07d" type="selectionEntry"/>
     <entryLink id="80fd-48bb-4e58-df36" name="Vampire" hidden="false" collective="false" import="true" targetId="67e0-e102-71f4-5a08" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="b514-09ea-cfe3-8bbc" name="Revenant King" publicationId="3f4b-7972-0d88-d8ba" page="10" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b514-09ea-cfe3-8bbc" name="Undead Revenant King" publicationId="3f4b-7972-0d88-d8ba" page="10" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b058-174e-7a66-aa84" type="max"/>
       </constraints>
@@ -131,7 +131,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8aec-66c5-6248-0bfd" name="Revenant Prince" publicationId="3f4b-7972-0d88-d8ba" page="11" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8aec-66c5-6248-0bfd" name="Undead Revenant Prince" publicationId="3f4b-7972-0d88-d8ba" page="11" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90aa-33db-c413-53ef" type="max"/>
       </constraints>
@@ -240,7 +240,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5082-96a2-087b-ffa1" name="Revenant General" publicationId="3f4b-7972-0d88-d8ba" page="11" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5082-96a2-087b-ffa1" name="Undead Revenant General" publicationId="3f4b-7972-0d88-d8ba" page="11" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1278-56e0-ba0c-66c4" type="max"/>
       </constraints>
@@ -349,7 +349,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8983-ef36-25b7-a338" name="Revenant Captain" publicationId="3f4b-7972-0d88-d8ba" page="12" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8983-ef36-25b7-a338" name="Undead Revenant Captain" publicationId="3f4b-7972-0d88-d8ba" page="12" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="610d-3c52-f102-40ea" type="max"/>
       </constraints>
@@ -458,7 +458,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56c8-c0ce-05ba-413b" name="Revenant Champion" publicationId="3f4b-7972-0d88-d8ba" page="14" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="56c8-c0ce-05ba-413b" name="Undead Revenant Champion" publicationId="3f4b-7972-0d88-d8ba" page="14" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b646-fc31-ea86-e1e1" type="max"/>
       </constraints>
@@ -567,7 +567,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="28af-f8f7-13c5-3495" name="Revenant Warrior" publicationId="3f4b-7972-0d88-d8ba" page="14" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="28af-f8f7-13c5-3495" name="Undead Revenant Warrior" publicationId="3f4b-7972-0d88-d8ba" page="14" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd69-108e-831b-8e34" type="max"/>
       </constraints>
@@ -613,7 +613,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93d2-5417-c0c1-cb2f" name="Revenant Linebreaker" publicationId="3f4b-7972-0d88-d8ba" page="15" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="93d2-5417-c0c1-cb2f" name="Undead Revenant Linebreaker" publicationId="3f4b-7972-0d88-d8ba" page="15" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcc4-09a7-d950-1b48" type="max"/>
       </constraints>
@@ -659,7 +659,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a753-0674-5156-7ec0" name="Revenant Cavalry" publicationId="3f4b-7972-0d88-d8ba" page="15" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="a753-0674-5156-7ec0" name="Undead Revenant Cavalry" publicationId="3f4b-7972-0d88-d8ba" page="15" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ef-4ff1-cb63-31c4" type="max"/>
       </constraints>
@@ -706,7 +706,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65c1-c73d-0ed1-9afa" name="Revenant Chariot" publicationId="3f4b-7972-0d88-d8ba" page="16" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="65c1-c73d-0ed1-9afa" name="Undead Revenant Chariot" publicationId="3f4b-7972-0d88-d8ba" page="16" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1720-f7e6-5447-dce1" type="max"/>
       </constraints>
@@ -777,7 +777,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="178d-48a8-53ab-bc55" name="Necromancer" publicationId="3f4b-7972-0d88-d8ba" page="18" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="178d-48a8-53ab-bc55" name="Undead Necromancer" publicationId="3f4b-7972-0d88-d8ba" page="18" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19a2-c65b-df64-ce8a" type="max"/>
       </constraints>
@@ -1195,7 +1195,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1cac-7185-8ad8-b49b" name="Skeletal Champion" publicationId="3f4b-7972-0d88-d8ba" page="19" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1cac-7185-8ad8-b49b" name="Undead Skeletal Champion" publicationId="3f4b-7972-0d88-d8ba" page="19" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40da-ae39-f8bc-f6fd" type="max"/>
       </constraints>
@@ -1248,7 +1248,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3075-e1f4-7870-a3b6" name="Skeletal Soldier" publicationId="3f4b-7972-0d88-d8ba" page="20" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3075-e1f4-7870-a3b6" name="Undead Skeletal Soldier" publicationId="3f4b-7972-0d88-d8ba" page="20" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a753-5905-9503-77fc" type="max"/>
       </constraints>
@@ -1296,7 +1296,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6cd-2a24-edaf-980e" name="Skeletal Spearman" publicationId="3f4b-7972-0d88-d8ba" page="20" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d6cd-2a24-edaf-980e" name="Undead Skeletal Spearman" publicationId="3f4b-7972-0d88-d8ba" page="20" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d9e-7d81-01dc-9e2b" type="max"/>
       </constraints>
@@ -1345,7 +1345,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9662-2e62-32da-c81e" name="Skeletal Archer" publicationId="3f4b-7972-0d88-d8ba" page="21" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9662-2e62-32da-c81e" name="Undead Skeletal Archer" publicationId="3f4b-7972-0d88-d8ba" page="21" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c8-b7b2-76b7-d916" type="max"/>
       </constraints>
@@ -1395,7 +1395,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e63d-31cb-0234-2be9" name="Ghoul" publicationId="3f4b-7972-0d88-d8ba" page="21" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e63d-31cb-0234-2be9" name="Undead Ghoul" publicationId="3f4b-7972-0d88-d8ba" page="21" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dde-a8bb-5f42-6378" type="max"/>
       </constraints>
@@ -1443,7 +1443,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad83-23d5-ad64-8cb8" name="Skeletal Light Catapult" publicationId="3f4b-7972-0d88-d8ba" page="22" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ad83-23d5-ad64-8cb8" name="Undead Skeletal Light Catapult" publicationId="3f4b-7972-0d88-d8ba" page="22" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="184e-29bf-91c0-e1e4" type="max"/>
       </constraints>
@@ -1492,7 +1492,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f176-c930-693c-e493" name="Skeletal Ballista" publicationId="3f4b-7972-0d88-d8ba" page="23" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f176-c930-693c-e493" name="Undead Skeletal Ballista" publicationId="3f4b-7972-0d88-d8ba" page="23" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2861-1435-028e-26f7" type="max"/>
       </constraints>
@@ -1541,7 +1541,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ee6e-5382-0f8a-a15a" name="Wraith" publicationId="3f4b-7972-0d88-d8ba" page="23" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ee6e-5382-0f8a-a15a" name="Undead Wraith" publicationId="3f4b-7972-0d88-d8ba" page="23" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4440-1c61-102f-384b" type="max"/>
       </constraints>
@@ -1590,7 +1590,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2d7d-18f8-2202-b07d" name="Corpse Fire " publicationId="3f4b-7972-0d88-d8ba" page="25" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2d7d-18f8-2202-b07d" name="Undead Corpse Fire " publicationId="3f4b-7972-0d88-d8ba" page="25" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df09-3431-82dd-cef8" type="max"/>
       </constraints>
@@ -1644,7 +1644,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="443c-d1ae-b6b1-d6f0" name="Barrow Worm" publicationId="3f4b-7972-0d88-d8ba" page="27" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="443c-d1ae-b6b1-d6f0" name="Undead Barrow Worm" publicationId="3f4b-7972-0d88-d8ba" page="27" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5789-8ec5-256b-d019" type="max"/>
       </constraints>
@@ -1697,7 +1697,7 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67e0-e102-71f4-5a08" name="Vampire" publicationId="3f4b-7972-0d88-d8ba" page="23" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="67e0-e102-71f4-5a08" name="Undead Vampire" publicationId="3f4b-7972-0d88-d8ba" page="23" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9601-d477-0c0f-02b4" type="max"/>
       </constraints>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="6" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="186f-c0b9-b3fb-b13f" name="Oathmark" revision="7" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Here&apos;s the first attempt at making a BattleScribe builder for Oathmark. Included are only the unit entries, and armybuilding, for the units found in the main rulebook. Supplements will be added at a later date.
 
 If you spot any errors, bugs or the like - please be sure to send me an email regarding the problem</readme>
@@ -78,6 +78,7 @@ If you spot any errors, bugs or the like - please be sure to send me an email re
     <categoryEntry id="84d2-fdec-cab0-8074" name="Trolls" hidden="false"/>
     <categoryEntry id="b233-64d3-92e8-37b0" name="Undead" hidden="true"/>
     <categoryEntry id="f6f0-c070-14cd-8fcb" name="Greater Undead Magic" hidden="false"/>
+    <categoryEntry id="8149-0fa7-dd55-4c7b" name="Haflings" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b3c1-debf-2214-b167" name="Army Roster" hidden="true">

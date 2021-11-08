@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1d73-b572-8fec-600c" name="Kingdom List" revision="2" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1d73-b572-8fec-600c" name="Kingdom List" revision="5" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>In this list, all of the races are available to add to your army - provided that you select the correct regions first!
 
 It is early days, but every thing should work out just fine. If not, be sure to shoot me an email!</readme>
@@ -1977,6 +1977,146 @@ It is early days, but every thing should work out just fine. If not, be sure to 
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b282-991b-b596-092b" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="990b-d995-fd64-89b3" name="Hafling Hound" hidden="false" collective="false" import="true" targetId="5bdc-a10e-27a4-c792" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fbf-992e-9996-f015" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="43f3-6999-bb5f-0968" name="Hafling Spellcaster" hidden="false" collective="false" import="true" targetId="e788-6778-4491-e0f6" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a91f-f6b9-b682-493b" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ebf-44f8-3628-b5a5" type="lessThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="6291-4f14-2af4-843b" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ebf-44f8-3628-b5a5" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a91f-f6b9-b682-493b" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6291-4f14-2af4-843b" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="3aca-2d04-4d05-d281" name="Halfling Adventurer" hidden="false" collective="false" import="true" targetId="962c-4313-fa66-4772" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a91f-f6b9-b682-493b" type="lessThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="5c69-fc5b-c792-69dc" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a91f-f6b9-b682-493b" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c69-fc5b-c792-69dc" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="e737-9cde-d2fc-8631" name="Halfling Archer" hidden="false" collective="false" import="true" targetId="d1d2-12c4-5962-3112" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a91f-f6b9-b682-493b" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="b948-95a5-e9be-5953" name="Halfling Border Scout" hidden="false" collective="false" import="true" targetId="5183-b74d-cc53-f015" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba3f-f434-586b-a91d" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="dac7-1934-bdde-3465" name="Halfling Captain" hidden="false" collective="false" import="true" targetId="26c4-2632-2cc0-cfba" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a91f-f6b9-b682-493b" type="lessThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="e071-80da-8dc2-d719" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a91f-f6b9-b682-493b" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e071-80da-8dc2-d719" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="06ba-6037-8596-f72a" name="Halfling Champion" hidden="false" collective="false" import="true" targetId="d468-8c1b-b100-87ac" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a91f-f6b9-b682-493b" type="lessThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="ac40-1c90-cb80-7d42" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a91f-f6b9-b682-493b" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac40-1c90-cb80-7d42" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="56a4-7d10-e56f-bced" name="Halfling Light Catapult" hidden="false" collective="false" import="true" targetId="4661-c1b9-3cc3-27e1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3512-6e49-df21-bc8c" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="407f-8f17-f6be-e155" name="Halfling Soldier" hidden="false" collective="false" import="true" targetId="7a6a-2fa3-3b3b-657f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a91f-f6b9-b682-493b" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="608b-064e-502f-1e79" name="Halfling Spearman" hidden="false" collective="false" import="true" targetId="51fc-7cb4-296e-9eb9" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a91f-f6b9-b682-493b" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="1030-e4cc-d603-1ad4" name="Region 1" hidden="false" collective="false" import="true" type="unit">
@@ -2058,6 +2198,7 @@ It is early days, but every thing should work out just fine. If not, be sure to 
             <entryLink id="343c-5eb1-0c9c-15fa" name="Goblin and Orc Terrain" hidden="false" collective="false" import="true" targetId="2db0-4a9e-eb1a-d293" type="selectionEntryGroup"/>
             <entryLink id="3b27-25c4-bd93-5709" name="Unaligned Terrain" hidden="false" collective="false" import="true" targetId="a9f5-300f-313e-6490" type="selectionEntryGroup"/>
             <entryLink id="cd5f-42a9-d0f8-e963" name="Undead Terrain" hidden="false" collective="false" import="true" targetId="07de-c540-7778-a21c" type="selectionEntryGroup"/>
+            <entryLink id="593e-d9d4-6c26-c691" name="Hafling Terrain" hidden="false" collective="false" import="true" targetId="e5e9-6b15-5178-c036" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2090,6 +2231,7 @@ It is early days, but every thing should work out just fine. If not, be sure to 
             <entryLink id="25fd-4947-5db6-def3" name="Goblin and Orc Terrain" hidden="false" collective="false" import="true" targetId="2db0-4a9e-eb1a-d293" type="selectionEntryGroup"/>
             <entryLink id="ae89-48f8-1dd4-b25c" name="Unaligned Terrain" hidden="false" collective="false" import="true" targetId="a9f5-300f-313e-6490" type="selectionEntryGroup"/>
             <entryLink id="33c4-4544-979a-8ad1" name="Undead Terrain" hidden="false" collective="false" import="true" targetId="07de-c540-7778-a21c" type="selectionEntryGroup"/>
+            <entryLink id="3aaf-c862-225a-af19" name="Hafling Terrain" hidden="false" collective="false" import="true" targetId="e5e9-6b15-5178-c036" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2952,6 +3094,12 @@ It is early days, but every thing should work out just fine. If not, be sure to 
             <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="112e-5c5d-e361-9c52" name="Battle Plain" hidden="false" collective="false" import="true" type="model"/>
+        <selectionEntry id="056c-f8bf-a2c8-2d4a" name="Chariot Tracks" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="2fd2-e573-8264-8c07" name="Javelin Range" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="c91c-d620-6c43-f6c6" name="Proving Grounds" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="00ab-5b62-3d49-d341" name="Practice Fields" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="a45b-35de-5fb9-3235" name="Skirmish Grounds" hidden="false" collective="false" import="true" type="upgrade"/>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="07de-c540-7778-a21c" name="Undead Terrain" hidden="false" collective="false" import="true">
@@ -3208,6 +3356,70 @@ It is early days, but every thing should work out just fine. If not, be sure to 
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="e5e9-6b15-5178-c036" name="Hafling Terrain" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="a91f-f6b9-b682-493b" name="Halfling Village" hidden="true" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6471-26d8-46d9-b5ef" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5ebf-44f8-3628-b5a5" name="Hidden Grotto" hidden="true" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6006-a972-e513-4a5b" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3512-6e49-df21-bc8c" name="Logging Camp" hidden="true" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6006-a972-e513-4a5b" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7fbf-992e-9996-f015" name="Dog House" hidden="true" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6006-a972-e513-4a5b" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ba3f-f434-586b-a91d" name="Dells" hidden="true" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6006-a972-e513-4a5b" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="132a-f206-90b2-5da7" name="Dwarf List" targetId="8d24-f1e8-0719-920b" type="catalogue" importRootEntries="false"/>
@@ -3215,5 +3427,6 @@ It is early days, but every thing should work out just fine. If not, be sure to 
     <catalogueLink id="543e-7e12-c8c4-bc1e" name="Goblin &amp; Orc List" targetId="12db-f453-a642-0099" type="catalogue" importRootEntries="false"/>
     <catalogueLink id="79c8-ff75-30aa-4103" name="Human List" targetId="cbd2-af1d-2c14-1bc0" type="catalogue" importRootEntries="false"/>
     <catalogueLink id="5977-c585-6720-f1c0" name="Undead  List" targetId="f753-4ff4-aa42-1f65" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="9043-ce2d-740e-8ee0" name="Halflings" targetId="ef96-f1c3-d2d3-c947" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

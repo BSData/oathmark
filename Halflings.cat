@@ -19,6 +19,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="26c9-b5b3-ee6c-040e" name="Characters" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="37b5-188a-e613-3bb7" name="Haflings" hidden="false" targetId="8149-0fa7-dd55-4c7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1f4e-ffdb-e8f9-4032" name="Character" hidden="false" collective="false" import="true" type="upgrade">
@@ -90,6 +91,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="0683-b4b7-ba1d-a8a6" name="Characters" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="826b-0bec-5874-c956" name="Haflings" hidden="false" targetId="8149-0fa7-dd55-4c7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9e54-159b-e8e1-330a" name="Character" hidden="false" collective="false" import="true" type="upgrade">
@@ -159,6 +161,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="2412-5c60-7654-2d28" name="Characters" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="0a8d-aab0-19a8-845f" name="Haflings" hidden="false" targetId="8149-0fa7-dd55-4c7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6b28-3286-ed03-01d2" name="Character" hidden="false" collective="false" import="true" type="upgrade">
@@ -253,6 +256,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="28e6-3364-1ef6-11f1" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="8662-15c6-ac44-a42f" name="Haflings" hidden="false" targetId="8149-0fa7-dd55-4c7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b663-bdf8-9656-b714" name="Figures" hidden="false" collective="false" import="true" type="unit">
@@ -297,6 +301,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="7e38-1cd9-1dfa-8f9b" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="ec97-ac93-3067-3462" name="Haflings" hidden="false" targetId="8149-0fa7-dd55-4c7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e201-bf5c-9b16-46b5" name="Figures" hidden="false" collective="false" import="true" type="unit">
@@ -342,6 +347,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="4b26-9808-9d53-d60c" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="132a-50d4-4830-33d3" name="Haflings" hidden="false" targetId="8149-0fa7-dd55-4c7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d1a5-d20b-17df-daed" name="Figures" hidden="false" collective="false" import="true" type="upgrade">
@@ -383,6 +389,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="671e-1925-6433-9aba" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="5e20-53f9-60c7-c660" name="Haflings" hidden="false" targetId="8149-0fa7-dd55-4c7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2b67-c447-b966-1d57" name="Figures" hidden="false" collective="false" import="true" type="upgrade">
@@ -428,6 +435,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="1aef-75ab-f464-6400" name="Artillery" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="true"/>
+        <categoryLink id="c4e4-8c23-a736-b1d7" name="Haflings" hidden="false" targetId="8149-0fa7-dd55-4c7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6738-7f52-29fc-dc52" name="Artillery" hidden="false" collective="false" import="true" type="upgrade">
@@ -473,6 +481,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="ca38-6d32-8514-384c" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+        <categoryLink id="e1f5-4642-3e75-eeef" name="Haflings" hidden="false" targetId="8149-0fa7-dd55-4c7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ede1-fb1f-ab6c-1694" name="Figures" hidden="false" collective="false" import="true" type="upgrade">
@@ -523,6 +532,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f21a-4056-312b-c52f" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
+        <categoryLink id="ee79-84a0-ff46-53e0" name="Haflings" hidden="false" targetId="8149-0fa7-dd55-4c7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="88e5-bcc4-f86d-e284" name="Character" hidden="false" collective="false" import="true" type="model">

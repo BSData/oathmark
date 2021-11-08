@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1d73-b572-8fec-600c" name="Kingdom List" revision="4" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1d73-b572-8fec-600c" name="Kingdom List" revision="5" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>In this list, all of the races are available to add to your army - provided that you select the correct regions first!
 
 It is early days, but every thing should work out just fine. If not, be sure to shoot me an email!</readme>
@@ -3094,6 +3094,12 @@ It is early days, but every thing should work out just fine. If not, be sure to 
             <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="112e-5c5d-e361-9c52" name="Battle Plain" hidden="false" collective="false" import="true" type="model"/>
+        <selectionEntry id="056c-f8bf-a2c8-2d4a" name="Chariot Tracks" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="2fd2-e573-8264-8c07" name="Javelin Range" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="c91c-d620-6c43-f6c6" name="Proving Grounds" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="00ab-5b62-3d49-d341" name="Practice Fields" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="a45b-35de-5fb9-3235" name="Skirmish Grounds" hidden="false" collective="false" import="true" type="upgrade"/>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="07de-c540-7778-a21c" name="Undead Terrain" hidden="false" collective="false" import="true">

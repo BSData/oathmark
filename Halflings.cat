@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="ef96-f1c3-d2d3-c947" name="Halflings" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="50b4-b287-3f23-3e65" name="Halfling Adventurer" hidden="false" collective="false" import="true" targetId="962c-4313-fa66-4772" type="selectionEntry"/>
-    <entryLink id="f54b-6098-c04e-0595" name="Halfling Captain" hidden="false" collective="false" import="true" targetId="26c4-2632-2cc0-cfba" type="selectionEntry"/>
-    <entryLink id="2888-68f3-3802-3737" name="Halfling Champion" hidden="false" collective="false" import="true" targetId="d468-8c1b-b100-87ac" type="selectionEntry"/>
-    <entryLink id="54ee-d1c7-6ddc-85cd" name="Halfling Archer" hidden="false" collective="false" import="true" targetId="d1d2-12c4-5962-3112" type="selectionEntry"/>
-    <entryLink id="99a3-9e6a-96b1-70a3" name="Halfling Soldier" hidden="false" collective="false" import="true" targetId="7a6a-2fa3-3b3b-657f" type="selectionEntry"/>
-    <entryLink id="c749-c007-0679-dd2a" name="Halfling Spearman" hidden="false" collective="false" import="true" targetId="51fc-7cb4-296e-9eb9" type="selectionEntry"/>
-    <entryLink id="7c5a-c70b-2684-9a96" name="Halfling Border Scout" hidden="false" collective="false" import="true" targetId="5183-b74d-cc53-f015" type="selectionEntry"/>
-    <entryLink id="abfd-7161-c3f3-9d19" name="Halfling Light Catapult" hidden="false" collective="false" import="true" targetId="4661-c1b9-3cc3-27e1" type="selectionEntry"/>
-    <entryLink id="b01c-b64c-ba43-5636" name="Hound" hidden="false" collective="false" import="true" targetId="5bdc-a10e-27a4-c792" type="selectionEntry"/>
-    <entryLink id="8b0d-f07b-b22e-5215" name="Hafling Spellcaster" hidden="false" collective="false" import="true" targetId="e788-6778-4491-e0f6" type="selectionEntry"/>
+    <entryLink id="50b4-b287-3f23-3e65" name="Halfling Adventurer" hidden="false" collective="false" import="false" targetId="962c-4313-fa66-4772" type="selectionEntry"/>
+    <entryLink id="f54b-6098-c04e-0595" name="Halfling Captain" hidden="false" collective="false" import="false" targetId="26c4-2632-2cc0-cfba" type="selectionEntry"/>
+    <entryLink id="2888-68f3-3802-3737" name="Halfling Champion" hidden="false" collective="false" import="false" targetId="d468-8c1b-b100-87ac" type="selectionEntry"/>
+    <entryLink id="54ee-d1c7-6ddc-85cd" name="Halfling Archer" hidden="false" collective="false" import="false" targetId="d1d2-12c4-5962-3112" type="selectionEntry"/>
+    <entryLink id="99a3-9e6a-96b1-70a3" name="Halfling Soldier" hidden="false" collective="false" import="false" targetId="7a6a-2fa3-3b3b-657f" type="selectionEntry"/>
+    <entryLink id="c749-c007-0679-dd2a" name="Halfling Spearman" hidden="false" collective="false" import="false" targetId="51fc-7cb4-296e-9eb9" type="selectionEntry"/>
+    <entryLink id="7c5a-c70b-2684-9a96" name="Halfling Border Scout" hidden="false" collective="false" import="false" targetId="5183-b74d-cc53-f015" type="selectionEntry"/>
+    <entryLink id="abfd-7161-c3f3-9d19" name="Halfling Light Catapult" hidden="false" collective="false" import="false" targetId="4661-c1b9-3cc3-27e1" type="selectionEntry"/>
+    <entryLink id="b01c-b64c-ba43-5636" name="Hafling Hound" hidden="false" collective="false" import="false" targetId="5bdc-a10e-27a4-c792" type="selectionEntry"/>
+    <entryLink id="8b0d-f07b-b22e-5215" name="Hafling Spellcaster" hidden="false" collective="false" import="false" targetId="e788-6778-4491-e0f6" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="962c-4313-fa66-4772" name="Halfling Adventurer" hidden="false" collective="false" import="true" type="model">

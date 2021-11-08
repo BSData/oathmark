@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ef96-f1c3-d2d3-c947" name="Halflings" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ef96-f1c3-d2d3-c947" name="Halflings" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="50b4-b287-3f23-3e65" name="Halfling Adventurer" hidden="false" collective="false" import="true" targetId="962c-4313-fa66-4772" type="selectionEntry"/>
     <entryLink id="f54b-6098-c04e-0595" name="Halfling Captain" hidden="false" collective="false" import="true" targetId="26c4-2632-2cc0-cfba" type="selectionEntry"/>
@@ -19,7 +19,6 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="26c9-b5b3-ee6c-040e" name="Characters" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
-        <categoryLink id="e242-c1a2-33b2-df99" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1f4e-ffdb-e8f9-4032" name="Character" hidden="false" collective="false" import="true" type="upgrade">
@@ -91,7 +90,6 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="0683-b4b7-ba1d-a8a6" name="Characters" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
-        <categoryLink id="de99-7678-939e-2183" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9e54-159b-e8e1-330a" name="Character" hidden="false" collective="false" import="true" type="upgrade">
@@ -161,7 +159,6 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="2412-5c60-7654-2d28" name="Characters" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
-        <categoryLink id="5b95-3e5e-dc86-7a8c" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6b28-3286-ed03-01d2" name="Character" hidden="false" collective="false" import="true" type="upgrade">
@@ -255,7 +252,6 @@
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df85-0643-c93f-a83a" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="a4bc-6d3b-0137-2a99" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
         <categoryLink id="28e6-3364-1ef6-11f1" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -284,7 +280,6 @@
             <infoLink id="fa96-143c-7e9e-58e8" name="Shielding (X)" hidden="false" targetId="b44e-1c0f-abcd-a7ba" type="rule"/>
           </infoLinks>
           <categoryLinks>
-            <categoryLink id="1105-bdb8-a94e-c1da" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
             <categoryLink id="80a3-47f7-f276-3b7e" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
           </categoryLinks>
           <costs>
@@ -301,7 +296,6 @@
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77dc-9373-f0d8-c0ff" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="da7c-fddb-101a-bb7c" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
         <categoryLink id="7e38-1cd9-1dfa-8f9b" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -331,7 +325,6 @@
             <infoLink id="554c-c5d0-87fc-8c5d" name="Brace" hidden="false" targetId="be12-50f9-c669-1c39" type="rule"/>
           </infoLinks>
           <categoryLinks>
-            <categoryLink id="3441-437c-fd57-df0a" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
             <categoryLink id="5049-2d11-b832-3d63" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
           </categoryLinks>
           <costs>
@@ -348,7 +341,6 @@
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d3-9aaf-a77f-ed63" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="004b-ed11-6236-75f2" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
         <categoryLink id="4b26-9808-9d53-d60c" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -375,7 +367,6 @@
           <infoLinks>
             <infoLink id="4c99-7764-ac66-271e" name="Courage (X)" hidden="false" targetId="b71b-3db4-43a2-e22f" type="rule"/>
             <infoLink id="0399-6078-05e8-e8a6" name="Fire Over" hidden="false" targetId="e5e5-571b-0197-13b8" type="rule"/>
-            <infoLink id="8c61-9a4d-0c58-485b" name="Halfling Bow" hidden="false" targetId="0108-bdb7-dfde-6340" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="9.0"/>
@@ -391,7 +382,6 @@
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fd9-07ec-763b-c4c7" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="1de1-5b9d-c8ed-4eb3" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
         <categoryLink id="671e-1925-6433-9aba" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -421,7 +411,6 @@
             <infoLink id="352b-f385-177b-296f" name="Aimed Fire" hidden="false" targetId="bddf-fe50-8bf3-c960" type="rule"/>
           </infoLinks>
           <categoryLinks>
-            <categoryLink id="afd7-1707-0646-cad9" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
             <categoryLink id="011d-b5ef-bbf5-9d37" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
           </categoryLinks>
           <costs>
@@ -438,7 +427,6 @@
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf0e-7259-97d5-0361" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="cd9b-aa64-1e3e-d85c" name="New CategoryLink" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
         <categoryLink id="1aef-75ab-f464-6400" name="Artillery" hidden="false" targetId="1bf6-b9a5-9c3b-08b2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -479,12 +467,11 @@
         <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5bdc-a10e-27a4-c792" name="Hound" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5bdc-a10e-27a4-c792" name="Hafling Hound" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b88-fb58-4cb6-7c5e" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="4b2f-04c2-847c-9c77" name="New CategoryLink" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
         <categoryLink id="ca38-6d32-8514-384c" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -512,7 +499,6 @@
             <infoLink id="942d-9ed9-bed8-372e" name="Charge (X)" hidden="false" targetId="48c7-57de-be8d-f43a" type="rule"/>
           </infoLinks>
           <categoryLinks>
-            <categoryLink id="991d-f994-6891-a228" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
             <categoryLink id="f850-f4b0-ecfe-9b5f" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
           </categoryLinks>
           <costs>
@@ -537,7 +523,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f21a-4056-312b-c52f" name="New CategoryLink" hidden="false" targetId="c6d5-f5ff-c931-3f8d" primary="true"/>
-        <categoryLink id="1221-ca9c-4075-0730" name="Halfling" hidden="false" targetId="42bf-812a-6e4c-31e6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="88e5-bcc4-f86d-e284" name="Character" hidden="false" collective="false" import="true" type="model">

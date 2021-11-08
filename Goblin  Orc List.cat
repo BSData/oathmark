@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12db-f453-a642-0099" name="Goblin &amp; Orc List" revision="3" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12db-f453-a642-0099" name="Goblin &amp; Orc List" revision="4" battleScribeVersion="2.03" authorName="Miniatorium aka. Torben Kastbjerg" authorContact="miniatorium@gmail.com" library="false" gameSystemId="186f-c0b9-b3fb-b13f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>This is the full list for playing one-off games, without a kingdom and using the Goblins and Orcs.</readme>
   <entryLinks>
     <entryLink id="ae9f-d420-8eb5-35b6" name="Goblin King" hidden="false" collective="false" import="true" targetId="1ef0-7a9c-49ae-5fd9" type="selectionEntry"/>
@@ -2553,6 +2553,10 @@
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac63-94ec-4bc8-9865" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="00d3-5e80-7606-ec49" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="4fcc-b2ea-60ce-d044" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b417-bb78-0124-cd42" name="Archer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2613,6 +2617,10 @@
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a6-53d4-efff-b18a" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="a6cc-efc1-575c-97ea" name="Goblin &amp; Orc" hidden="false" targetId="7d84-6195-827a-5e8b" primary="false"/>
+        <categoryLink id="c838-73c5-56f4-b5b2" name="New CategoryLink" hidden="false" targetId="97af-b0fb-4cef-d818" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f69f-e15d-fc85-788f" name="Archer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>

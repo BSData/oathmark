@@ -1468,7 +1468,7 @@
                 <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
                 <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
                 <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Crew (3), Indirect Fire, Undead, Uncaring, Unthinking, Spellcaster Control</characteristic>
-                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 100</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1484,7 +1484,7 @@
             <infoLink id="0ecb-c781-6927-7b2e" name="SPELLCASTER CONTROL" hidden="false" targetId="79b0-2398-3d7d-ee67" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="90.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="95.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1516,8 +1516,8 @@
                 <characteristic name="D" typeId="1545-76fb-51f2-e66e">8</characteristic>
                 <characteristic name="CD" typeId="149d-d960-26fc-7094">1</characteristic>
                 <characteristic name="H" typeId="e126-d958-ed2a-df0b">1</characteristic>
-                <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Crew (2), Aimed Fire, Undead, Uncaring, Unthinking, Spellcaster Contro</characteristic>
-                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">100 x 50</characteristic>
+                <characteristic name="Special" typeId="7d31-280f-897f-0915">Artillery, Crew (2), Aimed Fire, Undead, Uncaring, Unthinking, Spellcaster Control</characteristic>
+                <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 100</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1636,7 +1636,7 @@
             <categoryLink id="b053-38db-ec33-850f" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="154.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="180.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1667,7 +1667,7 @@
                 <characteristic name="S" typeId="6b0c-a9f4-5f79-acfe">0</characteristic>
                 <characteristic name="D" typeId="1545-76fb-51f2-e66e">12</characteristic>
                 <characteristic name="CD" typeId="149d-d960-26fc-7094">5</characteristic>
-                <characteristic name="H" typeId="e126-d958-ed2a-df0b">3</characteristic>
+                <characteristic name="H" typeId="e126-d958-ed2a-df0b">16</characteristic>
                 <characteristic name="Special" typeId="7d31-280f-897f-0915">Monster, Enormous, Nimble, Horrific, Spellcaster Control, Undead, Uncaring, Unthinking, Waterwalk</characteristic>
                 <characteristic name="Base" typeId="0586-fb8d-d71a-b86c">50 x 100</characteristic>
               </characteristics>
@@ -1689,7 +1689,7 @@
             <categoryLink id="f13d-4a9e-23c7-615f" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="154.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="312.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1740,7 +1740,7 @@
             <categoryLink id="d9bf-2eb9-a454-afae" name="Units" hidden="false" targetId="97af-b0fb-4cef-d818" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="154.0"/>
+            <cost name=" Points" typeId="8612-cb2b-a715-55c1" value="312.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
